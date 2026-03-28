@@ -376,7 +376,7 @@ select:focus {
 }
 
 .card-back .card-sentence {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   color: var(--color-text-secondary);
   font-style: italic;
   line-height: 1.5;
