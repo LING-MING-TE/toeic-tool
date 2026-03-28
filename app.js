@@ -506,6 +506,7 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
       );
 
       if (res.status === 400 || res.status === 403) throw new Error('invalid_key');
+      if (res.status === 429) throw new Error('rate_limit');
       if (!res.ok) throw new Error('api_error');
 
       const data = await res.json();
@@ -515,6 +516,8 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
     } catch (e) {
       if (e.message === 'invalid_key') {
         ArticleModule.showError('API Key 無效，請重新設定。', true);
+      } else if (e.message === 'rate_limit') {
+        ArticleModule.showError('請求過於頻繁，請稍等 1 分鐘後再試。');
       } else {
         ArticleModule.showError('生成失敗，請稍後再試。');
       }
