@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TOEIC 字彙工具</title>
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -20,6 +20,7 @@
       <nav>
         <button class="nav-btn active" data-view="library">字庫頁</button>
         <button class="nav-btn" data-view="review">複習頁</button>
+        <button class="nav-btn" data-view="article">文章頁</button>
       </nav>
     </div>
   </header>
@@ -87,8 +88,37 @@
       </div>
     </section>
 
+    <!-- ===== 文章頁 ===== -->
+    <section id="article-view" hidden>
+      <div class="article-controls">
+        <button class="btn btn-primary" id="btn-regenerate">重新生成</button>
+        <button class="btn btn-outline btn-apikey" id="btn-api-key">⚙ API Key</button>
+      </div>
+      <div id="article-content">
+        <div class="article-empty"><p>點擊「重新生成」開始</p></div>
+      </div>
+      <div id="article-word-list" hidden></div>
+    </section>
+
   </main>
 
-  <script src="app.js?v=2"></script>
+  <!-- API Key Modal -->
+  <div class="modal-overlay hidden" id="api-key-modal">
+    <div class="modal">
+      <h2 class="modal-title">設定 Gemini API Key</h2>
+      <p class="modal-desc">
+        Key 只存在你的瀏覽器，不會上傳到任何地方。<br>
+        前往 <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">Google AI Studio</a> 免費申請。
+      </p>
+      <input type="password" id="api-key-input" placeholder="貼上你的 Gemini API Key…" autocomplete="off" />
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="btn-save-key">儲存並生成</button>
+        <button class="btn btn-outline" id="btn-close-modal">取消</button>
+        <button class="btn btn-outline btn-danger" id="btn-clear-key">清除 Key</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=3"></script>
 </body>
 </html>

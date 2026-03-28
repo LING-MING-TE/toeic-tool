@@ -30,6 +30,17 @@ function escapeHtml(str) {
 }
 
 /* =====================
+   API Key Module（Gemini）
+   ===================== */
+const APIKeyModule = {
+  KEY: 'gemini-api-key',
+  get()  { return localStorage.getItem(this.KEY) || ''; },
+  set(k) { localStorage.setItem(this.KEY, k.trim()); },
+  has()  { return !!this.get(); },
+  clear(){ localStorage.removeItem(this.KEY); },
+};
+
+/* =====================
    SRS Module（間隔重複）
    ===================== */
 const SRSModule = {
@@ -419,6 +430,156 @@ const ReviewModule = {
 };
 
 /* =====================
+   Article Module
+   ===================== */
+const ArticleModule = {
+  _words: [],
+
+  selectWords(n = 6) {
+    const pool = [...state.words];
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    this._words = pool.slice(0, Math.min(n, pool.length));
+  },
+
+  highlightText(text) {
+    const sorted = [...this._words].sort((a, b) => b.word.length - a.word.length);
+    const matches = [];
+    sorted.forEach(w => {
+      const pattern = w.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?<![a-zA-Z])(${pattern})(?![a-zA-Z])`, 'gi');
+      let m;
+      while ((m = regex.exec(text)) !== null) {
+        const start = m.index + m[0].indexOf(m[1]);
+        const end = start + m[1].length;
+        if (!matches.some(x => x.start <= start && x.end >= end)) {
+          matches.push({ start, end, word: m[1], chinese: w.chinese });
+        }
+      }
+    });
+    matches.sort((a, b) => a.start - b.start);
+    let result = '';
+    let pos = 0;
+    matches.forEach(m => {
+      result += escapeHtml(text.slice(pos, m.start));
+      result += `<mark class="word-highlight" title="${escapeHtml(m.chinese)}">${escapeHtml(m.word)}</mark>`;
+      pos = m.end;
+    });
+    result += escapeHtml(text.slice(pos));
+    return result;
+  },
+
+  async generate() {
+    if (state.words.length === 0) {
+      ArticleModule.showEmpty('請先在字庫新增單字');
+      return;
+    }
+    if (!APIKeyModule.has()) {
+      ArticleModule.showEmpty('請先設定 Gemini API Key');
+      ArticleModule.showModal();
+      return;
+    }
+
+    ArticleModule.selectWords(6);
+    ArticleModule.showLoading();
+
+    const wordList = this._words.map(w => `"${w.word}"`).join(', ');
+    const prompt = `Write a 150-200 word professional business article for TOEIC learners.
+Naturally incorporate ALL of these words/phrases: ${wordList}.
+The article should have a clear title and 2-3 paragraphs.
+Return ONLY valid JSON: {"title": "...", "body": "..."}
+Separate paragraphs in body with \\n. No markdown, only JSON.`;
+
+    try {
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${APIKeyModule.get()}`,
+        {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: { responseMimeType: 'application/json' },
+          }),
+        }
+      );
+
+      if (res.status === 400 || res.status === 403) throw new Error('invalid_key');
+      if (!res.ok) throw new Error('api_error');
+
+      const data = await res.json();
+      const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+      const article = JSON.parse(raw);
+      ArticleModule.render(article.title || 'Article', article.body || '');
+    } catch (e) {
+      if (e.message === 'invalid_key') {
+        ArticleModule.showError('API Key 無效，請重新設定。', true);
+      } else {
+        ArticleModule.showError('生成失敗，請稍後再試。');
+      }
+    }
+  },
+
+  render(title, body) {
+    const paragraphs = body.split('\n').filter(p => p.trim())
+      .map(p => `<p>${ArticleModule.highlightText(p)}</p>`).join('');
+
+    document.getElementById('article-content').innerHTML = `
+      <div class="article-body">
+        <h2 class="article-title">${escapeHtml(title)}</h2>
+        <div class="article-text">${paragraphs}</div>
+      </div>`;
+
+    const wordList = document.getElementById('article-word-list');
+    wordList.hidden = false;
+    wordList.innerHTML = `
+      <h3 class="word-list-title">本次使用的單字</h3>
+      <div class="article-word-chips">
+        ${this._words.map(w => `
+          <div class="article-chip">
+            <span class="chip-word">${escapeHtml(w.word)}</span>
+            <span class="chip-chinese">${escapeHtml(w.chinese)}</span>
+          </div>`).join('')}
+      </div>`;
+  },
+
+  showLoading() {
+    document.getElementById('article-content').innerHTML = `
+      <div class="article-loading">
+        <div class="loading-spinner"></div>
+        <p>正在生成文章…</p>
+      </div>`;
+    document.getElementById('article-word-list').hidden = true;
+  },
+
+  showEmpty(msg = '點擊「重新生成」開始') {
+    document.getElementById('article-content').innerHTML =
+      `<div class="article-empty"><p>${escapeHtml(msg)}</p></div>`;
+    document.getElementById('article-word-list').hidden = true;
+  },
+
+  showError(msg, showKeyBtn = false) {
+    document.getElementById('article-content').innerHTML = `
+      <div class="article-empty article-error">
+        <p>${escapeHtml(msg)}</p>
+        ${showKeyBtn ? '<button class="btn btn-outline" onclick="ArticleModule.showModal()">重新設定 API Key</button>' : ''}
+      </div>`;
+    document.getElementById('article-word-list').hidden = true;
+  },
+
+  showModal() {
+    document.getElementById('api-key-input').value = APIKeyModule.get();
+    document.getElementById('api-key-modal').classList.remove('hidden');
+    document.getElementById('api-key-input').focus();
+  },
+
+  hideModal() {
+    document.getElementById('api-key-modal').classList.add('hidden');
+  },
+};
+
+/* =====================
    Router Module
    ===================== */
 const RouterModule = {
@@ -437,6 +598,15 @@ const RouterModule = {
       ReviewModule.updateDueBadge();
       if (state.currentCardIndex === null && state.reviewedIndices.size === 0) {
         ReviewModule.startSession();
+      }
+    }
+
+    if (viewName === 'article') {
+      if (!APIKeyModule.has()) {
+        ArticleModule.showEmpty('請先設定 Gemini API Key，再點擊「重新生成」');
+        setTimeout(() => ArticleModule.showModal(), 100);
+      } else if (!document.querySelector('#article-content .article-body')) {
+        ArticleModule.generate();
       }
     }
   },
@@ -538,5 +708,45 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Accent selector
   document.getElementById('accent-select').addEventListener('change', e => {
     state.accent = e.target.value;
+  });
+
+  // Article: regenerate
+  document.getElementById('btn-regenerate').addEventListener('click', () => {
+    ArticleModule.generate();
+  });
+
+  // Article: open API key modal
+  document.getElementById('btn-api-key').addEventListener('click', () => {
+    ArticleModule.showModal();
+  });
+
+  // Modal: save key
+  document.getElementById('btn-save-key').addEventListener('click', () => {
+    const key = document.getElementById('api-key-input').value.trim();
+    if (!key) { alert('請輸入 API Key'); return; }
+    APIKeyModule.set(key);
+    ArticleModule.hideModal();
+    ArticleModule.generate();
+  });
+
+  // Modal: Enter key to save
+  document.getElementById('api-key-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') document.getElementById('btn-save-key').click();
+  });
+
+  // Modal: close
+  document.getElementById('btn-close-modal').addEventListener('click', () => {
+    ArticleModule.hideModal();
+  });
+
+  // Modal: clear key
+  document.getElementById('btn-clear-key').addEventListener('click', () => {
+    APIKeyModule.clear();
+    document.getElementById('api-key-input').value = '';
+  });
+
+  // Modal: click overlay to close
+  document.getElementById('api-key-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('api-key-modal')) ArticleModule.hideModal();
   });
 });
