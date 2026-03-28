@@ -254,13 +254,9 @@ const LibraryModule = {
         <div class="word-title-row">
           <h2 class="word-title">${escapeHtml(w.word)}</h2>
           <span class="srs-badge ${label.cls}">${escapeHtml(badgeText)}</span>
-          <button class="speak-btn" data-speak="${escapeHtml(w.word)}" title="朗讀單字">🔊</button>
         </div>
         <p class="word-chinese">${escapeHtml(w.chinese)}</p>
-        <div class="word-sentence-row">
-          <p class="word-sentence">${escapeHtml(w.sentence)}</p>
-          <button class="speak-btn" data-speak="${escapeHtml(w.sentence)}" title="朗讀例句">🔊</button>
-        </div>
+        <p class="word-sentence">${escapeHtml(w.sentence)}</p>
         <p class="word-translation">${escapeHtml(w.translation)}</p>
         <div class="word-footer">
           <div class="word-cats">${catBadges}</div>
@@ -590,7 +586,7 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
 
   renderSingle(title, body) {
     const paragraphs = body.split('\n').filter(p => p.trim())
-      .map(p => `<p>${ArticleModule.highlightText(p)}</p>`).join('');
+      .map(p => `<p>${escapeHtml(p)}</p>`).join('');
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title)}</h2>
@@ -606,10 +602,10 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
         const isA = m[1] === 'A';
         return `<div class="dialogue-turn ${isA ? 'turn-a' : 'turn-b'}">
           <span class="speaker-label">${escapeHtml(m[1])}</span>
-          <p class="speaker-text">${ArticleModule.highlightText(m[2])}</p>
+          <p class="speaker-text">${escapeHtml(m[2])}</p>
         </div>`;
       }
-      return `<p class="article-text">${ArticleModule.highlightText(line)}</p>`;
+      return `<p class="article-text">${escapeHtml(line)}</p>`;
     }).join('');
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
@@ -620,7 +616,7 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
 
   renderDouble(title1, body1, title2, body2) {
     const render = body => body.split('\n').filter(p => p.trim())
-      .map(p => `<p>${ArticleModule.highlightText(p)}</p>`).join('');
+      .map(p => `<p>${escapeHtml(p)}</p>`).join('');
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title1)}</h2>
