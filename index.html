@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEIC 字彙工具</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="site-title">TOEIC <span>字彙工具</span></div>
+    <nav>
+      <button class="nav-btn active" data-view="library">字庫頁</button>
+      <button class="nav-btn" data-view="review">複習頁</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== 字庫頁 ===== -->
+    <section id="library-view">
+      <div class="controls">
+        <input type="search" id="search-input" placeholder="搜尋單字或中文意思…" />
+        <select id="sort-select">
+          <option value="alpha-az">字母 A → Z</option>
+          <option value="alpha-za">字母 Z → A</option>
+          <option value="date-new">日期（最新）</option>
+          <option value="date-old">日期（最舊）</option>
+        </select>
+        <button class="btn btn-outline" id="export-csv">匯出 CSV</button>
+        <span class="word-count" id="word-count"></span>
+      </div>
+      <div id="word-grid"></div>
+    </section>
+
+    <!-- ===== 複習頁 ===== -->
+    <section id="review-view" hidden>
+      <p class="progress-display" id="progress-display">已複習 0 / 0 個單字</p>
+
+      <div class="card-container">
+        <div class="flashcard" id="flashcard">
+          <div class="card-face card-front">
+            <span class="card-hint">點擊翻面</span>
+            <span class="card-word" id="card-word">—</span>
+          </div>
+          <div class="card-face card-back">
+            <span class="card-hint">中文意思</span>
+            <span class="card-chinese" id="card-chinese">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sentence-area" id="sentence-area">
+        <div class="hint-text">點擊顯示例句與翻譯</div>
+        <p class="card-sentence blurred" id="card-sentence">—</p>
+        <p class="card-translation hidden" id="card-translation">—</p>
+      </div>
+
+      <div class="review-actions">
+        <button class="btn btn-primary" id="next-card">下一個單字</button>
+        <button class="btn btn-outline" id="restart-review">重新開始</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
