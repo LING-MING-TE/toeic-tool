@@ -494,7 +494,7 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
 
     try {
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${APIKeyModule.get()}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${APIKeyModule.get()}`,
         {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
