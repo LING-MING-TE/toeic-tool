@@ -512,17 +512,20 @@ const ArticleModule = {
     if (type === 'dialogue') {
       return `Write a natural TOEIC-style business dialogue (8-12 exchanges) incorporating ALL of these words/phrases: ${wordList}.
 Use speaker labels exactly like "A: ..." and "B: ..." on separate lines.
-Return ONLY valid JSON: {"title": "...", "body": "A: ...\\nB: ...\\n..."}
+Also provide a Traditional Chinese translation of each line in chinese_body, using the same "A: ..." / "B: ..." format and same number of lines.
+Return ONLY valid JSON: {"title": "...", "body": "A: ...\\nB: ...\\n...", "chinese_body": "A: ...\\nB: ...\\n..."}
 No markdown, only JSON.`;
     }
     if (type === 'monologue') {
       return `Write a 100-150 word TOEIC-style monologue (voicemail, announcement, or advertisement) incorporating ALL of these words/phrases: ${wordList}.
-Return ONLY valid JSON: {"title": "...", "body": "..."}
-Separate paragraphs in body with \\n. No markdown, only JSON.`;
+Also provide a Traditional Chinese translation in chinese_body with the same number of paragraphs.
+Return ONLY valid JSON: {"title": "...", "body": "...", "chinese_body": "..."}
+Separate paragraphs in body and chinese_body with \\n. No markdown, only JSON.`;
     }
     // double
     return `Write two related TOEIC-style business texts (e.g. an email and its reply, or a notice and a response). Distribute ALL of these words/phrases across both texts: ${wordList}.
-Return ONLY valid JSON: {"title1": "...", "body1": "...", "title2": "...", "body2": "..."}
+Also provide Traditional Chinese translations in chinese_body1 and chinese_body2 with the same paragraph structure.
+Return ONLY valid JSON: {"title1": "...", "body1": "...", "chinese_body1": "...", "title2": "...", "body2": "...", "chinese_body2": "..."}
 Separate paragraphs with \\n. No markdown, only JSON.`;
   },
 
@@ -563,13 +566,13 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
 
       const type = state.articleType;
       if (type === 'dialogue') {
-        ArticleModule.renderDialogue(article.title || 'Dialogue', article.body || '');
+        ArticleModule.renderDialogue(article.title || 'Dialogue', article.body || '', article.chinese_body || '');
       } else if (type === 'monologue') {
-        ArticleModule.renderSingle(article.title || 'Monologue', article.body || '');
+        ArticleModule.renderSingle(article.title || 'Monologue', article.body || '', article.chinese_body || '');
       } else {
         ArticleModule.renderDouble(
-          article.title1 || 'Text 1', article.body1 || '',
-          article.title2 || 'Text 2', article.body2 || ''
+          article.title1 || 'Text 1', article.body1 || '', article.chinese_body1 || '',
+          article.title2 || 'Text 2', article.body2 || '', article.chinese_body2 || ''
         );
       }
       ArticleModule.renderWordList();
@@ -584,28 +587,37 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
     }
   },
 
-  renderSingle(title, body) {
-    const paragraphs = body.split('\n').filter(p => p.trim())
-      .map(p => `<p>${escapeHtml(p)}</p>`).join('');
+  renderSingle(title, body, chineseBody = '') {
+    const paras = body.split('\n').filter(p => p.trim());
+    const cparas = chineseBody.split('\n').filter(p => p.trim());
+    const html = paras.map((p, i) => `
+      <p>${escapeHtml(p)}</p>
+      ${cparas[i] ? `<p class="article-chinese">${escapeHtml(cparas[i])}</p>` : ''}
+    `).join('');
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title)}</h2>
-        <div class="article-text">${paragraphs}</div>
+        <div class="article-text">${html}</div>
       </div>`;
   },
 
-  renderDialogue(title, body) {
+  renderDialogue(title, body, chineseBody = '') {
     const lines = body.split('\n').filter(l => l.trim());
-    const turns = lines.map(line => {
+    const clines = chineseBody.split('\n').filter(l => l.trim());
+    const turns = lines.map((line, i) => {
       const m = line.match(/^([A-Z]):\s*(.+)/);
+      const cm = clines[i] ? clines[i].match(/^([A-Z]):\s*(.+)/) : null;
       if (m) {
         const isA = m[1] === 'A';
         return `<div class="dialogue-turn ${isA ? 'turn-a' : 'turn-b'}">
           <span class="speaker-label">${escapeHtml(m[1])}</span>
-          <p class="speaker-text">${escapeHtml(m[2])}</p>
+          <div class="turn-content">
+            <p class="speaker-text">${escapeHtml(m[2])}</p>
+            ${cm ? `<p class="speaker-chinese">${escapeHtml(cm[2])}</p>` : ''}
+          </div>
         </div>`;
       }
-      return `<p class="article-text">${escapeHtml(line)}</p>`;
+      return `<p>${escapeHtml(line)}</p>`;
     }).join('');
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
@@ -614,17 +626,23 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
       </div>`;
   },
 
-  renderDouble(title1, body1, title2, body2) {
-    const render = body => body.split('\n').filter(p => p.trim())
-      .map(p => `<p>${escapeHtml(p)}</p>`).join('');
+  renderDouble(title1, body1, chineseBody1 = '', title2, body2, chineseBody2 = '') {
+    const render = (body, cbody) => {
+      const paras = body.split('\n').filter(p => p.trim());
+      const cparas = cbody.split('\n').filter(p => p.trim());
+      return paras.map((p, i) => `
+        <p>${escapeHtml(p)}</p>
+        ${cparas[i] ? `<p class="article-chinese">${escapeHtml(cparas[i])}</p>` : ''}
+      `).join('');
+    };
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title1)}</h2>
-        <div class="article-text">${render(body1)}</div>
+        <div class="article-text">${render(body1, chineseBody1)}</div>
       </div>
       <div class="article-body" style="margin-top:1rem">
         <h2 class="article-title">${escapeHtml(title2)}</h2>
-        <div class="article-text">${render(body2)}</div>
+        <div class="article-text">${render(body2, chineseBody2)}</div>
       </div>`;
   },
 
@@ -700,11 +718,9 @@ const RouterModule = {
     }
 
     if (viewName === 'article') {
-      if (!APIKeyModule.has()) {
-        ArticleModule.showEmpty('請先設定 Gemini API Key，再點擊「重新生成」');
-        setTimeout(() => ArticleModule.showModal(), 100);
-      } else if (!document.querySelector('#article-content .article-body')) {
-        ArticleModule.generate();
+      if (!document.querySelector('#article-content .article-body') &&
+          !document.querySelector('#article-content .article-loading')) {
+        ArticleModule.showEmpty();
       }
     }
   },

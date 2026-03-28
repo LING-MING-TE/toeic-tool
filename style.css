@@ -33,6 +33,9 @@
   padding: 0;
 }
 
+/* 確保 hidden 屬性不被 CSS display 覆蓋 */
+[hidden] { display: none !important; }
+
 body {
   font-family: var(--font-sans);
   background: var(--color-bg);
@@ -723,6 +726,27 @@ select:focus {
 
 .article-text p:last-child { margin-bottom: 0; }
 
+.article-chinese {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.turn-content {
+  flex: 1;
+}
+
+.speaker-chinese {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+  margin: 0.2rem 0 0;
+  line-height: 1.5;
+}
+
 mark.word-highlight {
   background: rgba(96, 165, 250, 0.15);
   color: var(--color-primary);
@@ -797,13 +821,22 @@ mark.word-highlight {
   padding: 0.55rem 0.9rem;
   font-size: 0.95rem;
   line-height: 1.6;
-  flex: 1;
   margin: 0;
 }
 
 .turn-b .speaker-text {
   background: var(--color-primary-light);
   border-color: var(--color-primary-light);
+}
+
+.turn-b .turn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.turn-b .speaker-chinese {
+  text-align: right;
 }
 
 .word-list-title {
