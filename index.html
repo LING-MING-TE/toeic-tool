@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TOEIC 字彙工具</title>
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
 </head>
 <body>
 
@@ -36,6 +36,23 @@
           <option value="alpha-za">字母 Z → A</option>
           <option value="date-new">日期（最新）</option>
           <option value="date-old">日期（最舊）</option>
+        </select>
+        <select id="library-category-select">
+          <option value="all">所有分類</option>
+          <option value="travel">Travel</option>
+          <option value="dining-out">Dining Out</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="housing">Housing</option>
+          <option value="purchasing">Purchasing</option>
+          <option value="personnel">Personnel</option>
+          <option value="offices">Offices</option>
+          <option value="health">Health</option>
+          <option value="general-business">General Business</option>
+          <option value="manufacturing">Manufacturing</option>
+          <option value="corporate-development">Corporate Dev.</option>
+          <option value="technical">Technical</option>
+          <option value="financing-areas">Financing</option>
+          <option value="common">共用單字</option>
         </select>
         <button class="btn btn-outline" id="export-csv">匯出 CSV</button>
         <span class="word-count" id="word-count"></span>
@@ -91,11 +108,32 @@
     <!-- ===== 文章頁 ===== -->
     <section id="article-view" hidden>
       <div class="article-controls">
+        <div class="article-type-toggle">
+          <button class="type-btn active" data-type="dialogue">對話</button>
+          <button class="type-btn" data-type="monologue">獨白</button>
+          <button class="type-btn" data-type="double">雙篇文章</button>
+        </div>
+        <select id="article-category-select">
+          <option value="all">全部分類</option>
+          <option value="travel">Travel</option>
+          <option value="dining-out">Dining Out</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="housing">Housing</option>
+          <option value="purchasing">Purchasing</option>
+          <option value="personnel">Personnel</option>
+          <option value="offices">Offices</option>
+          <option value="health">Health</option>
+          <option value="general-business">General Business</option>
+          <option value="manufacturing">Manufacturing</option>
+          <option value="corporate-development">Corporate Dev.</option>
+          <option value="technical">Technical</option>
+          <option value="financing-areas">Financing</option>
+        </select>
         <button class="btn btn-primary" id="btn-regenerate">重新生成</button>
-        <button class="btn btn-outline btn-apikey" id="btn-api-key">⚙ API Key</button>
+        <button class="btn btn-outline" id="btn-api-key">⚙ API Key</button>
       </div>
       <div id="article-content">
-        <div class="article-empty"><p>點擊「重新生成」開始</p></div>
+        <div class="article-empty"><p>選擇類型與分類後，點擊「重新生成」開始</p></div>
       </div>
       <div id="article-word-list" hidden></div>
     </section>
@@ -119,6 +157,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>

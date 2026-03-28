@@ -9,14 +9,37 @@ const state = {
   currentView: 'library',
   searchQuery: '',
   sortOrder: 'alpha-az',
+  libraryCategory: 'all',
   reviewedIndices: new Set(),
   currentCardIndex: null,
   cardFlipped: false,
   sentenceRevealed: false,
   accent: 'en-US',
-  reviewMode: 'due',       // 'due' | 'all'
-  sessionDueCount: 0,      // 本次 session 開始時的到期單字數
+  reviewMode: 'due',
+  sessionDueCount: 0,
+  articleType: 'dialogue',     // 'dialogue' | 'monologue' | 'double'
+  articleCategory: 'all',
 };
+
+/* =====================
+   TOEIC 分類清單
+   ===================== */
+const TOEIC_CATEGORIES = [
+  { id: 'travel',               label: 'Travel' },
+  { id: 'dining-out',           label: 'Dining Out' },
+  { id: 'entertainment',        label: 'Entertainment' },
+  { id: 'housing',              label: 'Housing' },
+  { id: 'purchasing',           label: 'Purchasing' },
+  { id: 'personnel',            label: 'Personnel' },
+  { id: 'offices',              label: 'Offices' },
+  { id: 'health',               label: 'Health' },
+  { id: 'general-business',     label: 'General Business' },
+  { id: 'manufacturing',        label: 'Manufacturing' },
+  { id: 'corporate-development',label: 'Corporate Dev.' },
+  { id: 'technical',            label: 'Technical' },
+  { id: 'financing-areas',      label: 'Financing' },
+  { id: 'common',               label: '共用單字' },
+];
 
 /* =====================
    Utilities
@@ -166,10 +189,13 @@ const LibraryModule = {
   render() {
     const q = state.searchQuery.toLowerCase();
 
-    state.filtered = state.words.filter(w =>
-      (w.word ?? '').toLowerCase().includes(q) ||
-      (w.chinese ?? '').includes(q)
-    );
+    state.filtered = state.words.filter(w => {
+      const matchSearch = (w.word ?? '').toLowerCase().includes(q) ||
+                          (w.chinese ?? '').includes(q);
+      const matchCat = state.libraryCategory === 'all' ||
+                       (w.categories || []).includes(state.libraryCategory);
+      return matchSearch && matchCat;
+    });
 
     state.filtered.sort((a, b) => {
       switch (state.sortOrder) {
@@ -187,7 +213,7 @@ const LibraryModule = {
     // Update count label
     const total = state.words.length;
     const showing = state.filtered.length;
-    if (q) {
+    if (q || state.libraryCategory !== 'all') {
       count.textContent = `找到 ${showing} / ${total} 個單字`;
     } else {
       count.textContent = `共 ${total} 個單字`;
@@ -219,6 +245,10 @@ const LibraryModule = {
       const badgeText = status === 'learning'
         ? SRSModule.getNextReviewLabel(w.word)
         : label.text;
+      const catBadges = (w.categories || []).map(c => {
+        const cat = TOEIC_CATEGORIES.find(t => t.id === c);
+        return `<span class="cat-badge">${escapeHtml(cat ? cat.label : c)}</span>`;
+      }).join('');
       return `
       <article class="word-card">
         <div class="word-title-row">
@@ -232,7 +262,10 @@ const LibraryModule = {
           <button class="speak-btn" data-speak="${escapeHtml(w.sentence)}" title="朗讀例句">🔊</button>
         </div>
         <p class="word-translation">${escapeHtml(w.translation)}</p>
-        <time class="word-date" datetime="${escapeHtml(w.addedAt)}">${escapeHtml(w.addedAt)}</time>
+        <div class="word-footer">
+          <div class="word-cats">${catBadges}</div>
+          <time class="word-date" datetime="${escapeHtml(w.addedAt)}">${escapeHtml(w.addedAt)}</time>
+        </div>
       </article>`;
     }).join('');
   },
@@ -436,7 +469,14 @@ const ArticleModule = {
   _words: [],
 
   selectWords(n = 6) {
-    const pool = [...state.words];
+    const cat = state.articleCategory;
+    let pool = cat === 'all'
+      ? [...state.words]
+      : state.words.filter(w => {
+          const cats = w.categories || [];
+          return cats.includes(cat) || cats.includes('common');
+        });
+    if (pool.length < 3) pool = [...state.words]; // fallback
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
@@ -460,8 +500,7 @@ const ArticleModule = {
       }
     });
     matches.sort((a, b) => a.start - b.start);
-    let result = '';
-    let pos = 0;
+    let result = '', pos = 0;
     matches.forEach(m => {
       result += escapeHtml(text.slice(pos, m.start));
       result += `<mark class="word-highlight" title="${escapeHtml(m.chinese)}">${escapeHtml(m.word)}</mark>`;
@@ -469,6 +508,26 @@ const ArticleModule = {
     });
     result += escapeHtml(text.slice(pos));
     return result;
+  },
+
+  buildPrompt() {
+    const wordList = this._words.map(w => `"${w.word}"`).join(', ');
+    const type = state.articleType;
+    if (type === 'dialogue') {
+      return `Write a natural TOEIC-style business dialogue (8-12 exchanges) incorporating ALL of these words/phrases: ${wordList}.
+Use speaker labels exactly like "A: ..." and "B: ..." on separate lines.
+Return ONLY valid JSON: {"title": "...", "body": "A: ...\\nB: ...\\n..."}
+No markdown, only JSON.`;
+    }
+    if (type === 'monologue') {
+      return `Write a 100-150 word TOEIC-style monologue (voicemail, announcement, or advertisement) incorporating ALL of these words/phrases: ${wordList}.
+Return ONLY valid JSON: {"title": "...", "body": "..."}
+Separate paragraphs in body with \\n. No markdown, only JSON.`;
+    }
+    // double
+    return `Write two related TOEIC-style business texts (e.g. an email and its reply, or a notice and a response). Distribute ALL of these words/phrases across both texts: ${wordList}.
+Return ONLY valid JSON: {"title1": "...", "body1": "...", "title2": "...", "body2": "..."}
+Separate paragraphs with \\n. No markdown, only JSON.`;
   },
 
   async generate() {
@@ -485,13 +544,6 @@ const ArticleModule = {
     ArticleModule.selectWords(6);
     ArticleModule.showLoading();
 
-    const wordList = this._words.map(w => `"${w.word}"`).join(', ');
-    const prompt = `Write a 150-200 word professional business article for TOEIC learners.
-Naturally incorporate ALL of these words/phrases: ${wordList}.
-The article should have a clear title and 2-3 paragraphs.
-Return ONLY valid JSON: {"title": "...", "body": "..."}
-Separate paragraphs in body with \\n. No markdown, only JSON.`;
-
     try {
       const res = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${APIKeyModule.get()}`,
@@ -499,7 +551,7 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
           method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify({
-            contents: [{ parts: [{ text: prompt }] }],
+            contents: [{ parts: [{ text: ArticleModule.buildPrompt() }] }],
             generationConfig: { responseMimeType: 'application/json' },
           }),
         }
@@ -512,7 +564,19 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
       const data = await res.json();
       const raw = data.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
       const article = JSON.parse(raw);
-      ArticleModule.render(article.title || 'Article', article.body || '');
+
+      const type = state.articleType;
+      if (type === 'dialogue') {
+        ArticleModule.renderDialogue(article.title || 'Dialogue', article.body || '');
+      } else if (type === 'monologue') {
+        ArticleModule.renderSingle(article.title || 'Monologue', article.body || '');
+      } else {
+        ArticleModule.renderDouble(
+          article.title1 || 'Text 1', article.body1 || '',
+          article.title2 || 'Text 2', article.body2 || ''
+        );
+      }
+      ArticleModule.renderWordList();
     } catch (e) {
       if (e.message === 'invalid_key') {
         ArticleModule.showError('API Key 無效，請重新設定。', true);
@@ -524,16 +588,51 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
     }
   },
 
-  render(title, body) {
+  renderSingle(title, body) {
     const paragraphs = body.split('\n').filter(p => p.trim())
       .map(p => `<p>${ArticleModule.highlightText(p)}</p>`).join('');
-
     document.getElementById('article-content').innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title)}</h2>
         <div class="article-text">${paragraphs}</div>
       </div>`;
+  },
 
+  renderDialogue(title, body) {
+    const lines = body.split('\n').filter(l => l.trim());
+    const turns = lines.map(line => {
+      const m = line.match(/^([A-Z]):\s*(.+)/);
+      if (m) {
+        const isA = m[1] === 'A';
+        return `<div class="dialogue-turn ${isA ? 'turn-a' : 'turn-b'}">
+          <span class="speaker-label">${escapeHtml(m[1])}</span>
+          <p class="speaker-text">${ArticleModule.highlightText(m[2])}</p>
+        </div>`;
+      }
+      return `<p class="article-text">${ArticleModule.highlightText(line)}</p>`;
+    }).join('');
+    document.getElementById('article-content').innerHTML = `
+      <div class="article-body">
+        <h2 class="article-title">${escapeHtml(title)}</h2>
+        <div class="article-dialogue">${turns}</div>
+      </div>`;
+  },
+
+  renderDouble(title1, body1, title2, body2) {
+    const render = body => body.split('\n').filter(p => p.trim())
+      .map(p => `<p>${ArticleModule.highlightText(p)}</p>`).join('');
+    document.getElementById('article-content').innerHTML = `
+      <div class="article-body">
+        <h2 class="article-title">${escapeHtml(title1)}</h2>
+        <div class="article-text">${render(body1)}</div>
+      </div>
+      <div class="article-body" style="margin-top:1rem">
+        <h2 class="article-title">${escapeHtml(title2)}</h2>
+        <div class="article-text">${render(body2)}</div>
+      </div>`;
+  },
+
+  renderWordList() {
     const wordList = document.getElementById('article-word-list');
     wordList.hidden = false;
     wordList.innerHTML = `
@@ -556,7 +655,7 @@ Separate paragraphs in body with \\n. No markdown, only JSON.`;
     document.getElementById('article-word-list').hidden = true;
   },
 
-  showEmpty(msg = '點擊「重新生成」開始') {
+  showEmpty(msg = '選擇類型與分類後，點擊「重新生成」開始') {
     document.getElementById('article-content').innerHTML =
       `<div class="article-empty"><p>${escapeHtml(msg)}</p></div>`;
     document.getElementById('article-word-list').hidden = true;
@@ -642,6 +741,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     LibraryModule.render();
   });
 
+  // Library: category filter
+  document.getElementById('library-category-select').addEventListener('change', e => {
+    state.libraryCategory = e.target.value;
+    LibraryModule.render();
+  });
+
   // Library: export CSV
   document.getElementById('export-csv').addEventListener('click', () => {
     LibraryModule.exportCSV();
@@ -711,6 +816,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Accent selector
   document.getElementById('accent-select').addEventListener('change', e => {
     state.accent = e.target.value;
+  });
+
+  // Article: type toggle
+  document.querySelectorAll('.type-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.articleType = btn.dataset.type;
+    });
+  });
+
+  // Article: category select
+  document.getElementById('article-category-select').addEventListener('change', e => {
+    state.articleCategory = e.target.value;
   });
 
   // Article: regenerate

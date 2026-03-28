@@ -322,11 +322,34 @@ select:focus {
   margin-bottom: 0.75rem;
 }
 
+.word-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.word-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.cat-badge {
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.12rem 0.45rem;
+  border-radius: 99px;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
 .word-date {
   font-size: 0.78rem;
   color: var(--color-text-muted);
-  display: block;
-  text-align: right;
+  white-space: nowrap;
 }
 
 /* Empty state */
@@ -637,8 +660,41 @@ select:focus {
 .article-controls {
   display: flex;
   gap: 0.75rem;
-  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
+}
+
+/* Article type toggle */
+.article-type-toggle {
+  display: flex;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.type-btn {
+  padding: 0.45rem 0.9rem;
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.type-btn.active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.type-btn:hover:not(.active) {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 .article-body {
@@ -706,6 +762,49 @@ mark.word-highlight {
 
 .article-error { color: #fb923c; }
 .article-error .btn { margin-top: 1rem; }
+
+/* Dialogue */
+.article-dialogue {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.dialogue-turn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.turn-b {
+  flex-direction: row-reverse;
+}
+
+.speaker-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  min-width: 1.4rem;
+  padding-top: 0.35rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.speaker-text {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.55rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex: 1;
+  margin: 0;
+}
+
+.turn-b .speaker-text {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
 
 .word-list-title {
   font-size: 0.82rem;

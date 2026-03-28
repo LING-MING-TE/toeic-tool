@@ -4,20 +4,23 @@
     "chinese": "(v.) 探索、探討",
     "sentence": "The team will explore new markets in Southeast Asia to increase revenue.",
     "translation": "團隊將探索東南亞新市場以提升營收。",
-    "addedAt": "2026-03-28"
+    "addedAt": "2026-03-28",
+    "categories": ["general-business", "corporate-development"]
   },
   {
     "word": "in comparison to",
     "chinese": "(phr.) 與⋯相比",
     "sentence": "In comparison to last quarter, our sales figures have improved significantly.",
     "translation": "與上季相比，我們的銷售數字大幅提升。",
-    "addedAt": "2026-03-28"
+    "addedAt": "2026-03-28",
+    "categories": ["common"]
   },
   {
     "word": "now that",
     "chinese": "(phr.) 既然、由於",
     "sentence": "Now that the new policy has been approved, all departments must comply immediately.",
     "translation": "既然新政策已通過，所有部門必須立即遵守。",
-    "addedAt": "2026-03-28"
+    "addedAt": "2026-03-28",
+    "categories": ["common"]
   }
 ]
