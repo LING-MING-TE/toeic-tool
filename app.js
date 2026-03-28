@@ -81,7 +81,7 @@ const LibraryModule = {
         grid.innerHTML = `
           <div class="empty-state">
             <strong>字庫是空的</strong>
-            在 Claude Code 輸入 <code>/add-word &lt;單字&gt;</code> 來新增第一個單字
+            在 Claude Code 輸入「新增單字 xxx」來新增第一個單字
           </div>`;
       } else {
         grid.innerHTML = `<div class="empty-state"><strong>沒有結果</strong>找不到符合「${escapeHtml(state.searchQuery)}」的單字</div>`;
@@ -168,7 +168,8 @@ const ReviewModule = {
     ReviewModule.applyCardState();
   },
 
-  revealSentence() {
+  revealSentence(e) {
+    e.stopPropagation(); // 避免觸發翻牌
     if (!state.cardFlipped || state.words.length === 0) return;
     state.sentenceRevealed = true;
     ReviewModule.applyCardState();
@@ -176,23 +177,10 @@ const ReviewModule = {
 
   applyCardState() {
     const flashcard = document.getElementById('flashcard');
-    const sentence = document.getElementById('card-sentence');
-    const translation = document.getElementById('card-translation');
-    const sentenceArea = document.getElementById('sentence-area');
+    const translationDisplay = document.getElementById('translation-display');
 
     flashcard.classList.toggle('flipped', state.cardFlipped);
-    sentence.classList.toggle('blurred', !state.sentenceRevealed);
-    translation.classList.toggle('hidden', !state.sentenceRevealed);
-
-    // Update sentence area hint
-    const hint = sentenceArea.querySelector('.hint-text');
-    if (!state.cardFlipped) {
-      hint.textContent = '翻面後點擊顯示例句';
-    } else if (!state.sentenceRevealed) {
-      hint.textContent = '點擊顯示例句與翻譯';
-    } else {
-      hint.textContent = '例句';
-    }
+    translationDisplay.classList.toggle('hidden', !state.sentenceRevealed);
   },
 
   updateProgress() {
@@ -279,9 +267,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     ReviewModule.flipCard();
   });
 
-  // Review: reveal sentence
-  document.getElementById('sentence-area').addEventListener('click', () => {
-    ReviewModule.revealSentence();
+  // Review: reveal sentence (click on sentence text in card back)
+  document.getElementById('card-sentence').addEventListener('click', (e) => {
+    ReviewModule.revealSentence(e);
   });
 
   // Review: next card
