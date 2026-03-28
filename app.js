@@ -13,6 +13,7 @@ const state = {
   currentCardIndex: null,
   cardFlipped: false,
   sentenceRevealed: false,
+  accent: 'en-US',
 };
 
 /* =====================
@@ -25,6 +26,33 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
+
+/* =====================
+   TTS Module
+   ===================== */
+const TTSModule = {
+  _voices: [],
+
+  init() {
+    if (!window.speechSynthesis) return;
+    const load = () => { this._voices = window.speechSynthesis.getVoices(); };
+    load();
+    window.speechSynthesis.addEventListener('voiceschanged', load);
+  },
+
+  speak(text) {
+    if (!window.speechSynthesis || !text || text === '—') return;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = state.accent;
+    const langPrefix = state.accent.split('-')[0];
+    const match =
+      this._voices.find(v => v.lang === state.accent) ||
+      this._voices.find(v => v.lang.startsWith(langPrefix));
+    if (match) utter.voice = match;
+    window.speechSynthesis.speak(utter);
+  },
+};
 
 /* =====================
    Data Module
@@ -91,9 +119,15 @@ const LibraryModule = {
 
     grid.innerHTML = state.filtered.map(w => `
       <article class="word-card">
-        <h2 class="word-title">${escapeHtml(w.word)}</h2>
+        <div class="word-title-row">
+          <h2 class="word-title">${escapeHtml(w.word)}</h2>
+          <button class="speak-btn" data-speak="${escapeHtml(w.word)}" title="朗讀單字">🔊</button>
+        </div>
         <p class="word-chinese">${escapeHtml(w.chinese)}</p>
-        <p class="word-sentence">${escapeHtml(w.sentence)}</p>
+        <div class="word-sentence-row">
+          <p class="word-sentence">${escapeHtml(w.sentence)}</p>
+          <button class="speak-btn" data-speak="${escapeHtml(w.sentence)}" title="朗讀例句">🔊</button>
+        </div>
         <p class="word-translation">${escapeHtml(w.translation)}</p>
         <time class="word-date" datetime="${escapeHtml(w.addedAt)}">${escapeHtml(w.addedAt)}</time>
       </article>
@@ -236,6 +270,7 @@ const RouterModule = {
    Init
    ===================== */
 document.addEventListener('DOMContentLoaded', async () => {
+  TTSModule.init();
   await DataModule.load();
   LibraryModule.render();
   RouterModule.switchTo('library');
@@ -280,5 +315,27 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Review: restart
   document.getElementById('restart-review').addEventListener('click', () => {
     ReviewModule.restart();
+  });
+
+  // TTS: library cards (event delegation)
+  document.getElementById('word-grid').addEventListener('click', e => {
+    const btn = e.target.closest('.speak-btn[data-speak]');
+    if (btn) TTSModule.speak(btn.dataset.speak);
+  });
+
+  // TTS: review card speak buttons (stopPropagation to avoid flip)
+  document.getElementById('speak-word').addEventListener('click', e => {
+    e.stopPropagation();
+    TTSModule.speak(document.getElementById('card-word').textContent);
+  });
+
+  document.getElementById('speak-sentence').addEventListener('click', e => {
+    e.stopPropagation();
+    TTSModule.speak(document.getElementById('card-sentence').textContent);
+  });
+
+  // Accent selector
+  document.getElementById('accent-select').addEventListener('change', e => {
+    state.accent = e.target.value;
   });
 });

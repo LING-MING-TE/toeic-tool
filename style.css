@@ -72,6 +72,28 @@ header {
   font-weight: 400;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#accent-select {
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+#accent-select:focus {
+  border-color: var(--color-primary);
+}
+
 nav {
   display: flex;
   gap: 0.5rem;
@@ -167,6 +189,34 @@ select:focus {
 }
 
 /* =====================
+   Speak Button
+   ===================== */
+.speak-btn {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.45rem;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+
+.speak-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.speak-btn-card {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+}
+
+/* =====================
    Buttons
    ===================== */
 .btn {
@@ -225,11 +275,28 @@ select:focus {
   transform: translateY(-2px);
 }
 
+.word-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.word-sentence-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.word-sentence-row .word-sentence {
+  margin-bottom: 0;
+}
+
 .word-title {
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin-bottom: 0.25rem;
   letter-spacing: -0.01em;
 }
 
@@ -373,6 +440,18 @@ select:focus {
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 1rem;
+}
+
+.sentence-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.sentence-row .card-sentence {
+  flex: 1;
 }
 
 .card-back .card-sentence {
