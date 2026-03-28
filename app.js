@@ -14,6 +14,8 @@ const state = {
   cardFlipped: false,
   sentenceRevealed: false,
   accent: 'en-US',
+  reviewMode: 'due',       // 'due' | 'all'
+  sessionDueCount: 0,      // 本次 session 開始時的到期單字數
 };
 
 /* =====================
@@ -26,6 +28,82 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
+
+/* =====================
+   SRS Module（間隔重複）
+   ===================== */
+const SRSModule = {
+  KEY: 'toeic-srs',
+  _data: {},
+
+  load() {
+    try { this._data = JSON.parse(localStorage.getItem(this.KEY) || '{}'); }
+    catch { this._data = {}; }
+  },
+
+  save() {
+    localStorage.setItem(this.KEY, JSON.stringify(this._data));
+  },
+
+  // SM-2 簡化版：remembered=true 表示記得，false 表示忘記
+  review(word, remembered) {
+    const today = new Date().toISOString().slice(0, 10);
+    const card = this._data[word] || { interval: 0, easeFactor: 2.5, repetitions: 0 };
+    let { interval, easeFactor, repetitions } = card;
+
+    if (remembered) {
+      if (repetitions === 0)      interval = 1;
+      else if (repetitions === 1) interval = 6;
+      else                        interval = Math.round(interval * easeFactor);
+      repetitions++;
+    } else {
+      interval = 1;
+      repetitions = 0;
+      easeFactor = Math.max(1.3, easeFactor - 0.15);
+    }
+
+    const next = new Date();
+    next.setDate(next.getDate() + interval);
+
+    this._data[word] = {
+      interval,
+      easeFactor: Math.round(easeFactor * 100) / 100,
+      repetitions,
+      nextReview: next.toISOString().slice(0, 10),
+      lastReview: today,
+    };
+    this.save();
+    return this._data[word];
+  },
+
+  isDue(word) {
+    const card = this._data[word];
+    if (!card) return true; // 新單字永遠到期
+    return card.nextReview <= new Date().toISOString().slice(0, 10);
+  },
+
+  getDueWords(words) {
+    return words.filter(w => this.isDue(w.word));
+  },
+
+  getStatus(word) {
+    const card = this._data[word];
+    if (!card) return 'new';
+    if (card.interval >= 21) return 'mastered';
+    if (this.isDue(word)) return 'due';
+    return 'learning';
+  },
+
+  getNextReviewLabel(word) {
+    const card = this._data[word];
+    if (!card) return '';
+    const d = card.interval;
+    if (d <= 1) return '明天';
+    if (d < 7)  return `${d} 天後`;
+    if (d < 30) return `${Math.round(d / 7)} 週後`;
+    return `${Math.round(d / 30)} 個月後`;
+  },
+};
 
 /* =====================
    TTS Module
@@ -117,10 +195,24 @@ const LibraryModule = {
       return;
     }
 
-    grid.innerHTML = state.filtered.map(w => `
+    const srsLabels = {
+      new:      { text: '新單字',  cls: 'srs-new' },
+      due:      { text: '待複習',  cls: 'srs-due' },
+      learning: { text: '',        cls: 'srs-learning' },
+      mastered: { text: '已熟練',  cls: 'srs-mastered' },
+    };
+
+    grid.innerHTML = state.filtered.map(w => {
+      const status = SRSModule.getStatus(w.word);
+      const label  = srsLabels[status];
+      const badgeText = status === 'learning'
+        ? SRSModule.getNextReviewLabel(w.word)
+        : label.text;
+      return `
       <article class="word-card">
         <div class="word-title-row">
           <h2 class="word-title">${escapeHtml(w.word)}</h2>
+          <span class="srs-badge ${label.cls}">${escapeHtml(badgeText)}</span>
           <button class="speak-btn" data-speak="${escapeHtml(w.word)}" title="朗讀單字">🔊</button>
         </div>
         <p class="word-chinese">${escapeHtml(w.chinese)}</p>
@@ -130,8 +222,8 @@ const LibraryModule = {
         </div>
         <p class="word-translation">${escapeHtml(w.translation)}</p>
         <time class="word-date" datetime="${escapeHtml(w.addedAt)}">${escapeHtml(w.addedAt)}</time>
-      </article>
-    `).join('');
+      </article>`;
+    }).join('');
   },
 
   exportCSV() {
@@ -160,6 +252,20 @@ const LibraryModule = {
    Review Module
    ===================== */
 const ReviewModule = {
+
+  startSession() {
+    state.reviewedIndices.clear();
+    state.currentCardIndex = null;
+    state.cardFlipped = false;
+    state.sentenceRevealed = false;
+    if (state.reviewMode === 'due') {
+      state.sessionDueCount = SRSModule.getDueWords(state.words).length;
+    }
+    document.getElementById('srs-feedback').className = 'srs-feedback hidden';
+    ReviewModule.updateDueBadge();
+    ReviewModule.pickCard();
+  },
+
   pickCard() {
     if (state.words.length === 0) {
       document.getElementById('card-word').textContent = '—';
@@ -167,19 +273,33 @@ const ReviewModule = {
       document.getElementById('card-sentence').textContent = '請先新增單字';
       document.getElementById('card-translation').textContent = '';
       document.getElementById('progress-display').textContent = '字庫是空的';
+      state.currentCardIndex = null;
+      ReviewModule.applyCardState();
       return;
     }
 
-    const available = state.words
-      .map((_, i) => i)
-      .filter(i => !state.reviewedIndices.has(i));
-
-    if (available.length === 0) {
-      ReviewModule.showCompletion();
-      return;
+    let pool;
+    if (state.reviewMode === 'due') {
+      const dueIndices = state.words
+        .map((w, i) => ({ w, i }))
+        .filter(({ w }) => SRSModule.isDue(w.word))
+        .map(({ i }) => i);
+      pool = dueIndices.filter(i => !state.reviewedIndices.has(i));
+      if (pool.length === 0) {
+        state.sessionDueCount === 0
+          ? ReviewModule.showNoDueCards()
+          : ReviewModule.showDueCompletion();
+        return;
+      }
+    } else {
+      pool = state.words.map((_, i) => i).filter(i => !state.reviewedIndices.has(i));
+      if (pool.length === 0) {
+        ReviewModule.showCompletion();
+        return;
+      }
     }
 
-    const idx = available[Math.floor(Math.random() * available.length)];
+    const idx = pool[Math.floor(Math.random() * pool.length)];
     state.currentCardIndex = idx;
     state.reviewedIndices.add(idx);
 
@@ -189,11 +309,31 @@ const ReviewModule = {
     document.getElementById('card-sentence').textContent = w.sentence ?? '—';
     document.getElementById('card-translation').textContent = w.translation ?? '—';
 
-    // Reset visual state
     state.cardFlipped = false;
     state.sentenceRevealed = false;
+    document.getElementById('srs-feedback').className = 'srs-feedback hidden';
     ReviewModule.applyCardState();
     ReviewModule.updateProgress();
+  },
+
+  rate(remembered) {
+    if (state.currentCardIndex === null || state.words.length === 0) return;
+    const word = state.words[state.currentCardIndex].word;
+    SRSModule.review(word, remembered);
+
+    const fb = document.getElementById('srs-feedback');
+    if (remembered) {
+      fb.textContent = `✓ 記住了！下次複習：${SRSModule.getNextReviewLabel(word)}`;
+      fb.className = 'srs-feedback srs-good';
+    } else {
+      fb.textContent = '✗ 沒關係，明天再複習一次';
+      fb.className = 'srs-feedback srs-bad';
+    }
+
+    ReviewModule.updateDueBadge();
+    // 更新字庫頁 SRS badge（若已渲染）
+    LibraryModule.render();
+    ReviewModule.pickCard();
   },
 
   flipCard() {
@@ -203,7 +343,7 @@ const ReviewModule = {
   },
 
   revealSentence(e) {
-    e.stopPropagation(); // 避免觸發翻牌
+    e.stopPropagation();
     if (!state.cardFlipped || state.words.length === 0) return;
     state.sentenceRevealed = true;
     ReviewModule.applyCardState();
@@ -212,22 +352,31 @@ const ReviewModule = {
   applyCardState() {
     const flashcard = document.getElementById('flashcard');
     const translationDisplay = document.getElementById('translation-display');
+    const ratingActions = document.getElementById('rating-actions');
 
     flashcard.classList.toggle('flipped', state.cardFlipped);
     translationDisplay.classList.toggle('hidden', !state.sentenceRevealed);
+    ratingActions.classList.toggle('hidden', !state.cardFlipped || state.currentCardIndex === null);
   },
 
   updateProgress() {
-    const total = state.words.length;
     const reviewed = state.reviewedIndices.size;
-    document.getElementById('progress-display').textContent =
-      `已複習 ${reviewed} / ${total} 個單字`;
+    if (state.reviewMode === 'due') {
+      document.getElementById('progress-display').textContent =
+        `今日複習 ${reviewed} / ${state.sessionDueCount} 個單字`;
+    } else {
+      document.getElementById('progress-display').textContent =
+        `已複習 ${reviewed} / ${state.words.length} 個單字`;
+    }
+  },
+
+  updateDueBadge() {
+    document.getElementById('due-count').textContent =
+      SRSModule.getDueWords(state.words).length;
   },
 
   restart() {
-    state.reviewedIndices.clear();
-    state.currentCardIndex = null;
-    ReviewModule.pickCard();
+    ReviewModule.startSession();
   },
 
   showCompletion() {
@@ -235,13 +384,37 @@ const ReviewModule = {
     state.cardFlipped = false;
     state.sentenceRevealed = false;
     ReviewModule.applyCardState();
-
     document.getElementById('card-word').textContent = '全部完成！';
-    document.getElementById('card-chinese').textContent = '';
+    document.getElementById('card-chinese').textContent = '所有單字已複習完畢';
     document.getElementById('card-sentence').textContent = '';
     document.getElementById('card-translation').textContent = '';
     document.getElementById('progress-display').textContent =
       `已複習全部 ${state.words.length} 個單字`;
+  },
+
+  showDueCompletion() {
+    state.currentCardIndex = null;
+    state.cardFlipped = false;
+    state.sentenceRevealed = false;
+    ReviewModule.applyCardState();
+    document.getElementById('card-word').textContent = '今日完成！🎉';
+    document.getElementById('card-chinese').textContent = '所有到期單字已複習完畢';
+    document.getElementById('card-sentence').textContent = '';
+    document.getElementById('card-translation').textContent = '';
+    document.getElementById('progress-display').textContent =
+      `今日複習 ${state.sessionDueCount} / ${state.sessionDueCount} 個單字`;
+  },
+
+  showNoDueCards() {
+    state.currentCardIndex = null;
+    state.cardFlipped = false;
+    state.sentenceRevealed = false;
+    ReviewModule.applyCardState();
+    document.getElementById('card-word').textContent = '今天沒有';
+    document.getElementById('card-chinese').textContent = '到期的單字 😊';
+    document.getElementById('card-sentence').textContent = '';
+    document.getElementById('card-translation').textContent = '';
+    document.getElementById('progress-display').textContent = '切換到「全部隨機」繼續練習';
   },
 };
 
@@ -260,8 +433,11 @@ const RouterModule = {
       btn.classList.toggle('active', btn.dataset.view === viewName);
     });
 
-    if (viewName === 'review' && state.currentCardIndex === null && state.reviewedIndices.size === 0) {
-      ReviewModule.pickCard();
+    if (viewName === 'review') {
+      ReviewModule.updateDueBadge();
+      if (state.currentCardIndex === null && state.reviewedIndices.size === 0) {
+        ReviewModule.startSession();
+      }
     }
   },
 };
@@ -271,6 +447,7 @@ const RouterModule = {
    ===================== */
 document.addEventListener('DOMContentLoaded', async () => {
   TTSModule.init();
+  SRSModule.load();
   await DataModule.load();
   LibraryModule.render();
   RouterModule.switchTo('library');
@@ -297,6 +474,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     LibraryModule.exportCSV();
   });
 
+  // Review: mode toggle
+  document.getElementById('mode-btn-due').addEventListener('click', () => {
+    if (state.reviewMode === 'due') return;
+    state.reviewMode = 'due';
+    document.getElementById('mode-btn-due').classList.add('active');
+    document.getElementById('mode-btn-all').classList.remove('active');
+    ReviewModule.startSession();
+  });
+  document.getElementById('mode-btn-all').addEventListener('click', () => {
+    if (state.reviewMode === 'all') return;
+    state.reviewMode = 'all';
+    document.getElementById('mode-btn-all').classList.add('active');
+    document.getElementById('mode-btn-due').classList.remove('active');
+    ReviewModule.startSession();
+  });
+
+  // Review: rating buttons
+  document.getElementById('btn-remembered').addEventListener('click', () => {
+    ReviewModule.rate(true);
+  });
+  document.getElementById('btn-forgot').addEventListener('click', () => {
+    ReviewModule.rate(false);
+  });
+
   // Review: flip card
   document.getElementById('flashcard').addEventListener('click', () => {
     ReviewModule.flipCard();
@@ -307,7 +508,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     ReviewModule.revealSentence(e);
   });
 
-  // Review: next card
+  // Review: skip (no SRS record)
   document.getElementById('next-card').addEventListener('click', () => {
     ReviewModule.pickCard();
   });

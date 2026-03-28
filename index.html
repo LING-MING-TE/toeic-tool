@@ -44,6 +44,12 @@
 
     <!-- ===== 複習頁 ===== -->
     <section id="review-view" hidden>
+
+      <div class="review-mode-toggle">
+        <button class="mode-btn active" id="mode-btn-due">今日待複習 <span class="due-badge" id="due-count">0</span></button>
+        <button class="mode-btn" id="mode-btn-all">全部隨機</button>
+      </div>
+
       <p class="progress-display" id="progress-display">已複習 0 / 0 個單字</p>
 
       <div class="card-container">
@@ -68,8 +74,15 @@
         <p id="card-translation">—</p>
       </div>
 
+      <div class="rating-actions hidden" id="rating-actions">
+        <button class="btn btn-remembered" id="btn-remembered">✓ 記得</button>
+        <button class="btn btn-forgot" id="btn-forgot">✗ 不記得</button>
+      </div>
+
+      <p class="srs-feedback hidden" id="srs-feedback"></p>
+
       <div class="review-actions">
-        <button class="btn btn-primary" id="next-card">下一個單字</button>
+        <button class="btn btn-outline" id="next-card">跳過</button>
         <button class="btn btn-outline" id="restart-review">重新開始</button>
       </div>
     </section>
