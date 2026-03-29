@@ -727,6 +727,7 @@ select:focus {
 .article-text p:last-child { margin-bottom: 0; }
 
 .article-chinese {
+  display: none;
   font-size: 0.875rem;
   color: var(--color-text-muted);
   line-height: 1.6;
@@ -735,16 +736,60 @@ select:focus {
   opacity: 0.7;
 }
 
+#article-content.chinese-visible .article-chinese {
+  display: block;
+}
+
+.article-para-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.article-para-row p {
+  flex: 1;
+}
+
 .turn-content {
   flex: 1;
 }
 
+.speaker-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.speaker-row .speaker-text {
+  flex: 1;
+}
+
 .speaker-chinese {
+  display: none;
   font-size: 0.8rem;
   color: var(--color-text-muted);
   opacity: 0.7;
   margin: 0.2rem 0 0;
   line-height: 1.5;
+}
+
+#article-content.chinese-visible .speaker-chinese {
+  display: block;
+}
+
+.speak-btn-article {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.1rem 0.25rem;
+  opacity: 0.5;
+  line-height: 1.85;
+}
+
+.speak-btn-article:hover {
+  opacity: 1;
 }
 
 mark.word-highlight {

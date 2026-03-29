@@ -591,14 +591,21 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
     const paras = body.split('\n').filter(p => p.trim());
     const cparas = chineseBody.split('\n').filter(p => p.trim());
     const html = paras.map((p, i) => `
-      <p>${escapeHtml(p)}</p>
+      <div class="article-para-row">
+        <p>${escapeHtml(p)}</p>
+        <button class="speak-btn speak-btn-article" data-text="${escapeHtml(p)}" title="朗讀">🔊</button>
+      </div>
       ${cparas[i] ? `<p class="article-chinese">${escapeHtml(cparas[i])}</p>` : ''}
     `).join('');
-    document.getElementById('article-content').innerHTML = `
+    const el = document.getElementById('article-content');
+    el.classList.remove('chinese-visible');
+    el.innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title)}</h2>
         <div class="article-text">${html}</div>
       </div>`;
+    const btn = document.getElementById('btn-toggle-chinese');
+    if (btn) btn.textContent = '顯示中文翻譯';
   },
 
   renderDialogue(title, body, chineseBody = '') {
@@ -612,18 +619,25 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
         return `<div class="dialogue-turn ${isA ? 'turn-a' : 'turn-b'}">
           <span class="speaker-label">${escapeHtml(m[1])}</span>
           <div class="turn-content">
-            <p class="speaker-text">${escapeHtml(m[2])}</p>
+            <div class="speaker-row">
+              <p class="speaker-text">${escapeHtml(m[2])}</p>
+              <button class="speak-btn speak-btn-article" data-text="${escapeHtml(m[2])}" title="朗讀">🔊</button>
+            </div>
             ${cm ? `<p class="speaker-chinese">${escapeHtml(cm[2])}</p>` : ''}
           </div>
         </div>`;
       }
       return `<p>${escapeHtml(line)}</p>`;
     }).join('');
-    document.getElementById('article-content').innerHTML = `
+    const el = document.getElementById('article-content');
+    el.classList.remove('chinese-visible');
+    el.innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title)}</h2>
         <div class="article-dialogue">${turns}</div>
       </div>`;
+    const btn = document.getElementById('btn-toggle-chinese');
+    if (btn) btn.textContent = '顯示中文翻譯';
   },
 
   renderDouble(title1, body1, chineseBody1 = '', title2, body2, chineseBody2 = '') {
@@ -631,11 +645,16 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
       const paras = body.split('\n').filter(p => p.trim());
       const cparas = cbody.split('\n').filter(p => p.trim());
       return paras.map((p, i) => `
-        <p>${escapeHtml(p)}</p>
+        <div class="article-para-row">
+          <p>${escapeHtml(p)}</p>
+          <button class="speak-btn speak-btn-article" data-text="${escapeHtml(p)}" title="朗讀">🔊</button>
+        </div>
         ${cparas[i] ? `<p class="article-chinese">${escapeHtml(cparas[i])}</p>` : ''}
       `).join('');
     };
-    document.getElementById('article-content').innerHTML = `
+    const el = document.getElementById('article-content');
+    el.classList.remove('chinese-visible');
+    el.innerHTML = `
       <div class="article-body">
         <h2 class="article-title">${escapeHtml(title1)}</h2>
         <div class="article-text">${render(body1, chineseBody1)}</div>
@@ -644,6 +663,8 @@ Separate paragraphs with \\n. No markdown, only JSON.`;
         <h2 class="article-title">${escapeHtml(title2)}</h2>
         <div class="article-text">${render(body2, chineseBody2)}</div>
       </div>`;
+    const btn = document.getElementById('btn-toggle-chinese');
+    if (btn) btn.textContent = '顯示中文翻譯';
   },
 
   renderWordList() {
@@ -847,6 +868,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Article: regenerate
   document.getElementById('btn-regenerate').addEventListener('click', () => {
     ArticleModule.generate();
+  });
+
+  // Article: toggle Chinese translation
+  document.getElementById('btn-toggle-chinese').addEventListener('click', () => {
+    const content = document.getElementById('article-content');
+    const btn = document.getElementById('btn-toggle-chinese');
+    const showing = content.classList.toggle('chinese-visible');
+    btn.textContent = showing ? '隱藏中文翻譯' : '顯示中文翻譯';
+  });
+
+  // Article: speak buttons (event delegation)
+  document.getElementById('article-content').addEventListener('click', e => {
+    const btn = e.target.closest('.speak-btn-article');
+    if (btn) TTSModule.speak(btn.dataset.text);
   });
 
   // Article: open API key modal
