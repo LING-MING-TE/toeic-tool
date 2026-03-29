@@ -25,19 +25,19 @@ const state = {
    TOEIC 分類清單
    ===================== */
 const TOEIC_CATEGORIES = [
-  { id: 'travel',               label: 'Travel' },
-  { id: 'dining-out',           label: 'Dining Out' },
-  { id: 'entertainment',        label: 'Entertainment' },
-  { id: 'housing',              label: 'Housing' },
-  { id: 'purchasing',           label: 'Purchasing' },
-  { id: 'personnel',            label: 'Personnel' },
-  { id: 'offices',              label: 'Offices' },
-  { id: 'health',               label: 'Health' },
-  { id: 'general-business',     label: 'General Business' },
-  { id: 'manufacturing',        label: 'Manufacturing' },
-  { id: 'corporate-development',label: 'Corporate Dev.' },
-  { id: 'technical',            label: 'Technical' },
-  { id: 'financing-areas',      label: 'Financing' },
+  { id: 'travel',               label: '旅遊' },
+  { id: 'dining-out',           label: '餐飲' },
+  { id: 'entertainment',        label: '娛樂' },
+  { id: 'housing',              label: '居住' },
+  { id: 'purchasing',           label: '採購' },
+  { id: 'personnel',            label: '人事' },
+  { id: 'offices',              label: '辦公室' },
+  { id: 'health',               label: '健康' },
+  { id: 'general-business',     label: '一般商業' },
+  { id: 'manufacturing',        label: '製造業' },
+  { id: 'corporate-development',label: '企業發展' },
+  { id: 'technical',            label: '技術' },
+  { id: 'financing-areas',      label: '財務' },
   { id: 'common',               label: '共用單字' },
 ];
 
