@@ -1,5 +1,13 @@
 [
   {
+    "word": "apply",
+    "chinese": "(v.) 申請；應用；適用",
+    "sentence": "All candidates must apply for the position by submitting their resume and cover letter online.",
+    "translation": "所有應徵者必須透過線上提交履歷和求職信來申請該職位。",
+    "addedAt": "2026-03-30",
+    "categories": ["personnel", "general-business"]
+  },
+  {
     "word": "explore",
     "chinese": "(v.) 探索、探討",
     "sentence": "The team will explore new markets in Southeast Asia to increase revenue.",
@@ -22,5 +30,53 @@
     "translation": "既然新政策已通過，所有部門必須立即遵守。",
     "addedAt": "2026-03-28",
     "categories": ["common"]
+  },
+  {
+    "word": "procurement",
+    "chinese": "(n.) 採購、取得",
+    "sentence": "The procurement department is responsible for sourcing raw materials at competitive prices.",
+    "translation": "採購部門負責以具競爭力的價格尋找原物料來源。",
+    "addedAt": "2026-03-30",
+    "categories": ["purchasing", "general-business"]
+  },
+  {
+    "word": "assembly",
+    "chinese": "(n.) 組裝；集會",
+    "sentence": "The assembly line was upgraded to improve production efficiency and reduce defects.",
+    "translation": "生產線已升級以提高生產效率並減少瑕疵。",
+    "addedAt": "2026-03-30",
+    "categories": ["manufacturing", "technical"]
+  },
+  {
+    "word": "allocate",
+    "chinese": "(v.) 分配、撥款",
+    "sentence": "The finance team will allocate the budget to each department based on project priorities.",
+    "translation": "財務團隊將根據專案優先順序將預算分配給各部門。",
+    "addedAt": "2026-03-30",
+    "categories": ["financing-areas", "general-business"]
+  },
+  {
+    "word": "itinerary",
+    "chinese": "(n.) 行程表、旅遊計畫",
+    "sentence": "Please send the revised travel itinerary to all participants at least one week before departure.",
+    "translation": "請至少在出發前一週將修訂後的旅遊行程表發送給所有參與者。",
+    "addedAt": "2026-03-30",
+    "categories": ["travel", "general-business"]
+  },
+  {
+    "word": "premises",
+    "chinese": "(n.) 場所、房屋建築",
+    "sentence": "All visitors must wear an identification badge while on the company premises.",
+    "translation": "所有訪客在公司場所內必須佩戴識別證。",
+    "addedAt": "2026-03-30",
+    "categories": ["offices"]
+  },
+  {
+    "word": "coverage",
+    "chinese": "(n.) 保險範圍；報導涵蓋",
+    "sentence": "The company's health insurance plan provides coverage for both employees and their dependents.",
+    "translation": "公司的健康保險計畫為員工及其家屬提供保障範圍。",
+    "addedAt": "2026-03-30",
+    "categories": ["health", "financing-areas"]
   }
 ]
