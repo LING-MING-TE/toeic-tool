@@ -78,5 +78,53 @@
     "translation": "公司的健康保險計畫為員工及其家屬提供保障範圍。",
     "addedAt": "2026-03-30",
     "categories": ["health", "financing-areas"]
+  },
+  {
+    "word": "invoice",
+    "chinese": "(n.) 發票、請款單",
+    "sentence": "Please attach the original invoice to your expense report before submitting it for reimbursement.",
+    "translation": "請在提交報銷申請前，將原始發票附在費用報告中。",
+    "addedAt": "2026-03-30",
+    "categories": ["financing-areas", "purchasing"]
+  },
+  {
+    "word": "amenity",
+    "chinese": "(n.) 便利設施、生活設施",
+    "sentence": "The new apartment complex offers amenities such as a gym, pool, and concierge service.",
+    "translation": "新公寓大樓提供健身房、游泳池和禮賓服務等便利設施。",
+    "addedAt": "2026-03-30",
+    "categories": ["housing", "travel"]
+  },
+  {
+    "word": "reservation",
+    "chinese": "(n.) 預約、訂位；保留",
+    "sentence": "Please make a reservation at the restaurant for the client dinner next Friday evening.",
+    "translation": "請為下週五晚上的客戶晚宴在餐廳預訂位置。",
+    "addedAt": "2026-03-30",
+    "categories": ["dining-out", "travel"]
+  },
+  {
+    "word": "venue",
+    "chinese": "(n.) 場地、舉辦地點",
+    "sentence": "The annual awards ceremony will be held at a downtown venue with capacity for five hundred guests.",
+    "translation": "年度頒獎典禮將在市區一個可容納五百名賓客的場地舉行。",
+    "addedAt": "2026-03-30",
+    "categories": ["entertainment", "general-business"]
+  },
+  {
+    "word": "merger",
+    "chinese": "(n.) 合併、兼併",
+    "sentence": "The proposed merger between the two companies will create one of the largest firms in the industry.",
+    "translation": "兩家公司提議的合併將使其成為業界規模最大的公司之一。",
+    "addedAt": "2026-03-30",
+    "categories": ["corporate-development", "financing-areas"]
+  },
+  {
+    "word": "checkup",
+    "chinese": "(n.) 健康檢查、例行檢查",
+    "sentence": "The company encourages all employees to schedule an annual checkup through the health benefits program.",
+    "translation": "公司鼓勵所有員工透過健康福利計畫安排年度健康檢查。",
+    "addedAt": "2026-03-30",
+    "categories": ["health", "personnel"]
   }
 ]
