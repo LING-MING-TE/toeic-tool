@@ -262,5 +262,61 @@
     "translation": "服務滿兩年的員工有資格獲得年度績效獎金。",
     "addedAt": "2026-03-31",
     "categories": ["personnel", "general-business"]
+  },
+  {
+    "word": "revised",
+    "chinese": "(adj.) 修訂的、修改過的",
+    "sentence": "The revised budget proposal was presented to the board for final approval.",
+    "translation": "修訂後的預算提案已提交董事會進行最終審批。",
+    "addedAt": "2026-04-01",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "decoration",
+    "chinese": "(n.) 裝飾、布置",
+    "sentence": "The event team is responsible for the decoration and setup of the conference hall.",
+    "translation": "活動團隊負責會議廳的裝飾與佈置。",
+    "addedAt": "2026-04-01",
+    "categories": ["entertainment", "offices"]
+  },
+  {
+    "word": "match",
+    "chinese": "(v.) 匹配、符合；(n.) 比賽",
+    "sentence": "The candidate's qualifications must match the requirements listed in the job description.",
+    "translation": "候選人的資格必須符合職位說明中所列的要求。",
+    "addedAt": "2026-04-01",
+    "categories": ["personnel", "general-business"]
+  },
+  {
+    "word": "resource",
+    "chinese": "(n.) 資源、資產",
+    "sentence": "The project manager must allocate sufficient resources to meet the project deadline.",
+    "translation": "專案經理必須分配足夠的資源以趕上專案截止日期。",
+    "addedAt": "2026-04-01",
+    "categories": ["general-business", "personnel"]
+  },
+  {
+    "word": "tight",
+    "chinese": "(adj.) 緊迫的、緊張的",
+    "sentence": "The team worked extra hours to complete the report under a tight deadline.",
+    "translation": "團隊在緊迫的截止日期下加班完成了報告。",
+    "addedAt": "2026-04-01",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "convenient",
+    "chinese": "(adj.) 方便的、便利的",
+    "sentence": "Please let us know a convenient time for the client meeting next week.",
+    "translation": "請告知我們下週客戶會議方便的時間。",
+    "addedAt": "2026-04-01",
+    "categories": ["general-business", "common"]
+  },
+  {
+    "word": "visibility",
+    "chinese": "(n.) 能見度；知名度",
+    "sentence": "The new marketing campaign significantly increased the brand's visibility in the local market.",
+    "translation": "新行銷活動顯著提升了品牌在本地市場的知名度。",
+    "addedAt": "2026-04-01",
+    "categories": ["general-business", "corporate-development"]
   }
 ]
