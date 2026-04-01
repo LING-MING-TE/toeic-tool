@@ -54,6 +54,7 @@
           <option value="financing-areas">財務</option>
           <option value="common">共用單字</option>
         </select>
+        <input type="date" id="library-date-input" title="篩選新增日期" />
         <button class="btn btn-outline" id="export-csv">匯出 CSV</button>
         <span class="word-count" id="word-count"></span>
       </div>
@@ -66,6 +67,7 @@
       <div class="review-mode-toggle">
         <button class="mode-btn active" id="mode-btn-due">今日待複習 <span class="due-badge" id="due-count">0</span></button>
         <button class="mode-btn" id="mode-btn-all">全部隨機</button>
+        <input type="date" id="review-date-input" title="篩選新增日期" />
       </div>
 
       <p class="progress-display" id="progress-display">已複習 0 / 0 個單字</p>

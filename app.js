@@ -10,12 +10,14 @@ const state = {
   searchQuery: '',
   sortOrder: 'alpha-az',
   libraryCategory: 'all',
+  libraryDate: 'all',
   reviewedIndices: new Set(),
   currentCardIndex: null,
   cardFlipped: false,
   sentenceRevealed: false,
   accent: 'en-US',
   reviewMode: 'due',
+  reviewDate: 'all',
   sessionDueCount: 0,
   articleType: 'dialogue',     // 'dialogue' | 'monologue' | 'double'
   articleCategory: 'all',
@@ -194,7 +196,8 @@ const LibraryModule = {
                           (w.chinese ?? '').includes(q);
       const matchCat = state.libraryCategory === 'all' ||
                        (w.categories || []).includes(state.libraryCategory);
-      return matchSearch && matchCat;
+      const matchDate = state.libraryDate === 'all' || w.addedAt === state.libraryDate;
+      return matchSearch && matchCat && matchDate;
     });
 
     state.filtered.sort((a, b) => {
@@ -213,7 +216,7 @@ const LibraryModule = {
     // Update count label
     const total = state.words.length;
     const showing = state.filtered.length;
-    if (q || state.libraryCategory !== 'all') {
+    if (q || state.libraryCategory !== 'all' || state.libraryDate !== 'all') {
       count.textContent = `找到 ${showing} / ${total} 個單字`;
     } else {
       count.textContent = `共 ${total} 個單字`;
@@ -293,13 +296,19 @@ const LibraryModule = {
    ===================== */
 const ReviewModule = {
 
+  getWordsPool() {
+    return state.reviewDate === 'all'
+      ? state.words
+      : state.words.filter(w => w.addedAt === state.reviewDate);
+  },
+
   startSession() {
     state.reviewedIndices.clear();
     state.currentCardIndex = null;
     state.cardFlipped = false;
     state.sentenceRevealed = false;
     if (state.reviewMode === 'due') {
-      state.sessionDueCount = SRSModule.getDueWords(state.words).length;
+      state.sessionDueCount = SRSModule.getDueWords(ReviewModule.getWordsPool()).length;
     }
     document.getElementById('srs-feedback').className = 'srs-feedback hidden';
     ReviewModule.updateDueBadge();
@@ -307,23 +316,24 @@ const ReviewModule = {
   },
 
   pickCard() {
-    if (state.words.length === 0) {
+    const wordsPool = ReviewModule.getWordsPool();
+    if (wordsPool.length === 0) {
       document.getElementById('card-word').textContent = '—';
       document.getElementById('card-chinese').textContent = '—';
-      document.getElementById('card-sentence').textContent = '請先新增單字';
+      document.getElementById('card-sentence').textContent = state.words.length === 0 ? '請先新增單字' : '此日期無單字';
       document.getElementById('card-translation').textContent = '';
-      document.getElementById('progress-display').textContent = '字庫是空的';
+      document.getElementById('progress-display').textContent = state.words.length === 0 ? '字庫是空的' : '此日期無單字';
       state.currentCardIndex = null;
       ReviewModule.applyCardState();
       return;
     }
 
+    // Build index pool from wordsPool (indices into state.words)
+    const poolIndices = wordsPool.map(w => state.words.indexOf(w));
+
     let pool;
     if (state.reviewMode === 'due') {
-      const dueIndices = state.words
-        .map((w, i) => ({ w, i }))
-        .filter(({ w }) => SRSModule.isDue(w.word))
-        .map(({ i }) => i);
+      const dueIndices = poolIndices.filter(i => SRSModule.isDue(state.words[i].word));
       pool = dueIndices.filter(i => !state.reviewedIndices.has(i));
       if (pool.length === 0) {
         state.sessionDueCount === 0
@@ -332,7 +342,7 @@ const ReviewModule = {
         return;
       }
     } else {
-      pool = state.words.map((_, i) => i).filter(i => !state.reviewedIndices.has(i));
+      pool = poolIndices.filter(i => !state.reviewedIndices.has(i));
       if (pool.length === 0) {
         ReviewModule.showCompletion();
         return;
@@ -406,13 +416,13 @@ const ReviewModule = {
         `今日複習 ${reviewed} / ${state.sessionDueCount} 個單字`;
     } else {
       document.getElementById('progress-display').textContent =
-        `已複習 ${reviewed} / ${state.words.length} 個單字`;
+        `已複習 ${reviewed} / ${ReviewModule.getWordsPool().length} 個單字`;
     }
   },
 
   updateDueBadge() {
     document.getElementById('due-count').textContent =
-      SRSModule.getDueWords(state.words).length;
+      SRSModule.getDueWords(ReviewModule.getWordsPool()).length;
   },
 
   restart() {
@@ -429,7 +439,7 @@ const ReviewModule = {
     document.getElementById('card-sentence').textContent = '';
     document.getElementById('card-translation').textContent = '';
     document.getElementById('progress-display').textContent =
-      `已複習全部 ${state.words.length} 個單字`;
+      `已複習全部 ${ReviewModule.getWordsPool().length} 個單字`;
   },
 
   showDueCompletion() {
@@ -754,6 +764,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   TTSModule.init();
   SRSModule.load();
   await DataModule.load();
+
+  // Set min/max for date inputs based on available word dates
+  const wordDates = [...new Set(state.words.map(w => w.addedAt).filter(Boolean))].sort();
+  if (wordDates.length) {
+    ['library-date-input', 'review-date-input'].forEach(id => {
+      const el = document.getElementById(id);
+      el.min = wordDates[0];
+      el.max = wordDates[wordDates.length - 1];
+    });
+  }
+
   LibraryModule.render();
   RouterModule.switchTo('library');
 
@@ -780,9 +801,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     LibraryModule.render();
   });
 
+  // Library: date filter
+  document.getElementById('library-date-input').addEventListener('input', e => {
+    state.libraryDate = e.target.value || 'all';
+    LibraryModule.render();
+  });
+
   // Library: export CSV
   document.getElementById('export-csv').addEventListener('click', () => {
     LibraryModule.exportCSV();
+  });
+
+  // Review: date filter
+  document.getElementById('review-date-input').addEventListener('input', e => {
+    state.reviewDate = e.target.value || 'all';
+    ReviewModule.startSession();
   });
 
   // Review: mode toggle
