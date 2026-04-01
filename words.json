@@ -126,5 +126,141 @@
     "translation": "公司鼓勵所有員工透過健康福利計畫安排年度健康檢查。",
     "addedAt": "2026-03-30",
     "categories": ["health", "personnel"]
+  },
+  {
+    "word": "calibrate",
+    "chinese": "(v.) 校準；標定",
+    "sentence": "The technician must calibrate the machinery before starting each production run to ensure accuracy.",
+    "translation": "技術員必須在每次生產前校準機器以確保精確度。",
+    "addedAt": "2026-03-31",
+    "categories": ["technical", "manufacturing"]
+  },
+  {
+    "word": "agenda",
+    "chinese": "(n.) 議程；待辦事項",
+    "sentence": "Please review the meeting agenda and prepare your report before Friday's conference call.",
+    "translation": "請在週五的電話會議前查閱會議議程並準備好您的報告。",
+    "addedAt": "2026-03-31",
+    "categories": ["offices", "general-business"]
+  },
+  {
+    "word": "lease",
+    "chinese": "(n.) 租約；(v.) 租用、出租",
+    "sentence": "The company signed a five-year lease for the new office space in the downtown area.",
+    "translation": "公司為市區的新辦公室空間簽署了五年租約。",
+    "addedAt": "2026-03-31",
+    "categories": ["housing", "offices"]
+  },
+  {
+    "word": "landlord",
+    "chinese": "(n.) 房東、地主",
+    "sentence": "The landlord agreed to repair the broken heating system within three business days.",
+    "translation": "房東同意在三個工作天內修繕損壞的暖氣系統。",
+    "addedAt": "2026-03-31",
+    "categories": ["housing"]
+  },
+  {
+    "word": "imagined",
+    "chinese": "(adj.) 想像中的、虛構的",
+    "sentence": "The manager assured the team that most of the imagined risks had already been addressed in the plan.",
+    "translation": "主管向團隊保證，大多數想像中的風險已在計畫中得到解決。",
+    "addedAt": "2026-03-31",
+    "categories": ["general-business"]
+  },
+  {
+    "word": "strategy",
+    "chinese": "(n.) 策略、戰略",
+    "sentence": "The marketing team presented a new strategy to expand the company's presence in overseas markets.",
+    "translation": "行銷團隊提出了一項新策略，以擴大公司在海外市場的影響力。",
+    "addedAt": "2026-03-31",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "pharmacist",
+    "chinese": "(n.) 藥劑師",
+    "sentence": "The pharmacist advised the patient to take the prescribed medication twice daily with meals.",
+    "translation": "藥劑師建議患者每天隨餐服用處方藥兩次。",
+    "addedAt": "2026-03-31",
+    "categories": ["health"]
+  },
+  {
+    "word": "drugs",
+    "chinese": "(n.) 藥物；毒品",
+    "sentence": "The company strictly prohibits the use of illegal drugs on all business premises.",
+    "translation": "公司嚴格禁止在所有業務場所使用非法藥物。",
+    "addedAt": "2026-03-31",
+    "categories": ["health", "offices"]
+  },
+  {
+    "word": "instead of",
+    "chinese": "(phr.) 代替、而非",
+    "sentence": "The team decided to use video conferencing instead of traveling to the client's office.",
+    "translation": "團隊決定使用視訊會議，而非前往客戶辦公室。",
+    "addedAt": "2026-03-31",
+    "categories": ["common"]
+  },
+  {
+    "word": "concluding",
+    "chinese": "(adj.) 結尾的、最終的",
+    "sentence": "In her concluding remarks, the CEO outlined the company's plans for the upcoming fiscal year.",
+    "translation": "在結語中，執行長概述了公司對即將到來的財政年度的計畫。",
+    "addedAt": "2026-03-31",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "inspection",
+    "chinese": "(n.) 檢查、視察",
+    "sentence": "The safety officer conducted a thorough inspection of the warehouse before the annual audit.",
+    "translation": "安全官員在年度稽查前對倉庫進行了全面檢查。",
+    "addedAt": "2026-03-31",
+    "categories": ["manufacturing", "technical"]
+  },
+  {
+    "word": "obtain",
+    "chinese": "(v.) 獲得、取得",
+    "sentence": "All vendors must obtain a valid permit before delivering goods to the facility.",
+    "translation": "所有供應商在向設施交貨前必須取得有效許可證。",
+    "addedAt": "2026-03-31",
+    "categories": ["general-business", "purchasing"]
+  },
+  {
+    "word": "faulty",
+    "chinese": "(adj.) 有缺陷的、故障的",
+    "sentence": "The customer returned the faulty device and requested a full refund within the warranty period.",
+    "translation": "客戶退還了有缺陷的設備，並在保固期內要求全額退款。",
+    "addedAt": "2026-03-31",
+    "categories": ["purchasing", "technical"]
+  },
+  {
+    "word": "reimbursement process",
+    "chinese": "(n.) 報銷流程",
+    "sentence": "Please follow the company's reimbursement process by submitting all receipts within thirty days.",
+    "translation": "請依照公司的報銷流程，在三十天內提交所有收據。",
+    "addedAt": "2026-03-31",
+    "categories": ["financing-areas", "personnel"]
+  },
+  {
+    "word": "behalf",
+    "chinese": "(n.) 代表、代為",
+    "sentence": "The lawyer signed the agreement on behalf of the client who was traveling abroad.",
+    "translation": "律師代表出國旅行的客戶簽署了協議。",
+    "addedAt": "2026-03-31",
+    "categories": ["general-business", "common"]
+  },
+  {
+    "word": "bulk",
+    "chinese": "(n./adj.) 大量、批量",
+    "sentence": "Ordering supplies in bulk allows the company to negotiate lower prices with suppliers.",
+    "translation": "大量訂購物資讓公司能與供應商協商更低的價格。",
+    "addedAt": "2026-03-31",
+    "categories": ["purchasing", "manufacturing"]
+  },
+  {
+    "word": "eligible",
+    "chinese": "(adj.) 符合資格的、有資格的",
+    "sentence": "Employees who have completed two years of service are eligible for the annual performance bonus.",
+    "translation": "服務滿兩年的員工有資格獲得年度績效獎金。",
+    "addedAt": "2026-03-31",
+    "categories": ["personnel", "general-business"]
   }
 ]
