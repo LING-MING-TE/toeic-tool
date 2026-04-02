@@ -318,5 +318,29 @@
     "translation": "新行銷活動顯著提升了品牌在本地市場的知名度。",
     "addedAt": "2026-04-01",
     "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "negotiate",
+    "chinese": "(v.) 協商、談判",
+    "sentence": "Both parties agreed to negotiate the contract terms before signing the final agreement.",
+    "translation": "雙方同意在簽署最終協議前協商合約條款。",
+    "addedAt": "2026-04-02",
+    "categories": ["general-business", "purchasing"]
+  },
+  {
+    "word": "shipment",
+    "chinese": "(n.) 貨運、裝運貨物",
+    "sentence": "The shipment of electronic components was delayed due to customs inspection at the port.",
+    "translation": "電子零件的貨運因港口海關檢查而延誤。",
+    "addedAt": "2026-04-02",
+    "categories": ["purchasing", "general-business"]
+  },
+  {
+    "word": "catering",
+    "chinese": "(n.) 外燴服務、餐飲服務",
+    "sentence": "The event coordinator arranged catering services for the company's annual award dinner.",
+    "translation": "活動協調員為公司的年度頒獎晚宴安排了外燴服務。",
+    "addedAt": "2026-04-02",
+    "categories": ["dining-out", "entertainment"]
   }
 ]
