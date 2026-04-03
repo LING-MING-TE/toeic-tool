@@ -366,5 +366,149 @@
     "translation": "許多員工偏好遠端工作，以減少每日通勤的時間和費用。",
     "addedAt": "2026-04-03",
     "categories": ["travel", "personnel"]
+  },
+  {
+    "word": "brief",
+    "chinese": "(adj.) 簡短的；(n.) 摘要、任務說明",
+    "sentence": "The manager sent a brief email to summarize the key decisions made during the meeting.",
+    "translation": "主管發送了一封簡短的電子郵件，摘要說明會議中做出的關鍵決定。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "investigate",
+    "chinese": "(v.) 調查、查明",
+    "sentence": "The compliance team was asked to investigate the discrepancy found in the financial report.",
+    "translation": "合規團隊被要求調查財務報告中發現的差異。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "financing-areas"]
+  },
+  {
+    "word": "determine",
+    "chinese": "(v.) 決定、確定、查明",
+    "sentence": "The audit committee will determine whether the expenses comply with company policy.",
+    "translation": "審計委員會將確認費用是否符合公司政策。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "financing-areas"]
+  },
+  {
+    "word": "former",
+    "chinese": "(adj.) 前任的、以前的",
+    "sentence": "The former CEO will serve as an advisor to the board during the leadership transition.",
+    "translation": "前任執行長將在領導層交接期間擔任董事會顧問。",
+    "addedAt": "2026-04-04",
+    "categories": ["personnel", "corporate-development"]
+  },
+  {
+    "word": "defeat",
+    "chinese": "(v.) 擊敗、打敗；(n.) 失敗",
+    "sentence": "The company managed to defeat its competitors by launching an innovative product line ahead of schedule.",
+    "translation": "公司透過提前推出創新產品線成功擊敗競爭對手。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "chess",
+    "chinese": "(n.) 西洋棋",
+    "sentence": "The company organized a chess tournament as part of its employee wellness and team-building activities.",
+    "translation": "公司舉辦西洋棋錦標賽，作為員工健康與團隊建設活動的一部分。",
+    "addedAt": "2026-04-04",
+    "categories": ["entertainment", "personnel"]
+  },
+  {
+    "word": "fulfill",
+    "chinese": "(v.) 履行、完成、達成",
+    "sentence": "The supplier must fulfill all contractual obligations before the final payment is released.",
+    "translation": "供應商必須在最終款項付清前履行所有合約義務。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "purchasing"]
+  },
+  {
+    "word": "conventional",
+    "chinese": "(adj.) 傳統的、慣例的",
+    "sentence": "The company shifted away from conventional advertising to focus on digital marketing strategies.",
+    "translation": "公司從傳統廣告轉型，專注於數位行銷策略。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "memorable",
+    "chinese": "(adj.) 難忘的、令人印象深刻的",
+    "sentence": "The team organized a memorable farewell event for the retiring department director.",
+    "translation": "團隊為退休的部門主管舉辦了一場難忘的歡送活動。",
+    "addedAt": "2026-04-04",
+    "categories": ["entertainment", "general-business"]
+  },
+  {
+    "word": "marginal",
+    "chinese": "(adj.) 邊際的、微小的",
+    "sentence": "Despite the marginal profit increase, management decided to expand into new product categories.",
+    "translation": "儘管利潤增長微小，管理層決定擴展到新的產品類別。",
+    "addedAt": "2026-04-04",
+    "categories": ["financing-areas", "general-business"]
+  },
+  {
+    "word": "prosperous",
+    "chinese": "(adj.) 繁榮的、興旺的",
+    "sentence": "The regional director credited the team's efforts for making the branch one of the most prosperous in the country.",
+    "translation": "區域總監將分公司成為全國最繁榮的分支之一歸功於團隊的努力。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "established",
+    "chinese": "(adj.) 成立已久的、知名的",
+    "sentence": "The company partnered with an established law firm to handle its international contract negotiations.",
+    "translation": "公司與一家知名律師事務所合作，處理其國際合約談判。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "comprehensive",
+    "chinese": "(adj.) 全面的、綜合的",
+    "sentence": "The HR department developed a comprehensive training program for all newly hired employees.",
+    "translation": "人資部門為所有新進員工制定了全面的培訓計畫。",
+    "addedAt": "2026-04-04",
+    "categories": ["personnel", "general-business"]
+  },
+  {
+    "word": "recycling",
+    "chinese": "(n.) 回收、資源回收",
+    "sentence": "The company launched a recycling program to reduce office waste and meet sustainability targets.",
+    "translation": "公司推出資源回收計畫，以減少辦公室廢棄物並達成永續目標。",
+    "addedAt": "2026-04-04",
+    "categories": ["offices", "manufacturing"]
+  },
+  {
+    "word": "guidelines",
+    "chinese": "(n.) 指導方針、準則",
+    "sentence": "All staff members are required to follow the updated safety guidelines when operating heavy equipment.",
+    "translation": "所有員工在操作重型設備時必須遵守更新後的安全準則。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "properly",
+    "chinese": "(adv.) 適當地、正確地",
+    "sentence": "Ensure that all documents are properly filed and accessible to authorized personnel only.",
+    "translation": "確保所有文件均妥善歸檔，且僅供授權人員存取。",
+    "addedAt": "2026-04-04",
+    "categories": ["common", "offices"]
+  },
+  {
+    "word": "route",
+    "chinese": "(n.) 路線、途徑；(v.) 規劃路線",
+    "sentence": "The logistics team optimized the delivery route to reduce shipping costs and transit time.",
+    "translation": "物流團隊優化了配送路線，以降低運輸成本和運輸時間。",
+    "addedAt": "2026-04-04",
+    "categories": ["travel", "purchasing"]
+  },
+  {
+    "word": "outline",
+    "chinese": "(v.) 概述、提出大綱；(n.) 大綱、概要",
+    "sentence": "The project manager asked each team leader to outline their department's contribution to the quarterly report.",
+    "translation": "專案經理要求每位團隊負責人概述其部門對季報的貢獻。",
+    "addedAt": "2026-04-04",
+    "categories": ["general-business", "offices"]
   }
 ]
