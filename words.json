@@ -342,5 +342,29 @@
     "translation": "活動協調員為公司的年度頒獎晚宴安排了外燴服務。",
     "addedAt": "2026-04-02",
     "categories": ["dining-out", "entertainment"]
+  },
+  {
+    "word": "banquet",
+    "chinese": "(n.) 宴會、盛宴",
+    "sentence": "The company hosted an annual banquet to celebrate outstanding employee achievements.",
+    "translation": "公司舉辦年度宴會以表彰傑出員工的成就。",
+    "addedAt": "2026-04-03",
+    "categories": ["dining-out", "entertainment"]
+  },
+  {
+    "word": "dispatch",
+    "chinese": "(v.) 派遣；發送貨物",
+    "sentence": "The warehouse manager will dispatch the ordered goods within two business days after payment confirmation.",
+    "translation": "倉庫經理將在收到付款確認後兩個工作天內發送訂購商品。",
+    "addedAt": "2026-04-03",
+    "categories": ["purchasing", "manufacturing"]
+  },
+  {
+    "word": "commute",
+    "chinese": "(v./n.) 通勤；上下班交通",
+    "sentence": "Many employees prefer remote work to reduce their daily commute time and expenses.",
+    "translation": "許多員工偏好遠端工作，以減少每日通勤的時間和費用。",
+    "addedAt": "2026-04-03",
+    "categories": ["travel", "personnel"]
   }
 ]

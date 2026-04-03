@@ -19,6 +19,8 @@ const state = {
   reviewMode: 'due',
   reviewDate: 'all',
   sessionDueCount: 0,
+  sessionPool: [],
+  isRepeatMode: false,
   articleType: 'dialogue',     // 'dialogue' | 'monologue' | 'double'
   articleCategory: 'all',
 };
@@ -304,6 +306,8 @@ const ReviewModule = {
 
   startSession() {
     state.reviewedIndices.clear();
+    state.sessionPool = [];
+    state.isRepeatMode = false;
     state.currentCardIndex = null;
     state.cardFlipped = false;
     state.sentenceRevealed = false;
@@ -311,6 +315,7 @@ const ReviewModule = {
       state.sessionDueCount = SRSModule.getDueWords(ReviewModule.getWordsPool()).length;
     }
     document.getElementById('srs-feedback').className = 'srs-feedback hidden';
+    document.getElementById('btn-repeat').hidden = true;
     ReviewModule.updateDueBadge();
     ReviewModule.pickCard();
   },
@@ -332,7 +337,14 @@ const ReviewModule = {
     const poolIndices = wordsPool.map(w => state.words.indexOf(w));
 
     let pool;
-    if (state.reviewMode === 'due') {
+    if (state.isRepeatMode) {
+      pool = state.sessionPool.filter(i => !state.reviewedIndices.has(i));
+      if (pool.length === 0) {
+        state.reviewedIndices.clear();
+        ReviewModule.showRepeatCompletion();
+        return;
+      }
+    } else if (state.reviewMode === 'due') {
       const dueIndices = poolIndices.filter(i => SRSModule.isDue(state.words[i].word));
       pool = dueIndices.filter(i => !state.reviewedIndices.has(i));
       if (pool.length === 0) {
@@ -370,6 +382,9 @@ const ReviewModule = {
     if (state.currentCardIndex === null || state.words.length === 0) return;
     const word = state.words[state.currentCardIndex].word;
     SRSModule.review(word, remembered);
+    if (!state.sessionPool.includes(state.currentCardIndex)) {
+      state.sessionPool.push(state.currentCardIndex);
+    }
 
     const fb = document.getElementById('srs-feedback');
     if (remembered) {
@@ -429,6 +444,30 @@ const ReviewModule = {
     ReviewModule.startSession();
   },
 
+  repeatSession() {
+    state.isRepeatMode = true;
+    state.reviewedIndices.clear();
+    state.cardFlipped = false;
+    state.sentenceRevealed = false;
+    document.getElementById('srs-feedback').className = 'srs-feedback hidden';
+    document.getElementById('btn-repeat').hidden = true;
+    ReviewModule.pickCard();
+  },
+
+  showRepeatCompletion() {
+    state.currentCardIndex = null;
+    state.cardFlipped = false;
+    state.sentenceRevealed = false;
+    ReviewModule.applyCardState();
+    document.getElementById('card-word').textContent = '這輪練完了！';
+    document.getElementById('card-chinese').textContent = '可以再練一輪';
+    document.getElementById('card-sentence').textContent = '';
+    document.getElementById('card-translation').textContent = '';
+    document.getElementById('progress-display').textContent =
+      `已複習 ${state.sessionPool.length} 個單字`;
+    document.getElementById('btn-repeat').hidden = false;
+  },
+
   showCompletion() {
     state.currentCardIndex = null;
     state.cardFlipped = false;
@@ -440,6 +479,9 @@ const ReviewModule = {
     document.getElementById('card-translation').textContent = '';
     document.getElementById('progress-display').textContent =
       `已複習全部 ${ReviewModule.getWordsPool().length} 個單字`;
+    if (state.sessionPool.length > 0) {
+      document.getElementById('btn-repeat').hidden = false;
+    }
   },
 
   showDueCompletion() {
@@ -453,6 +495,9 @@ const ReviewModule = {
     document.getElementById('card-translation').textContent = '';
     document.getElementById('progress-display').textContent =
       `今日複習 ${state.sessionDueCount} / ${state.sessionDueCount} 個單字`;
+    if (state.sessionPool.length > 0) {
+      document.getElementById('btn-repeat').hidden = false;
+    }
   },
 
   showNoDueCards() {
@@ -855,6 +900,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Review: skip (no SRS record)
   document.getElementById('next-card').addEventListener('click', () => {
     ReviewModule.pickCard();
+  });
+
+  // Review: repeat session
+  document.getElementById('btn-repeat').addEventListener('click', () => {
+    ReviewModule.repeatSession();
   });
 
   // Review: restart
