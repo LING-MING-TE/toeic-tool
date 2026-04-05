@@ -830,5 +830,77 @@
     "translation": "專案經理確保任務均勻分配給各成員，以防止倦怠。",
     "addedAt": "2026-04-05",
     "categories": ["general-business", "personnel"]
+  },
+  {
+    "word": "commuting",
+    "chinese": "(n.) 通勤",
+    "sentence": "The company introduced a commuting allowance to help employees cover daily transportation costs.",
+    "translation": "公司推出了通勤補貼，協助員工支付每日交通費用。",
+    "addedAt": "2026-04-05",
+    "categories": ["travel", "personnel"]
+  },
+  {
+    "word": "suitcases",
+    "chinese": "(n.) 行李箱",
+    "sentence": "Passengers are advised to label their suitcases clearly to avoid confusion during baggage claim.",
+    "translation": "旅客被建議在行李箱上清楚標示姓名，以避免領取行李時混淆。",
+    "addedAt": "2026-04-05",
+    "categories": ["travel"]
+  },
+  {
+    "word": "album",
+    "chinese": "(n.) 相冊；專輯",
+    "sentence": "The marketing team compiled a photo album of the company's milestone events over the past decade.",
+    "translation": "行銷團隊彙編了一本公司過去十年里程碑活動的相冊。",
+    "addedAt": "2026-04-05",
+    "categories": ["entertainment", "general-business"]
+  },
+  {
+    "word": "estimate",
+    "chinese": "(n./v.) 估計、估價",
+    "sentence": "The contractor submitted a cost estimate for the office renovation project by end of week.",
+    "translation": "承包商在週末前提交了辦公室翻新專案的費用估價。",
+    "addedAt": "2026-04-05",
+    "categories": ["financing-areas", "general-business"]
+  },
+  {
+    "word": "handout",
+    "chinese": "(n.) 講義、資料",
+    "sentence": "Please print enough handouts for all participants before the training session begins.",
+    "translation": "請在培訓課程開始前為所有參與者列印足夠的講義。",
+    "addedAt": "2026-04-05",
+    "categories": ["offices", "general-business"]
+  },
+  {
+    "word": "dorm",
+    "chinese": "(n.) 宿舍",
+    "sentence": "The company provides a dorm for employees who are transferred to the new branch location.",
+    "translation": "公司為調派至新分公司的員工提供宿舍。",
+    "addedAt": "2026-04-05",
+    "categories": ["housing", "personnel"]
+  },
+  {
+    "word": "unaffordable",
+    "chinese": "(adj.) 負擔不起的、過於昂貴的",
+    "sentence": "The rising cost of office rent has become unaffordable for many small businesses in the city.",
+    "translation": "不斷上漲的辦公室租金對市內許多小企業來說已難以負擔。",
+    "addedAt": "2026-04-05",
+    "categories": ["housing", "financing-areas"]
+  },
+  {
+    "word": "temporary",
+    "chinese": "(adj.) 臨時的、暫時的",
+    "sentence": "The company hired several temporary staff to handle the increased workload during the peak season.",
+    "translation": "公司雇用了幾名臨時員工，以應對旺季期間增加的工作量。",
+    "addedAt": "2026-04-05",
+    "categories": ["personnel", "general-business"]
+  },
+  {
+    "word": "meantime",
+    "chinese": "(n./adv.) 同時、其間",
+    "sentence": "The new software system will be ready next month; in the meantime, please use the existing platform.",
+    "translation": "新軟體系統將於下個月完成；在此期間，請繼續使用現有平台。",
+    "addedAt": "2026-04-05",
+    "categories": ["common", "general-business"]
   }
 ]
