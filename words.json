@@ -510,5 +510,29 @@
     "translation": "專案經理要求每位團隊負責人概述其部門對季報的貢獻。",
     "addedAt": "2026-04-04",
     "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "renovation",
+    "chinese": "(n.) 翻新、整修",
+    "sentence": "The office building underwent major renovation to accommodate the growing workforce.",
+    "translation": "辦公大樓進行了重大翻修，以容納不斷增加的員工人數。",
+    "addedAt": "2026-04-05",
+    "categories": ["housing", "offices"]
+  },
+  {
+    "word": "prescription",
+    "chinese": "(n.) 處方箋、藥方",
+    "sentence": "The doctor issued a prescription for antibiotics to be collected at the pharmacy.",
+    "translation": "醫生開立了抗生素處方箋，需前往藥局領取。",
+    "addedAt": "2026-04-05",
+    "categories": ["health"]
+  },
+  {
+    "word": "specifications",
+    "chinese": "(n.) 規格、說明書",
+    "sentence": "The contractor must review the project specifications carefully before submitting a bid.",
+    "translation": "承包商在提交投標前必須仔細審閱專案規格。",
+    "addedAt": "2026-04-05",
+    "categories": ["technical", "purchasing"]
   }
 ]
