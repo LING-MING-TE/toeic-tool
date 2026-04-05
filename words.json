@@ -534,5 +534,301 @@
     "translation": "承包商在提交投標前必須仔細審閱專案規格。",
     "addedAt": "2026-04-05",
     "categories": ["technical", "purchasing"]
+  },
+  {
+    "word": "council",
+    "chinese": "(n.) 議會、委員會",
+    "sentence": "The city council approved the new zoning regulations to support commercial development in the area.",
+    "translation": "市議會批准了新的分區法規，以支持該地區的商業發展。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "consensus",
+    "chinese": "(n.) 共識、一致意見",
+    "sentence": "The management team reached a consensus on the new budget plan after three rounds of discussion.",
+    "translation": "管理團隊在三輪討論後就新預算計畫達成共識。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "general",
+    "chinese": "(adj.) 一般的、普通的；整體的",
+    "sentence": "The manager held a general meeting to update all staff on the company's quarterly performance.",
+    "translation": "主管召開全體會議向所有員工更新公司的季度業績。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "common"]
+  },
+  {
+    "word": "taxes",
+    "chinese": "(n.) 稅金、稅款",
+    "sentence": "The finance department submitted all required documents to file the company's annual taxes on time.",
+    "translation": "財務部門提交了所有必要文件，以準時申報公司年度稅款。",
+    "addedAt": "2026-04-05",
+    "categories": ["financing-areas"]
+  },
+  {
+    "word": "demand",
+    "chinese": "(n.) 需求、要求；(v.) 要求",
+    "sentence": "The sudden increase in customer demand required the factory to extend production hours.",
+    "translation": "客戶需求突然增加，要求工廠延長生產時間。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "manufacturing"]
+  },
+  {
+    "word": "forecast",
+    "chinese": "(n./v.) 預測、預報",
+    "sentence": "The sales team prepared a quarterly forecast to help guide the company's inventory planning.",
+    "translation": "銷售團隊準備了季度預測，以協助指導公司的庫存規劃。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "financing-areas"]
+  },
+  {
+    "word": "other than",
+    "chinese": "(phr.) 除了、不同於",
+    "sentence": "Other than the delayed shipment, all aspects of the project were completed on schedule.",
+    "translation": "除了貨物延誤外，專案的所有方面均按計劃完成。",
+    "addedAt": "2026-04-05",
+    "categories": ["common"]
+  },
+  {
+    "word": "conceive",
+    "chinese": "(v.) 構想、設想",
+    "sentence": "The R&D team worked together to conceive a new product that would meet emerging market needs.",
+    "translation": "研發團隊合力構想出一款能滿足新興市場需求的新產品。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "express",
+    "chinese": "(v.) 表達；(adj.) 快速的；(n.) 快遞",
+    "sentence": "Customers can use the express delivery option to receive their orders within twenty-four hours.",
+    "translation": "客戶可以使用快遞選項在二十四小時內收到訂單。",
+    "addedAt": "2026-04-05",
+    "categories": ["purchasing", "travel"]
+  },
+  {
+    "word": "inferior",
+    "chinese": "(adj.) 劣質的、低等的",
+    "sentence": "The quality control team rejected the inferior materials before they could enter the production line.",
+    "translation": "品管團隊在劣質材料進入生產線之前就予以退回。",
+    "addedAt": "2026-04-05",
+    "categories": ["manufacturing", "purchasing"]
+  },
+  {
+    "word": "factual",
+    "chinese": "(adj.) 事實的、基於事實的",
+    "sentence": "The report must contain only factual information supported by verified data and reliable sources.",
+    "translation": "報告必須只包含由經過核實的數據和可靠來源支持的事實資訊。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "radical",
+    "chinese": "(adj.) 根本的、激進的",
+    "sentence": "The board approved a radical restructuring plan to improve the company's long-term competitiveness.",
+    "translation": "董事會批准了一項根本性的重組計畫，以提升公司的長期競爭力。",
+    "addedAt": "2026-04-05",
+    "categories": ["corporate-development", "general-business"]
+  },
+  {
+    "word": "director",
+    "chinese": "(n.) 主任、主管、董事",
+    "sentence": "The new marketing director introduced a digital-first strategy to boost online sales by thirty percent.",
+    "translation": "新任行銷主管推出以數位優先的策略，目標將線上銷售額提升三十個百分點。",
+    "addedAt": "2026-04-05",
+    "categories": ["personnel", "corporate-development"]
+  },
+  {
+    "word": "ever",
+    "chinese": "(adv.) 曾經、從來",
+    "sentence": "This is the most successful product launch the company has ever experienced in its twenty-year history.",
+    "translation": "這是公司二十年歷史中曾經歷過的最成功的產品發布。",
+    "addedAt": "2026-04-05",
+    "categories": ["common"]
+  },
+  {
+    "word": "prestigious",
+    "chinese": "(adj.) 有聲望的、知名的",
+    "sentence": "The company was honored to receive an award from a prestigious industry association.",
+    "translation": "公司很榮幸從著名的業界協會獲得獎項。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "official",
+    "chinese": "(adj.) 官方的、正式的；(n.) 官員",
+    "sentence": "The official announcement of the merger was released to shareholders and media simultaneously.",
+    "translation": "合併的官方公告同時發布給股東和媒體。",
+    "addedAt": "2026-04-05",
+    "categories": ["corporate-development", "general-business"]
+  },
+  {
+    "word": "press",
+    "chinese": "(n.) 媒體、新聞界；(v.) 按壓",
+    "sentence": "The company issued a press release to announce the launch of its new product line.",
+    "translation": "公司發出新聞稿宣布新產品線的推出。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "badge",
+    "chinese": "(n.) 識別證、徽章",
+    "sentence": "All employees must wear their ID badge at all times when working in the secure facility.",
+    "translation": "所有員工在安全設施內工作時必須隨時佩戴識別證。",
+    "addedAt": "2026-04-05",
+    "categories": ["offices", "personnel"]
+  },
+  {
+    "word": "appropriate",
+    "chinese": "(adj.) 適當的、合適的",
+    "sentence": "Employees are expected to wear appropriate business attire during client meetings and presentations.",
+    "translation": "員工在客戶會議和簡報時應穿著適當的商務服裝。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "succinct",
+    "chinese": "(adj.) 簡潔的、簡明的",
+    "sentence": "The executive requested a succinct summary of the project status before the board meeting.",
+    "translation": "主管要求在董事會議前提交一份簡潔的專案狀態摘要。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "offices"]
+  },
+  {
+    "word": "competent",
+    "chinese": "(adj.) 有能力的、稱職的",
+    "sentence": "The hiring manager is looking for a competent project coordinator with strong organizational skills.",
+    "translation": "招聘主管正在尋找一位具備良好組織能力的稱職專案協調員。",
+    "addedAt": "2026-04-05",
+    "categories": ["personnel", "general-business"]
+  },
+  {
+    "word": "expire",
+    "chinese": "(v.) 到期、過期",
+    "sentence": "Please renew your software license before it expires to avoid any disruption to operations.",
+    "translation": "請在軟體授權到期前進行續約，以避免業務中斷。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "technical"]
+  },
+  {
+    "word": "as though",
+    "chinese": "(phr.) 好像、彷彿",
+    "sentence": "The presenter spoke with such confidence that it seemed as though she had rehearsed for weeks.",
+    "translation": "簡報者說話如此自信，彷彿她已排練了好幾週。",
+    "addedAt": "2026-04-05",
+    "categories": ["common"]
+  },
+  {
+    "word": "given that",
+    "chinese": "(phr.) 鑑於、考慮到",
+    "sentence": "Given that the budget has been reduced, the team must prioritize the most critical tasks first.",
+    "translation": "鑑於預算已削減，團隊必須首先優先處理最關鍵的任務。",
+    "addedAt": "2026-04-05",
+    "categories": ["common", "general-business"]
+  },
+  {
+    "word": "besides",
+    "chinese": "(prep./adv.) 除了…之外；而且",
+    "sentence": "Besides completing the report, the analyst also prepared a detailed presentation for the client.",
+    "translation": "除了完成報告外，分析師還為客戶準備了詳細的簡報。",
+    "addedAt": "2026-04-05",
+    "categories": ["common"]
+  },
+  {
+    "word": "decade",
+    "chinese": "(n.) 十年",
+    "sentence": "Over the past decade, the company has expanded its operations to more than twenty countries worldwide.",
+    "translation": "在過去十年中，公司已將業務擴展到全球二十多個國家。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "decline",
+    "chinese": "(v.) 下降、婉拒；(n.) 衰退",
+    "sentence": "Sales figures showed a sharp decline in the third quarter due to reduced consumer spending.",
+    "translation": "銷售數據顯示由於消費者支出減少，第三季出現大幅下滑。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "financing-areas"]
+  },
+  {
+    "word": "host",
+    "chinese": "(v.) 主辦、舉辦；(n.) 主辦方",
+    "sentence": "The company will host an international trade conference at its headquarters next spring.",
+    "translation": "公司將於明年春季在總部主辦一場國際貿易會議。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "entertainment"]
+  },
+  {
+    "word": "loyalty",
+    "chinese": "(n.) 忠誠度、忠心",
+    "sentence": "The customer loyalty program rewards repeat buyers with exclusive discounts and special offers.",
+    "translation": "顧客忠誠計畫以獨家折扣和特別優惠回饋回購顧客。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "purchasing"]
+  },
+  {
+    "word": "perceive",
+    "chinese": "(v.) 感知、察覺、認為",
+    "sentence": "Customers often perceive higher-priced products as being of better quality and reliability.",
+    "translation": "顧客通常認為價格較高的產品品質和可靠性更佳。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "corporate-development"]
+  },
+  {
+    "word": "examine",
+    "chinese": "(v.) 檢查、審查、考核",
+    "sentence": "The auditor was asked to carefully examine the financial statements for any irregularities.",
+    "translation": "審計師被要求仔細審查財務報表是否存在任何異常。",
+    "addedAt": "2026-04-05",
+    "categories": ["financing-areas", "general-business"]
+  },
+  {
+    "word": "ingredient",
+    "chinese": "(n.) 成分、原料",
+    "sentence": "The food manufacturer must list all ingredients on the packaging to comply with labeling regulations.",
+    "translation": "食品製造商必須在包裝上列出所有成分，以符合標籤法規。",
+    "addedAt": "2026-04-05",
+    "categories": ["manufacturing", "purchasing"]
+  },
+  {
+    "word": "acceptance",
+    "chinese": "(n.) 接受、認可",
+    "sentence": "The contract became binding upon the vendor's formal acceptance of the purchase order terms.",
+    "translation": "合約在供應商正式接受採購訂單條款後即具有法律效力。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "purchasing"]
+  },
+  {
+    "word": "neatly",
+    "chinese": "(adv.) 整齊地、俐落地",
+    "sentence": "All documents should be neatly organized in labeled folders before the client audit begins.",
+    "translation": "所有文件應在客戶稽查開始前整齊地整理在有標籤的資料夾中。",
+    "addedAt": "2026-04-05",
+    "categories": ["offices", "common"]
+  },
+  {
+    "word": "heavily",
+    "chinese": "(adv.) 大量地、嚴重地",
+    "sentence": "The company invested heavily in research and development to stay ahead of market competition.",
+    "translation": "公司在研發上大量投資，以在市場競爭中保持領先。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "financing-areas"]
+  },
+  {
+    "word": "densely",
+    "chinese": "(adv.) 密集地、濃密地",
+    "sentence": "The new distribution center was built in a densely populated area to reduce delivery time.",
+    "translation": "新配送中心建在人口密集地區，以縮短配送時間。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "travel"]
+  },
+  {
+    "word": "evenly",
+    "chinese": "(adv.) 均勻地、平均地",
+    "sentence": "The project manager ensured that tasks were evenly distributed among team members to prevent burnout.",
+    "translation": "專案經理確保任務均勻分配給各成員，以防止倦怠。",
+    "addedAt": "2026-04-05",
+    "categories": ["general-business", "personnel"]
   }
 ]
