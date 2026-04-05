@@ -5,7 +5,10 @@
     "sentence": "All candidates must apply for the position by submitting their resume and cover letter online.",
     "translation": "所有應徵者必須透過線上提交履歷和求職信來申請該職位。",
     "addedAt": "2026-03-30",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "explore",
@@ -13,7 +16,10 @@
     "sentence": "The team will explore new markets in Southeast Asia to increase revenue.",
     "translation": "團隊將探索東南亞新市場以提升營收。",
     "addedAt": "2026-03-28",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "in comparison to",
@@ -21,7 +27,9 @@
     "sentence": "In comparison to last quarter, our sales figures have improved significantly.",
     "translation": "與上季相比，我們的銷售數字大幅提升。",
     "addedAt": "2026-03-28",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "now that",
@@ -29,7 +37,9 @@
     "sentence": "Now that the new policy has been approved, all departments must comply immediately.",
     "translation": "既然新政策已通過，所有部門必須立即遵守。",
     "addedAt": "2026-03-28",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "procurement",
@@ -37,7 +47,10 @@
     "sentence": "The procurement department is responsible for sourcing raw materials at competitive prices.",
     "translation": "採購部門負責以具競爭力的價格尋找原物料來源。",
     "addedAt": "2026-03-30",
-    "categories": ["purchasing", "general-business"]
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
   },
   {
     "word": "assembly",
@@ -45,7 +58,10 @@
     "sentence": "The assembly line was upgraded to improve production efficiency and reduce defects.",
     "translation": "生產線已升級以提高生產效率並減少瑕疵。",
     "addedAt": "2026-03-30",
-    "categories": ["manufacturing", "technical"]
+    "categories": [
+      "manufacturing",
+      "technical"
+    ]
   },
   {
     "word": "allocate",
@@ -53,7 +69,10 @@
     "sentence": "The finance team will allocate the budget to each department based on project priorities.",
     "translation": "財務團隊將根據專案優先順序將預算分配給各部門。",
     "addedAt": "2026-03-30",
-    "categories": ["financing-areas", "general-business"]
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
   },
   {
     "word": "itinerary",
@@ -61,7 +80,10 @@
     "sentence": "Please send the revised travel itinerary to all participants at least one week before departure.",
     "translation": "請至少在出發前一週將修訂後的旅遊行程表發送給所有參與者。",
     "addedAt": "2026-03-30",
-    "categories": ["travel", "general-business"]
+    "categories": [
+      "travel",
+      "general-business"
+    ]
   },
   {
     "word": "premises",
@@ -69,7 +91,9 @@
     "sentence": "All visitors must wear an identification badge while on the company premises.",
     "translation": "所有訪客在公司場所內必須佩戴識別證。",
     "addedAt": "2026-03-30",
-    "categories": ["offices"]
+    "categories": [
+      "offices"
+    ]
   },
   {
     "word": "coverage",
@@ -77,7 +101,10 @@
     "sentence": "The company's health insurance plan provides coverage for both employees and their dependents.",
     "translation": "公司的健康保險計畫為員工及其家屬提供保障範圍。",
     "addedAt": "2026-03-30",
-    "categories": ["health", "financing-areas"]
+    "categories": [
+      "health",
+      "financing-areas"
+    ]
   },
   {
     "word": "invoice",
@@ -85,7 +112,10 @@
     "sentence": "Please attach the original invoice to your expense report before submitting it for reimbursement.",
     "translation": "請在提交報銷申請前，將原始發票附在費用報告中。",
     "addedAt": "2026-03-30",
-    "categories": ["financing-areas", "purchasing"]
+    "categories": [
+      "financing-areas",
+      "purchasing"
+    ]
   },
   {
     "word": "amenity",
@@ -93,7 +123,10 @@
     "sentence": "The new apartment complex offers amenities such as a gym, pool, and concierge service.",
     "translation": "新公寓大樓提供健身房、游泳池和禮賓服務等便利設施。",
     "addedAt": "2026-03-30",
-    "categories": ["housing", "travel"]
+    "categories": [
+      "housing",
+      "travel"
+    ]
   },
   {
     "word": "reservation",
@@ -101,7 +134,10 @@
     "sentence": "Please make a reservation at the restaurant for the client dinner next Friday evening.",
     "translation": "請為下週五晚上的客戶晚宴在餐廳預訂位置。",
     "addedAt": "2026-03-30",
-    "categories": ["dining-out", "travel"]
+    "categories": [
+      "dining-out",
+      "travel"
+    ]
   },
   {
     "word": "venue",
@@ -109,7 +145,10 @@
     "sentence": "The annual awards ceremony will be held at a downtown venue with capacity for five hundred guests.",
     "translation": "年度頒獎典禮將在市區一個可容納五百名賓客的場地舉行。",
     "addedAt": "2026-03-30",
-    "categories": ["entertainment", "general-business"]
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
   },
   {
     "word": "merger",
@@ -117,7 +156,10 @@
     "sentence": "The proposed merger between the two companies will create one of the largest firms in the industry.",
     "translation": "兩家公司提議的合併將使其成為業界規模最大的公司之一。",
     "addedAt": "2026-03-30",
-    "categories": ["corporate-development", "financing-areas"]
+    "categories": [
+      "corporate-development",
+      "financing-areas"
+    ]
   },
   {
     "word": "checkup",
@@ -125,7 +167,10 @@
     "sentence": "The company encourages all employees to schedule an annual checkup through the health benefits program.",
     "translation": "公司鼓勵所有員工透過健康福利計畫安排年度健康檢查。",
     "addedAt": "2026-03-30",
-    "categories": ["health", "personnel"]
+    "categories": [
+      "health",
+      "personnel"
+    ]
   },
   {
     "word": "calibrate",
@@ -133,7 +178,10 @@
     "sentence": "The technician must calibrate the machinery before starting each production run to ensure accuracy.",
     "translation": "技術員必須在每次生產前校準機器以確保精確度。",
     "addedAt": "2026-03-31",
-    "categories": ["technical", "manufacturing"]
+    "categories": [
+      "technical",
+      "manufacturing"
+    ]
   },
   {
     "word": "agenda",
@@ -141,7 +189,10 @@
     "sentence": "Please review the meeting agenda and prepare your report before Friday's conference call.",
     "translation": "請在週五的電話會議前查閱會議議程並準備好您的報告。",
     "addedAt": "2026-03-31",
-    "categories": ["offices", "general-business"]
+    "categories": [
+      "offices",
+      "general-business"
+    ]
   },
   {
     "word": "lease",
@@ -149,7 +200,10 @@
     "sentence": "The company signed a five-year lease for the new office space in the downtown area.",
     "translation": "公司為市區的新辦公室空間簽署了五年租約。",
     "addedAt": "2026-03-31",
-    "categories": ["housing", "offices"]
+    "categories": [
+      "housing",
+      "offices"
+    ]
   },
   {
     "word": "landlord",
@@ -157,7 +211,9 @@
     "sentence": "The landlord agreed to repair the broken heating system within three business days.",
     "translation": "房東同意在三個工作天內修繕損壞的暖氣系統。",
     "addedAt": "2026-03-31",
-    "categories": ["housing"]
+    "categories": [
+      "housing"
+    ]
   },
   {
     "word": "imagined",
@@ -165,7 +221,9 @@
     "sentence": "The manager assured the team that most of the imagined risks had already been addressed in the plan.",
     "translation": "主管向團隊保證，大多數想像中的風險已在計畫中得到解決。",
     "addedAt": "2026-03-31",
-    "categories": ["general-business"]
+    "categories": [
+      "general-business"
+    ]
   },
   {
     "word": "strategy",
@@ -173,7 +231,10 @@
     "sentence": "The marketing team presented a new strategy to expand the company's presence in overseas markets.",
     "translation": "行銷團隊提出了一項新策略，以擴大公司在海外市場的影響力。",
     "addedAt": "2026-03-31",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "pharmacist",
@@ -181,7 +242,9 @@
     "sentence": "The pharmacist advised the patient to take the prescribed medication twice daily with meals.",
     "translation": "藥劑師建議患者每天隨餐服用處方藥兩次。",
     "addedAt": "2026-03-31",
-    "categories": ["health"]
+    "categories": [
+      "health"
+    ]
   },
   {
     "word": "drugs",
@@ -189,7 +252,10 @@
     "sentence": "The company strictly prohibits the use of illegal drugs on all business premises.",
     "translation": "公司嚴格禁止在所有業務場所使用非法藥物。",
     "addedAt": "2026-03-31",
-    "categories": ["health", "offices"]
+    "categories": [
+      "health",
+      "offices"
+    ]
   },
   {
     "word": "instead of",
@@ -197,7 +263,9 @@
     "sentence": "The team decided to use video conferencing instead of traveling to the client's office.",
     "translation": "團隊決定使用視訊會議，而非前往客戶辦公室。",
     "addedAt": "2026-03-31",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "concluding",
@@ -205,7 +273,10 @@
     "sentence": "In her concluding remarks, the CEO outlined the company's plans for the upcoming fiscal year.",
     "translation": "在結語中，執行長概述了公司對即將到來的財政年度的計畫。",
     "addedAt": "2026-03-31",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "inspection",
@@ -213,7 +284,10 @@
     "sentence": "The safety officer conducted a thorough inspection of the warehouse before the annual audit.",
     "translation": "安全官員在年度稽查前對倉庫進行了全面檢查。",
     "addedAt": "2026-03-31",
-    "categories": ["manufacturing", "technical"]
+    "categories": [
+      "manufacturing",
+      "technical"
+    ]
   },
   {
     "word": "obtain",
@@ -221,7 +295,10 @@
     "sentence": "All vendors must obtain a valid permit before delivering goods to the facility.",
     "translation": "所有供應商在向設施交貨前必須取得有效許可證。",
     "addedAt": "2026-03-31",
-    "categories": ["general-business", "purchasing"]
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   },
   {
     "word": "faulty",
@@ -229,7 +306,10 @@
     "sentence": "The customer returned the faulty device and requested a full refund within the warranty period.",
     "translation": "客戶退還了有缺陷的設備，並在保固期內要求全額退款。",
     "addedAt": "2026-03-31",
-    "categories": ["purchasing", "technical"]
+    "categories": [
+      "purchasing",
+      "technical"
+    ]
   },
   {
     "word": "reimbursement process",
@@ -237,7 +317,10 @@
     "sentence": "Please follow the company's reimbursement process by submitting all receipts within thirty days.",
     "translation": "請依照公司的報銷流程，在三十天內提交所有收據。",
     "addedAt": "2026-03-31",
-    "categories": ["financing-areas", "personnel"]
+    "categories": [
+      "financing-areas",
+      "personnel"
+    ]
   },
   {
     "word": "behalf",
@@ -245,7 +328,10 @@
     "sentence": "The lawyer signed the agreement on behalf of the client who was traveling abroad.",
     "translation": "律師代表出國旅行的客戶簽署了協議。",
     "addedAt": "2026-03-31",
-    "categories": ["general-business", "common"]
+    "categories": [
+      "general-business",
+      "common"
+    ]
   },
   {
     "word": "bulk",
@@ -253,7 +339,10 @@
     "sentence": "Ordering supplies in bulk allows the company to negotiate lower prices with suppliers.",
     "translation": "大量訂購物資讓公司能與供應商協商更低的價格。",
     "addedAt": "2026-03-31",
-    "categories": ["purchasing", "manufacturing"]
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
   },
   {
     "word": "eligible",
@@ -261,7 +350,10 @@
     "sentence": "Employees who have completed two years of service are eligible for the annual performance bonus.",
     "translation": "服務滿兩年的員工有資格獲得年度績效獎金。",
     "addedAt": "2026-03-31",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "revised",
@@ -269,7 +361,10 @@
     "sentence": "The revised budget proposal was presented to the board for final approval.",
     "translation": "修訂後的預算提案已提交董事會進行最終審批。",
     "addedAt": "2026-04-01",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "decoration",
@@ -277,7 +372,10 @@
     "sentence": "The event team is responsible for the decoration and setup of the conference hall.",
     "translation": "活動團隊負責會議廳的裝飾與佈置。",
     "addedAt": "2026-04-01",
-    "categories": ["entertainment", "offices"]
+    "categories": [
+      "entertainment",
+      "offices"
+    ]
   },
   {
     "word": "match",
@@ -285,7 +383,10 @@
     "sentence": "The candidate's qualifications must match the requirements listed in the job description.",
     "translation": "候選人的資格必須符合職位說明中所列的要求。",
     "addedAt": "2026-04-01",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "resource",
@@ -293,7 +394,10 @@
     "sentence": "The project manager must allocate sufficient resources to meet the project deadline.",
     "translation": "專案經理必須分配足夠的資源以趕上專案截止日期。",
     "addedAt": "2026-04-01",
-    "categories": ["general-business", "personnel"]
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
   },
   {
     "word": "tight",
@@ -301,7 +405,10 @@
     "sentence": "The team worked extra hours to complete the report under a tight deadline.",
     "translation": "團隊在緊迫的截止日期下加班完成了報告。",
     "addedAt": "2026-04-01",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "convenient",
@@ -309,7 +416,10 @@
     "sentence": "Please let us know a convenient time for the client meeting next week.",
     "translation": "請告知我們下週客戶會議方便的時間。",
     "addedAt": "2026-04-01",
-    "categories": ["general-business", "common"]
+    "categories": [
+      "general-business",
+      "common"
+    ]
   },
   {
     "word": "visibility",
@@ -317,7 +427,10 @@
     "sentence": "The new marketing campaign significantly increased the brand's visibility in the local market.",
     "translation": "新行銷活動顯著提升了品牌在本地市場的知名度。",
     "addedAt": "2026-04-01",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "negotiate",
@@ -325,7 +438,10 @@
     "sentence": "Both parties agreed to negotiate the contract terms before signing the final agreement.",
     "translation": "雙方同意在簽署最終協議前協商合約條款。",
     "addedAt": "2026-04-02",
-    "categories": ["general-business", "purchasing"]
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   },
   {
     "word": "shipment",
@@ -333,7 +449,10 @@
     "sentence": "The shipment of electronic components was delayed due to customs inspection at the port.",
     "translation": "電子零件的貨運因港口海關檢查而延誤。",
     "addedAt": "2026-04-02",
-    "categories": ["purchasing", "general-business"]
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
   },
   {
     "word": "catering",
@@ -341,7 +460,10 @@
     "sentence": "The event coordinator arranged catering services for the company's annual award dinner.",
     "translation": "活動協調員為公司的年度頒獎晚宴安排了外燴服務。",
     "addedAt": "2026-04-02",
-    "categories": ["dining-out", "entertainment"]
+    "categories": [
+      "dining-out",
+      "entertainment"
+    ]
   },
   {
     "word": "banquet",
@@ -349,7 +471,10 @@
     "sentence": "The company hosted an annual banquet to celebrate outstanding employee achievements.",
     "translation": "公司舉辦年度宴會以表彰傑出員工的成就。",
     "addedAt": "2026-04-03",
-    "categories": ["dining-out", "entertainment"]
+    "categories": [
+      "dining-out",
+      "entertainment"
+    ]
   },
   {
     "word": "dispatch",
@@ -357,7 +482,10 @@
     "sentence": "The warehouse manager will dispatch the ordered goods within two business days after payment confirmation.",
     "translation": "倉庫經理將在收到付款確認後兩個工作天內發送訂購商品。",
     "addedAt": "2026-04-03",
-    "categories": ["purchasing", "manufacturing"]
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
   },
   {
     "word": "commute",
@@ -365,7 +493,10 @@
     "sentence": "Many employees prefer remote work to reduce their daily commute time and expenses.",
     "translation": "許多員工偏好遠端工作，以減少每日通勤的時間和費用。",
     "addedAt": "2026-04-03",
-    "categories": ["travel", "personnel"]
+    "categories": [
+      "travel",
+      "personnel"
+    ]
   },
   {
     "word": "brief",
@@ -373,7 +504,10 @@
     "sentence": "The manager sent a brief email to summarize the key decisions made during the meeting.",
     "translation": "主管發送了一封簡短的電子郵件，摘要說明會議中做出的關鍵決定。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "investigate",
@@ -381,7 +515,10 @@
     "sentence": "The compliance team was asked to investigate the discrepancy found in the financial report.",
     "translation": "合規團隊被要求調查財務報告中發現的差異。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "financing-areas"]
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   },
   {
     "word": "determine",
@@ -389,7 +526,10 @@
     "sentence": "The audit committee will determine whether the expenses comply with company policy.",
     "translation": "審計委員會將確認費用是否符合公司政策。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "financing-areas"]
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   },
   {
     "word": "former",
@@ -397,7 +537,10 @@
     "sentence": "The former CEO will serve as an advisor to the board during the leadership transition.",
     "translation": "前任執行長將在領導層交接期間擔任董事會顧問。",
     "addedAt": "2026-04-04",
-    "categories": ["personnel", "corporate-development"]
+    "categories": [
+      "personnel",
+      "corporate-development"
+    ]
   },
   {
     "word": "defeat",
@@ -405,7 +548,10 @@
     "sentence": "The company managed to defeat its competitors by launching an innovative product line ahead of schedule.",
     "translation": "公司透過提前推出創新產品線成功擊敗競爭對手。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "chess",
@@ -413,7 +559,10 @@
     "sentence": "The company organized a chess tournament as part of its employee wellness and team-building activities.",
     "translation": "公司舉辦西洋棋錦標賽，作為員工健康與團隊建設活動的一部分。",
     "addedAt": "2026-04-04",
-    "categories": ["entertainment", "personnel"]
+    "categories": [
+      "entertainment",
+      "personnel"
+    ]
   },
   {
     "word": "fulfill",
@@ -421,7 +570,10 @@
     "sentence": "The supplier must fulfill all contractual obligations before the final payment is released.",
     "translation": "供應商必須在最終款項付清前履行所有合約義務。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "purchasing"]
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   },
   {
     "word": "conventional",
@@ -429,7 +581,10 @@
     "sentence": "The company shifted away from conventional advertising to focus on digital marketing strategies.",
     "translation": "公司從傳統廣告轉型，專注於數位行銷策略。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "memorable",
@@ -437,7 +592,10 @@
     "sentence": "The team organized a memorable farewell event for the retiring department director.",
     "translation": "團隊為退休的部門主管舉辦了一場難忘的歡送活動。",
     "addedAt": "2026-04-04",
-    "categories": ["entertainment", "general-business"]
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
   },
   {
     "word": "marginal",
@@ -445,7 +603,10 @@
     "sentence": "Despite the marginal profit increase, management decided to expand into new product categories.",
     "translation": "儘管利潤增長微小，管理層決定擴展到新的產品類別。",
     "addedAt": "2026-04-04",
-    "categories": ["financing-areas", "general-business"]
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
   },
   {
     "word": "prosperous",
@@ -453,7 +614,10 @@
     "sentence": "The regional director credited the team's efforts for making the branch one of the most prosperous in the country.",
     "translation": "區域總監將分公司成為全國最繁榮的分支之一歸功於團隊的努力。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "established",
@@ -461,7 +625,10 @@
     "sentence": "The company partnered with an established law firm to handle its international contract negotiations.",
     "translation": "公司與一家知名律師事務所合作，處理其國際合約談判。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "comprehensive",
@@ -469,7 +636,10 @@
     "sentence": "The HR department developed a comprehensive training program for all newly hired employees.",
     "translation": "人資部門為所有新進員工制定了全面的培訓計畫。",
     "addedAt": "2026-04-04",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "recycling",
@@ -477,7 +647,10 @@
     "sentence": "The company launched a recycling program to reduce office waste and meet sustainability targets.",
     "translation": "公司推出資源回收計畫，以減少辦公室廢棄物並達成永續目標。",
     "addedAt": "2026-04-04",
-    "categories": ["offices", "manufacturing"]
+    "categories": [
+      "offices",
+      "manufacturing"
+    ]
   },
   {
     "word": "guidelines",
@@ -485,7 +658,10 @@
     "sentence": "All staff members are required to follow the updated safety guidelines when operating heavy equipment.",
     "translation": "所有員工在操作重型設備時必須遵守更新後的安全準則。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "properly",
@@ -493,7 +669,10 @@
     "sentence": "Ensure that all documents are properly filed and accessible to authorized personnel only.",
     "translation": "確保所有文件均妥善歸檔，且僅供授權人員存取。",
     "addedAt": "2026-04-04",
-    "categories": ["common", "offices"]
+    "categories": [
+      "common",
+      "offices"
+    ]
   },
   {
     "word": "route",
@@ -501,7 +680,10 @@
     "sentence": "The logistics team optimized the delivery route to reduce shipping costs and transit time.",
     "translation": "物流團隊優化了配送路線，以降低運輸成本和運輸時間。",
     "addedAt": "2026-04-04",
-    "categories": ["travel", "purchasing"]
+    "categories": [
+      "travel",
+      "purchasing"
+    ]
   },
   {
     "word": "outline",
@@ -509,7 +691,10 @@
     "sentence": "The project manager asked each team leader to outline their department's contribution to the quarterly report.",
     "translation": "專案經理要求每位團隊負責人概述其部門對季報的貢獻。",
     "addedAt": "2026-04-04",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "renovation",
@@ -517,7 +702,10 @@
     "sentence": "The office building underwent major renovation to accommodate the growing workforce.",
     "translation": "辦公大樓進行了重大翻修，以容納不斷增加的員工人數。",
     "addedAt": "2026-04-05",
-    "categories": ["housing", "offices"]
+    "categories": [
+      "housing",
+      "offices"
+    ]
   },
   {
     "word": "prescription",
@@ -525,7 +713,9 @@
     "sentence": "The doctor issued a prescription for antibiotics to be collected at the pharmacy.",
     "translation": "醫生開立了抗生素處方箋，需前往藥局領取。",
     "addedAt": "2026-04-05",
-    "categories": ["health"]
+    "categories": [
+      "health"
+    ]
   },
   {
     "word": "specifications",
@@ -533,7 +723,10 @@
     "sentence": "The contractor must review the project specifications carefully before submitting a bid.",
     "translation": "承包商在提交投標前必須仔細審閱專案規格。",
     "addedAt": "2026-04-05",
-    "categories": ["technical", "purchasing"]
+    "categories": [
+      "technical",
+      "purchasing"
+    ]
   },
   {
     "word": "council",
@@ -541,7 +734,10 @@
     "sentence": "The city council approved the new zoning regulations to support commercial development in the area.",
     "translation": "市議會批准了新的分區法規，以支持該地區的商業發展。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "consensus",
@@ -549,7 +745,10 @@
     "sentence": "The management team reached a consensus on the new budget plan after three rounds of discussion.",
     "translation": "管理團隊在三輪討論後就新預算計畫達成共識。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "general",
@@ -557,7 +756,10 @@
     "sentence": "The manager held a general meeting to update all staff on the company's quarterly performance.",
     "translation": "主管召開全體會議向所有員工更新公司的季度業績。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "common"]
+    "categories": [
+      "general-business",
+      "common"
+    ]
   },
   {
     "word": "taxes",
@@ -565,7 +767,9 @@
     "sentence": "The finance department submitted all required documents to file the company's annual taxes on time.",
     "translation": "財務部門提交了所有必要文件，以準時申報公司年度稅款。",
     "addedAt": "2026-04-05",
-    "categories": ["financing-areas"]
+    "categories": [
+      "financing-areas"
+    ]
   },
   {
     "word": "demand",
@@ -573,7 +777,10 @@
     "sentence": "The sudden increase in customer demand required the factory to extend production hours.",
     "translation": "客戶需求突然增加，要求工廠延長生產時間。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "manufacturing"]
+    "categories": [
+      "general-business",
+      "manufacturing"
+    ]
   },
   {
     "word": "forecast",
@@ -581,7 +788,10 @@
     "sentence": "The sales team prepared a quarterly forecast to help guide the company's inventory planning.",
     "translation": "銷售團隊準備了季度預測，以協助指導公司的庫存規劃。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "financing-areas"]
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   },
   {
     "word": "other than",
@@ -589,7 +799,9 @@
     "sentence": "Other than the delayed shipment, all aspects of the project were completed on schedule.",
     "translation": "除了貨物延誤外，專案的所有方面均按計劃完成。",
     "addedAt": "2026-04-05",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "conceive",
@@ -597,7 +809,10 @@
     "sentence": "The R&D team worked together to conceive a new product that would meet emerging market needs.",
     "translation": "研發團隊合力構想出一款能滿足新興市場需求的新產品。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "express",
@@ -605,7 +820,10 @@
     "sentence": "Customers can use the express delivery option to receive their orders within twenty-four hours.",
     "translation": "客戶可以使用快遞選項在二十四小時內收到訂單。",
     "addedAt": "2026-04-05",
-    "categories": ["purchasing", "travel"]
+    "categories": [
+      "purchasing",
+      "travel"
+    ]
   },
   {
     "word": "inferior",
@@ -613,7 +831,10 @@
     "sentence": "The quality control team rejected the inferior materials before they could enter the production line.",
     "translation": "品管團隊在劣質材料進入生產線之前就予以退回。",
     "addedAt": "2026-04-05",
-    "categories": ["manufacturing", "purchasing"]
+    "categories": [
+      "manufacturing",
+      "purchasing"
+    ]
   },
   {
     "word": "factual",
@@ -621,7 +842,10 @@
     "sentence": "The report must contain only factual information supported by verified data and reliable sources.",
     "translation": "報告必須只包含由經過核實的數據和可靠來源支持的事實資訊。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "radical",
@@ -629,7 +853,10 @@
     "sentence": "The board approved a radical restructuring plan to improve the company's long-term competitiveness.",
     "translation": "董事會批准了一項根本性的重組計畫，以提升公司的長期競爭力。",
     "addedAt": "2026-04-05",
-    "categories": ["corporate-development", "general-business"]
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
   },
   {
     "word": "director",
@@ -637,7 +864,10 @@
     "sentence": "The new marketing director introduced a digital-first strategy to boost online sales by thirty percent.",
     "translation": "新任行銷主管推出以數位優先的策略，目標將線上銷售額提升三十個百分點。",
     "addedAt": "2026-04-05",
-    "categories": ["personnel", "corporate-development"]
+    "categories": [
+      "personnel",
+      "corporate-development"
+    ]
   },
   {
     "word": "ever",
@@ -645,7 +875,9 @@
     "sentence": "This is the most successful product launch the company has ever experienced in its twenty-year history.",
     "translation": "這是公司二十年歷史中曾經歷過的最成功的產品發布。",
     "addedAt": "2026-04-05",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "prestigious",
@@ -653,7 +885,10 @@
     "sentence": "The company was honored to receive an award from a prestigious industry association.",
     "translation": "公司很榮幸從著名的業界協會獲得獎項。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "official",
@@ -661,7 +896,10 @@
     "sentence": "The official announcement of the merger was released to shareholders and media simultaneously.",
     "translation": "合併的官方公告同時發布給股東和媒體。",
     "addedAt": "2026-04-05",
-    "categories": ["corporate-development", "general-business"]
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
   },
   {
     "word": "press",
@@ -669,7 +907,10 @@
     "sentence": "The company issued a press release to announce the launch of its new product line.",
     "translation": "公司發出新聞稿宣布新產品線的推出。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "badge",
@@ -677,7 +918,10 @@
     "sentence": "All employees must wear their ID badge at all times when working in the secure facility.",
     "translation": "所有員工在安全設施內工作時必須隨時佩戴識別證。",
     "addedAt": "2026-04-05",
-    "categories": ["offices", "personnel"]
+    "categories": [
+      "offices",
+      "personnel"
+    ]
   },
   {
     "word": "appropriate",
@@ -685,7 +929,10 @@
     "sentence": "Employees are expected to wear appropriate business attire during client meetings and presentations.",
     "translation": "員工在客戶會議和簡報時應穿著適當的商務服裝。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "succinct",
@@ -693,7 +940,10 @@
     "sentence": "The executive requested a succinct summary of the project status before the board meeting.",
     "translation": "主管要求在董事會議前提交一份簡潔的專案狀態摘要。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "offices"]
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   },
   {
     "word": "competent",
@@ -701,7 +951,10 @@
     "sentence": "The hiring manager is looking for a competent project coordinator with strong organizational skills.",
     "translation": "招聘主管正在尋找一位具備良好組織能力的稱職專案協調員。",
     "addedAt": "2026-04-05",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "expire",
@@ -709,7 +962,10 @@
     "sentence": "Please renew your software license before it expires to avoid any disruption to operations.",
     "translation": "請在軟體授權到期前進行續約，以避免業務中斷。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "technical"]
+    "categories": [
+      "general-business",
+      "technical"
+    ]
   },
   {
     "word": "as though",
@@ -717,7 +973,9 @@
     "sentence": "The presenter spoke with such confidence that it seemed as though she had rehearsed for weeks.",
     "translation": "簡報者說話如此自信，彷彿她已排練了好幾週。",
     "addedAt": "2026-04-05",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "given that",
@@ -725,7 +983,10 @@
     "sentence": "Given that the budget has been reduced, the team must prioritize the most critical tasks first.",
     "translation": "鑑於預算已削減，團隊必須首先優先處理最關鍵的任務。",
     "addedAt": "2026-04-05",
-    "categories": ["common", "general-business"]
+    "categories": [
+      "common",
+      "general-business"
+    ]
   },
   {
     "word": "besides",
@@ -733,7 +994,9 @@
     "sentence": "Besides completing the report, the analyst also prepared a detailed presentation for the client.",
     "translation": "除了完成報告外，分析師還為客戶準備了詳細的簡報。",
     "addedAt": "2026-04-05",
-    "categories": ["common"]
+    "categories": [
+      "common"
+    ]
   },
   {
     "word": "decade",
@@ -741,7 +1004,10 @@
     "sentence": "Over the past decade, the company has expanded its operations to more than twenty countries worldwide.",
     "translation": "在過去十年中，公司已將業務擴展到全球二十多個國家。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "decline",
@@ -749,7 +1015,10 @@
     "sentence": "Sales figures showed a sharp decline in the third quarter due to reduced consumer spending.",
     "translation": "銷售數據顯示由於消費者支出減少，第三季出現大幅下滑。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "financing-areas"]
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   },
   {
     "word": "host",
@@ -757,7 +1026,10 @@
     "sentence": "The company will host an international trade conference at its headquarters next spring.",
     "translation": "公司將於明年春季在總部主辦一場國際貿易會議。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "entertainment"]
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
   },
   {
     "word": "loyalty",
@@ -765,7 +1037,10 @@
     "sentence": "The customer loyalty program rewards repeat buyers with exclusive discounts and special offers.",
     "translation": "顧客忠誠計畫以獨家折扣和特別優惠回饋回購顧客。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "purchasing"]
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   },
   {
     "word": "perceive",
@@ -773,7 +1048,10 @@
     "sentence": "Customers often perceive higher-priced products as being of better quality and reliability.",
     "translation": "顧客通常認為價格較高的產品品質和可靠性更佳。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "corporate-development"]
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   },
   {
     "word": "examine",
@@ -781,7 +1059,10 @@
     "sentence": "The auditor was asked to carefully examine the financial statements for any irregularities.",
     "translation": "審計師被要求仔細審查財務報表是否存在任何異常。",
     "addedAt": "2026-04-05",
-    "categories": ["financing-areas", "general-business"]
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
   },
   {
     "word": "ingredient",
@@ -789,7 +1070,10 @@
     "sentence": "The food manufacturer must list all ingredients on the packaging to comply with labeling regulations.",
     "translation": "食品製造商必須在包裝上列出所有成分，以符合標籤法規。",
     "addedAt": "2026-04-05",
-    "categories": ["manufacturing", "purchasing"]
+    "categories": [
+      "manufacturing",
+      "purchasing"
+    ]
   },
   {
     "word": "acceptance",
@@ -797,7 +1081,10 @@
     "sentence": "The contract became binding upon the vendor's formal acceptance of the purchase order terms.",
     "translation": "合約在供應商正式接受採購訂單條款後即具有法律效力。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "purchasing"]
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   },
   {
     "word": "neatly",
@@ -805,7 +1092,10 @@
     "sentence": "All documents should be neatly organized in labeled folders before the client audit begins.",
     "translation": "所有文件應在客戶稽查開始前整齊地整理在有標籤的資料夾中。",
     "addedAt": "2026-04-05",
-    "categories": ["offices", "common"]
+    "categories": [
+      "offices",
+      "common"
+    ]
   },
   {
     "word": "heavily",
@@ -813,7 +1103,10 @@
     "sentence": "The company invested heavily in research and development to stay ahead of market competition.",
     "translation": "公司在研發上大量投資，以在市場競爭中保持領先。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "financing-areas"]
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   },
   {
     "word": "densely",
@@ -821,7 +1114,10 @@
     "sentence": "The new distribution center was built in a densely populated area to reduce delivery time.",
     "translation": "新配送中心建在人口密集地區，以縮短配送時間。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "travel"]
+    "categories": [
+      "general-business",
+      "travel"
+    ]
   },
   {
     "word": "evenly",
@@ -829,7 +1125,10 @@
     "sentence": "The project manager ensured that tasks were evenly distributed among team members to prevent burnout.",
     "translation": "專案經理確保任務均勻分配給各成員，以防止倦怠。",
     "addedAt": "2026-04-05",
-    "categories": ["general-business", "personnel"]
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
   },
   {
     "word": "commuting",
@@ -837,7 +1136,10 @@
     "sentence": "The company introduced a commuting allowance to help employees cover daily transportation costs.",
     "translation": "公司推出了通勤補貼，協助員工支付每日交通費用。",
     "addedAt": "2026-04-05",
-    "categories": ["travel", "personnel"]
+    "categories": [
+      "travel",
+      "personnel"
+    ]
   },
   {
     "word": "suitcases",
@@ -845,7 +1147,9 @@
     "sentence": "Passengers are advised to label their suitcases clearly to avoid confusion during baggage claim.",
     "translation": "旅客被建議在行李箱上清楚標示姓名，以避免領取行李時混淆。",
     "addedAt": "2026-04-05",
-    "categories": ["travel"]
+    "categories": [
+      "travel"
+    ]
   },
   {
     "word": "album",
@@ -853,7 +1157,10 @@
     "sentence": "The marketing team compiled a photo album of the company's milestone events over the past decade.",
     "translation": "行銷團隊彙編了一本公司過去十年里程碑活動的相冊。",
     "addedAt": "2026-04-05",
-    "categories": ["entertainment", "general-business"]
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
   },
   {
     "word": "estimate",
@@ -861,7 +1168,10 @@
     "sentence": "The contractor submitted a cost estimate for the office renovation project by end of week.",
     "translation": "承包商在週末前提交了辦公室翻新專案的費用估價。",
     "addedAt": "2026-04-05",
-    "categories": ["financing-areas", "general-business"]
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
   },
   {
     "word": "handout",
@@ -869,7 +1179,10 @@
     "sentence": "Please print enough handouts for all participants before the training session begins.",
     "translation": "請在培訓課程開始前為所有參與者列印足夠的講義。",
     "addedAt": "2026-04-05",
-    "categories": ["offices", "general-business"]
+    "categories": [
+      "offices",
+      "general-business"
+    ]
   },
   {
     "word": "dorm",
@@ -877,7 +1190,10 @@
     "sentence": "The company provides a dorm for employees who are transferred to the new branch location.",
     "translation": "公司為調派至新分公司的員工提供宿舍。",
     "addedAt": "2026-04-05",
-    "categories": ["housing", "personnel"]
+    "categories": [
+      "housing",
+      "personnel"
+    ]
   },
   {
     "word": "unaffordable",
@@ -885,7 +1201,10 @@
     "sentence": "The rising cost of office rent has become unaffordable for many small businesses in the city.",
     "translation": "不斷上漲的辦公室租金對市內許多小企業來說已難以負擔。",
     "addedAt": "2026-04-05",
-    "categories": ["housing", "financing-areas"]
+    "categories": [
+      "housing",
+      "financing-areas"
+    ]
   },
   {
     "word": "temporary",
@@ -893,7 +1212,10 @@
     "sentence": "The company hired several temporary staff to handle the increased workload during the peak season.",
     "translation": "公司雇用了幾名臨時員工，以應對旺季期間增加的工作量。",
     "addedAt": "2026-04-05",
-    "categories": ["personnel", "general-business"]
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   },
   {
     "word": "meantime",
@@ -901,6 +1223,42 @@
     "sentence": "The new software system will be ready next month; in the meantime, please use the existing platform.",
     "translation": "新軟體系統將於下個月完成；在此期間，請繼續使用現有平台。",
     "addedAt": "2026-04-05",
-    "categories": ["common", "general-business"]
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "cuisine",
+    "chinese": "(n.) 料理、美食風格",
+    "sentence": "The hotel restaurant features local cuisine prepared with fresh seasonal ingredients.",
+    "translation": "飯店餐廳提供以新鮮當季食材烹製的在地料理。",
+    "addedAt": "2026-04-05",
+    "categories": [
+      "dining-out",
+      "travel"
+    ]
+  },
+  {
+    "word": "maintenance",
+    "chinese": "(n.) 維護、保養",
+    "sentence": "The factory undergoes scheduled maintenance every quarter to keep all machinery in optimal condition.",
+    "translation": "工廠每季進行定期維護，以保持所有機器處於最佳狀態。",
+    "addedAt": "2026-04-05",
+    "categories": [
+      "technical",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "reimburse",
+    "chinese": "(v.) 報銷、補償",
+    "sentence": "Please submit all original receipts so the finance team can reimburse your business travel expenses.",
+    "translation": "請提交所有原始收據，以便財務團隊報銷您的出差費用。",
+    "addedAt": "2026-04-05",
+    "categories": [
+      "financing-areas",
+      "personnel"
+    ]
   }
 ]
