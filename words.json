@@ -1724,5 +1724,89 @@
       "general-business",
       "financing-areas"
     ]
+  },
+  {
+    "word": "private",
+    "chinese": "(adj.) 私人的、私立的",
+    "sentence": "The director held a private meeting with the board to discuss the budget plan.",
+    "translation": "董事長與董事會舉行私人會議，討論預算計畫。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "consist of",
+    "chinese": "(phr.) 由…組成",
+    "sentence": "The project team consists of five engineers and two project managers.",
+    "translation": "專案團隊由五名工程師和兩名專案經理組成。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "inclement",
+    "chinese": "(adj.) （天氣）惡劣的",
+    "sentence": "The outdoor ceremony was postponed due to inclement weather conditions.",
+    "translation": "戶外典禮因天氣惡劣而延期。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "travel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "innovation",
+    "chinese": "(n.) 創新",
+    "sentence": "The company's commitment to innovation has led to several successful product launches.",
+    "translation": "該公司對創新的承諾促成了多個成功的產品推出。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "count on",
+    "chinese": "(phr.) 依靠、指望",
+    "sentence": "You can count on our team to deliver the project on time and within budget.",
+    "translation": "您可以依靠我們的團隊按時且在預算內完成專案。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "in particular",
+    "chinese": "(phr.) 尤其、特別是",
+    "sentence": "The manager was pleased with the results, in particular the Q3 sales figures.",
+    "translation": "經理對結果感到滿意，尤其是第三季的銷售數字。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "incorporate",
+    "chinese": "(v.) 納入、合併、成立公司",
+    "sentence": "We plan to incorporate the new safety guidelines into our employee training program.",
+    "translation": "我們計劃將新的安全指導方針納入員工培訓計畫。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "eager",
+    "chinese": "(adj.) 熱切的、渴望的",
+    "sentence": "The new intern was eager to learn and quickly adapted to the office environment.",
+    "translation": "新實習生學習熱情高漲，很快就適應了辦公室環境。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel"
+    ]
   }
 ]
