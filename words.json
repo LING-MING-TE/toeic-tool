@@ -1260,5 +1260,469 @@
       "financing-areas",
       "personnel"
     ]
+  },
+  {
+    "word": "interrupt",
+    "chinese": "(v.) 打斷、中斷",
+    "sentence": "Please do not interrupt the speaker during the presentation.",
+    "translation": "請勿在簡報進行中打斷講者。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "conclude",
+    "chinese": "(v.) 結束、下結論",
+    "sentence": "The manager concluded the meeting by summarizing the key action items.",
+    "translation": "經理透過總結主要行動事項來結束會議。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "crew",
+    "chinese": "(n.) 工作人員、機組人員",
+    "sentence": "The flight crew ensured all passengers were safely seated before takeoff.",
+    "translation": "機組人員確保所有乘客在起飛前都已安全就座。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "travel",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "conversely",
+    "chinese": "(adv.) 相反地",
+    "sentence": "Sales increased in the first quarter; conversely, expenses were significantly reduced.",
+    "translation": "第一季銷售額增加；相反地，費用大幅減少。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "rest assured",
+    "chinese": "(phr.) 請放心",
+    "sentence": "Rest assured that your order will be delivered within three business days.",
+    "translation": "請放心，您的訂單將在三個工作天內送達。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "occupant",
+    "chinese": "(n.) 占用者、居住者",
+    "sentence": "All occupants must vacate the building during the scheduled fire drill.",
+    "translation": "所有居住者必須在排定的消防演習期間疏散大樓。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "housing",
+      "offices"
+    ]
+  },
+  {
+    "word": "dust",
+    "chinese": "(n.) 灰塵；(v.) 除塵",
+    "sentence": "Please dust all office surfaces before the client visit tomorrow.",
+    "translation": "請在明天客戶來訪前清除所有辦公室表面的灰塵。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "offices",
+      "housing"
+    ]
+  },
+  {
+    "word": "anticipate",
+    "chinese": "(v.) 預期、預料",
+    "sentence": "We anticipate a 10% increase in revenue during the upcoming holiday season.",
+    "translation": "我們預期即將到來的假日季節營收將增加10%。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "avoid",
+    "chinese": "(v.) 避免",
+    "sentence": "To avoid delays, please submit all required reports by the end of the week.",
+    "translation": "為避免延誤，請在本週結束前提交所有必要報告。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "detect",
+    "chinese": "(v.) 偵測、發現",
+    "sentence": "The quality control team detected a defect in the product before shipment.",
+    "translation": "品管團隊在出貨前發現了產品的缺陷。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "manufacturing",
+      "technical"
+    ]
+  },
+  {
+    "word": "compatible",
+    "chinese": "(adj.) 相容的、兼容的",
+    "sentence": "Please ensure the new software is compatible with our existing systems.",
+    "translation": "請確保新軟體與我們現有系統相容。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "manually",
+    "chinese": "(adv.) 手動地",
+    "sentence": "If the system fails, employees must enter data manually into the spreadsheet.",
+    "translation": "若系統故障，員工必須手動將資料輸入試算表。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "enclosed",
+    "chinese": "(adj.) 附上的、隨附的",
+    "sentence": "Please find the signed contract enclosed with this letter.",
+    "translation": "請見隨信附上的已簽署合約。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "deliver",
+    "chinese": "(v.) 遞送、交付",
+    "sentence": "The courier will deliver the package to your office by noon tomorrow.",
+    "translation": "快遞人員將在明天中午前將包裹送達您的辦公室。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "device",
+    "chinese": "(n.) 裝置、設備",
+    "sentence": "Each employee will be issued a mobile device for business communication.",
+    "translation": "每位員工將獲配一台行動裝置用於商務通訊。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "outlet",
+    "chinese": "(n.) 門市、出口；插座",
+    "sentence": "The company plans to open three new retail outlets in the city center.",
+    "translation": "公司計劃在市中心新開三家零售門市。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "on behalf of",
+    "chinese": "(phr.) 代表",
+    "sentence": "I am writing on behalf of the marketing team to confirm the meeting schedule.",
+    "translation": "我代表行銷團隊撰寫此信，確認會議時程。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "shortlist",
+    "chinese": "(v./n.) 列入候選名單、候選名單",
+    "sentence": "The HR manager will shortlist five candidates for the final interview round.",
+    "translation": "人資經理將篩選五位候選人進行最終面試。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "insight",
+    "chinese": "(n.) 洞察力、見解",
+    "sentence": "The market research provided valuable insights into customer buying behavior.",
+    "translation": "市場調查提供了對顧客購買行為的寶貴見解。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "gratitude",
+    "chinese": "(n.) 感謝、感激",
+    "sentence": "The director expressed his gratitude to the team for completing the project on time.",
+    "translation": "主任對團隊按時完成專案表示感謝。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "evidently",
+    "chinese": "(adv.) 顯然地、明顯地",
+    "sentence": "Evidently, the new policy has improved employee productivity across all departments.",
+    "translation": "顯然，新政策已提升所有部門的員工生產力。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "anonymous",
+    "chinese": "(adj.) 匿名的",
+    "sentence": "All employee feedback will remain anonymous to encourage honest responses.",
+    "translation": "所有員工意見將保持匿名，以鼓勵誠實的回應。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "influential",
+    "chinese": "(adj.) 有影響力的",
+    "sentence": "The CEO is one of the most influential business leaders in the industry.",
+    "translation": "這位執行長是業界最具影響力的商業領袖之一。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "undisclosed",
+    "chinese": "(adj.) 未公開的、保密的",
+    "sentence": "The acquisition was completed for an undisclosed amount last quarter.",
+    "translation": "此次收購以未公開的金額於上季完成。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "corporate-development",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "source",
+    "chinese": "(n.) 來源；(v.) 採購",
+    "sentence": "The company sources its raw materials from certified suppliers worldwide.",
+    "translation": "該公司從全球認證供應商採購原物料。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "shortfall",
+    "chinese": "(n.) 短缺、不足",
+    "sentence": "The finance team reported a budget shortfall of fifty thousand dollars this quarter.",
+    "translation": "財務團隊報告本季有五萬美元的預算短缺。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
+  },
+  {
+    "word": "halt",
+    "chinese": "(v.) 停止、中止；(n.) 停頓",
+    "sentence": "Production was halted temporarily due to a mechanical failure on the assembly line.",
+    "translation": "由於裝配線機械故障，生產暫時中止。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "manufacturing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "sponsor",
+    "chinese": "(v./n.) 贊助；贊助商",
+    "sentence": "The company agreed to sponsor the annual industry conference this year.",
+    "translation": "公司同意贊助今年的年度行業會議。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "significant",
+    "chinese": "(adj.) 重要的、顯著的",
+    "sentence": "The new marketing campaign led to a significant increase in brand awareness.",
+    "translation": "新行銷活動顯著提升了品牌知名度。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "debris",
+    "chinese": "(n.) 碎片、殘骸",
+    "sentence": "Workers were instructed to clear the debris from the construction site immediately.",
+    "translation": "工人被指示立即清理建築工地的碎片。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "manufacturing",
+      "offices"
+    ]
+  },
+  {
+    "word": "accessible",
+    "chinese": "(adj.) 可及的、易取得的",
+    "sentence": "The new website design makes product information accessible to all customers.",
+    "translation": "新的網站設計讓所有客戶都能輕鬆獲取產品資訊。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "technical",
+      "general-business"
+    ]
+  },
+  {
+    "word": "oven",
+    "chinese": "(n.) 烤箱、爐子",
+    "sentence": "The commercial oven in the restaurant kitchen must be inspected monthly.",
+    "translation": "餐廳廚房的商用烤箱必須每月檢查一次。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "dining-out",
+      "health"
+    ]
+  },
+  {
+    "word": "dealing",
+    "chinese": "(n.) 交易、往來；(v.) 處理",
+    "sentence": "Our company has been dealing with this trusted supplier for over ten years.",
+    "translation": "我們公司與這家值得信賴的供應商已有超過十年的往來。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "promptly",
+    "chinese": "(adv.) 迅速地、準時地",
+    "sentence": "Please respond to customer inquiries promptly to maintain high satisfaction levels.",
+    "translation": "請迅速回覆客戶詢問，以維持高度滿意度。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "preform",
+    "chinese": "(v./n.) 預成型；預製件",
+    "sentence": "The technician must preform the component before it is sent to the final assembly stage.",
+    "translation": "技術人員必須在送往最終組裝階段之前對零件進行預成型。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "manufacturing",
+      "technical"
+    ]
+  },
+  {
+    "word": "prospective",
+    "chinese": "(adj.) 潛在的、未來的",
+    "sentence": "The sales team invited prospective clients to a product demonstration last Friday.",
+    "translation": "業務團隊上週五邀請潛在客戶參加產品示範。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "catalog",
+    "chinese": "(n.) 目錄；(v.) 編目",
+    "sentence": "The updated product catalog will be distributed to all retail partners next month.",
+    "translation": "更新後的產品目錄將於下個月分發給所有零售合作夥伴。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "aspect",
+    "chinese": "(n.) 方面、層面",
+    "sentence": "Every aspect of the project was carefully reviewed before the final approval.",
+    "translation": "專案的每個方面在最終審批前都經過仔細審查。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "engaging",
+    "chinese": "(adj.) 吸引人的、引人入勝的",
+    "sentence": "The keynote speaker delivered an engaging presentation at the annual conference.",
+    "translation": "主題演講者在年度會議上發表了一場引人入勝的簡報。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "passionate",
+    "chinese": "(adj.) 充滿熱情的",
+    "sentence": "The company is looking for passionate individuals who are eager to grow professionally.",
+    "translation": "公司正在尋找充滿熱情、渴望專業成長的人才。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "guide",
+    "chinese": "(v./n.) 指導；指南",
+    "sentence": "The employee handbook serves as a guide for all company policies and procedures.",
+    "translation": "員工手冊作為所有公司政策和程序的指南。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "individuals",
+    "chinese": "(n.) 個人、個體",
+    "sentence": "The training program is designed for individuals who want to develop leadership skills.",
+    "translation": "該培訓計劃專為想培養領導技能的個人設計。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "consumption",
+    "chinese": "(n.) 消耗、消費",
+    "sentence": "The company aims to reduce energy consumption by 20% over the next two years.",
+    "translation": "公司計劃在未來兩年內將能源消耗減少20%。",
+    "addedAt": "2026-04-06",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   }
 ]
