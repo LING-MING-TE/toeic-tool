@@ -1808,5 +1808,212 @@
     "categories": [
       "personnel"
     ]
+  },
+  {
+    "word": "affected",
+    "chinese": "(adj.) 受影響的、受波及的",
+    "sentence": "All departments affected by the system upgrade were notified in advance.",
+    "translation": "所有受系統升級影響的部門均提前收到通知。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "eliminate",
+    "chinese": "(v.) 消除、排除",
+    "sentence": "The new process was designed to eliminate unnecessary steps and reduce production costs.",
+    "translation": "新流程旨在消除不必要的步驟並降低生產成本。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "reform",
+    "chinese": "(v./n.) 改革、改善",
+    "sentence": "The company introduced a series of reforms to improve employee performance evaluation.",
+    "translation": "公司推行一系列改革，以改善員工績效評估制度。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
+  },
+  {
+    "word": "perk",
+    "chinese": "(n.) 額外福利、好處",
+    "sentence": "One of the perks of working here is free access to the on-site gym and wellness center.",
+    "translation": "在這裡工作的福利之一是免費使用場內健身房和健康中心。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "amenities",
+    "chinese": "(n.) 便利設施、生活設備",
+    "sentence": "The serviced apartment offers a full range of amenities including laundry and parking.",
+    "translation": "這間服務式公寓提供包含洗衣和停車場的完整便利設施。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "housing",
+      "travel"
+    ]
+  },
+  {
+    "word": "retain",
+    "chinese": "(v.) 留住、保留",
+    "sentence": "The company introduced a competitive benefits package to retain top-performing employees.",
+    "translation": "公司推出具競爭力的福利方案，以留住表現優秀的員工。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "talent",
+    "chinese": "(n.) 人才、才能",
+    "sentence": "The HR team launched a global recruitment drive to attract top talent in the industry.",
+    "translation": "人資團隊啟動全球招募活動，以吸引業界頂尖人才。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "mutually",
+    "chinese": "(adv.) 互相地、共同地",
+    "sentence": "Both parties agreed to a mutually beneficial arrangement for the long-term partnership.",
+    "translation": "雙方同意達成一項對長期合作關係互利的安排。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "surplus",
+    "chinese": "(n./adj.) 盈餘、剩餘",
+    "sentence": "The company reported a budget surplus and decided to reinvest the funds in new equipment.",
+    "translation": "公司報告出現預算盈餘，並決定將這些資金再投資於新設備。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
+  },
+  {
+    "word": "interior",
+    "chinese": "(n./adj.) 內部；室內的",
+    "sentence": "The interior of the new office was redesigned to create a more collaborative workspace.",
+    "translation": "新辦公室的內部經過重新設計，以打造更具協作性的工作空間。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "offices",
+      "housing"
+    ]
+  },
+  {
+    "word": "acquaintance",
+    "chinese": "(n.) 熟識、相識之人",
+    "sentence": "He was introduced to a business acquaintance who later became a key client.",
+    "translation": "他被介紹認識了一位商業熟識，後來成為重要客戶。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "consult",
+    "chinese": "(v.) 諮詢、請教",
+    "sentence": "Please consult the legal team before signing any agreement with a third-party vendor.",
+    "translation": "在與第三方供應商簽署任何協議前，請先諮詢法務團隊。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "reaction",
+    "chinese": "(n.) 反應、回應",
+    "sentence": "The CEO's announcement received a positive reaction from both employees and shareholders.",
+    "translation": "執行長的公告獲得員工和股東的正面回應。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "potential",
+    "chinese": "(n./adj.) 潛力；潛在的",
+    "sentence": "The manager identified several employees with high potential for leadership development.",
+    "translation": "主管識別出幾位具有高度領導發展潛力的員工。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "drop",
+    "chinese": "(v.) 下降、減少；(n.) 跌落",
+    "sentence": "There was a sharp drop in sales during the second quarter due to supply chain disruptions.",
+    "translation": "由於供應鏈中斷，第二季銷售額大幅下滑。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "effective",
+    "chinese": "(adj.) 有效的；生效的",
+    "sentence": "The new attendance policy will be effective starting from the first day of next month.",
+    "translation": "新的出勤政策將從下個月第一天起生效。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "immediately",
+    "chinese": "(adv.) 立即、馬上",
+    "sentence": "Please report any equipment malfunction to the IT department immediately.",
+    "translation": "請立即向資訊部門報告任何設備故障。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "cable",
+    "chinese": "(n.) 電纜；電報",
+    "sentence": "The technician replaced the damaged cable to restore network connectivity in the office.",
+    "translation": "技術員更換了損壞的電纜，以恢復辦公室的網路連線。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "waive",
+    "chinese": "(v.) 放棄（權利）；豁免",
+    "sentence": "The client requested that the company waive the late payment fee as a one-time courtesy.",
+    "translation": "客戶要求公司作為一次性禮遇豁免延遲付款費用。",
+    "addedAt": "2026-04-07",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   }
 ]
