@@ -2015,5 +2015,246 @@
       "general-business",
       "purchasing"
     ]
+  },
+  {
+    "word": "independent",
+    "chinese": "(adj.) 獨立的、自主的",
+    "sentence": "The company hired an independent consultant to review the financial report.",
+    "translation": "公司聘請了一位獨立顧問來審查財務報告。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "directly",
+    "chinese": "(adv.) 直接地",
+    "sentence": "Please contact the manager directly if you have any urgent concerns.",
+    "translation": "如有任何緊急事項，請直接聯繫經理。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "commissioned",
+    "chinese": "(v./adj.) 委託、受委託的",
+    "sentence": "The firm commissioned a market research study to assess consumer demand.",
+    "translation": "該公司委託進行了一項市場研究，以評估消費者需求。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "freelance",
+    "chinese": "(adj./v.) 自由接案的、自由工作",
+    "sentence": "She works as a freelance designer for several advertising agencies.",
+    "translation": "她以自由接案設計師的身份為多家廣告公司工作。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "journalists",
+    "chinese": "(n.) 記者、新聞工作者",
+    "sentence": "Several journalists attended the press conference to cover the product launch.",
+    "translation": "幾位記者出席了新聞發布會，報導產品發布活動。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "career",
+    "chinese": "(n.) 職涯、事業",
+    "sentence": "She has built a successful career in international finance over twenty years.",
+    "translation": "她在國際金融領域建立了長達二十年的成功職涯。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "recruit",
+    "chinese": "(v./n.) 招募、新進人員",
+    "sentence": "The HR department plans to recruit ten new engineers before the end of the quarter.",
+    "translation": "人資部門計畫在本季結束前招募十名新工程師。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "unveil",
+    "chinese": "(v.) 發布、揭露、推出",
+    "sentence": "The CEO will unveil the new product line at next month's annual conference.",
+    "translation": "執行長將在下個月的年度大會上發布新產品線。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "separate",
+    "chinese": "(v./adj.) 分開、獨立的",
+    "sentence": "Please keep the project budget in a separate account for easier tracking.",
+    "translation": "請將專案預算存入獨立帳戶以便追蹤。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "real estate",
+    "chinese": "(n.) 房地產",
+    "sentence": "The company invested in commercial real estate to expand its office space.",
+    "translation": "公司投資商業房地產以擴充辦公空間。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "agent",
+    "chinese": "(n.) 仲介、代理人、業務員",
+    "sentence": "Our sales agent in Tokyo will handle all client negotiations in the region.",
+    "translation": "我們在東京的業務代理將處理該地區的所有客戶談判。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "property",
+    "chinese": "(n.) 房產、物業、財產",
+    "sentence": "The company is looking to purchase a commercial property near the city center.",
+    "translation": "公司正在尋找在市中心附近購置商業物業。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "suburb",
+    "chinese": "(n.) 郊區、市郊",
+    "sentence": "Many employees choose to live in the suburb and commute to the downtown office.",
+    "translation": "許多員工選擇住在郊區，通勤前往市區辦公室。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "upscale",
+    "chinese": "(adj.) 高級的、高端的",
+    "sentence": "The hotel chain plans to open an upscale resort in the coastal area next year.",
+    "translation": "該連鎖酒店計畫明年在沿海地區開設一家高級度假村。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "travel-transportation"
+    ]
+  },
+  {
+    "word": "premise",
+    "chinese": "(n.) 場所、建築物、前提",
+    "sentence": "All visitors must sign in at the reception before entering the company premises.",
+    "translation": "所有訪客在進入公司場所前必須在接待處登記。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "rundown",
+    "chinese": "(adj./n.) 破舊的、概要、摘要",
+    "sentence": "The manager gave a quick rundown of the project status at the morning meeting.",
+    "translation": "經理在早會上簡要概述了專案進度。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "appealing",
+    "chinese": "(adj.) 吸引人的、有吸引力的",
+    "sentence": "The new benefits package is very appealing to potential job candidates.",
+    "translation": "新的福利方案對求職候選人非常有吸引力。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "regrettably",
+    "chinese": "(adv.) 遺憾地、可惜地",
+    "sentence": "Regrettably, we must decline your proposal due to budget constraints.",
+    "translation": "很遺憾，由於預算限制，我們必須拒絕您的提案。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "describe",
+    "chinese": "(v.) 描述、說明",
+    "sentence": "Please describe the issue in detail so our support team can assist you.",
+    "translation": "請詳細描述問題，以便我們的支援團隊能夠協助您。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "pamphlet",
+    "chinese": "(n.) 小冊子、宣傳單",
+    "sentence": "The marketing team distributed a pamphlet about the new service at the trade show.",
+    "translation": "行銷團隊在貿易展上發放了關於新服務的宣傳小冊子。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "embarkation",
+    "chinese": "(n.) 登船、登機、出發",
+    "sentence": "Passengers should arrive at the embarkation point at least one hour before departure.",
+    "translation": "乘客應在出發前至少一小時抵達登船地點。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "travel-transportation"
+    ]
+  },
+  {
+    "word": "across",
+    "chinese": "(prep./adv.) 橫越、在…對面、遍及",
+    "sentence": "The new policy will be implemented across all departments starting next month.",
+    "translation": "新政策將從下個月起在所有部門全面實施。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "furniture",
+    "chinese": "(n.) 家具",
+    "sentence": "The office ordered new furniture to improve the workspace environment.",
+    "translation": "辦公室訂購了新家具以改善工作環境。",
+    "addedAt": "2026-04-08",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
   }
 ]
