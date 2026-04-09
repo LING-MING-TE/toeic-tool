@@ -2256,5 +2256,228 @@
       "general-business",
       "purchasing"
     ]
+  },
+  {
+    "word": "accompany",
+    "chinese": "(v.) 陪同、伴隨",
+    "sentence": "The manager will accompany the client to the factory for a site inspection.",
+    "translation": "經理將陪同客戶前往工廠進行現場視察。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business",
+      "travel"
+    ]
+  },
+  {
+    "word": "encourage",
+    "chinese": "(v.) 鼓勵、激勵",
+    "sentence": "The supervisor encouraged the team to submit creative ideas for the new project.",
+    "translation": "主管鼓勵團隊為新專案提交有創意的想法。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "condominium",
+    "chinese": "(n.) 公寓大廈、共有產權住宅",
+    "sentence": "The company provides a condominium allowance for relocated employees.",
+    "translation": "公司為搬遷員工提供公寓補貼。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "housing"
+    ]
+  },
+  {
+    "word": "curious",
+    "chinese": "(adj.) 好奇的",
+    "sentence": "The client was curious about the new features included in the software update.",
+    "translation": "客戶對軟體更新中包含的新功能感到好奇。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "guild",
+    "chinese": "(n.) 行會、同業公會",
+    "sentence": "The local merchants guild organized a trade fair to promote regional products.",
+    "translation": "當地商人公會舉辦了一場貿易展覽以推廣地區產品。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "refreshment",
+    "chinese": "(n.) 茶點、輕食",
+    "sentence": "Refreshments will be provided during the afternoon break of the conference.",
+    "translation": "研討會下午休息期間將提供茶點。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "dining-out",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "courtesy",
+    "chinese": "(n.) 禮貌、禮節；(adj.) 免費提供的",
+    "sentence": "The hotel offers a courtesy shuttle service to and from the airport for all guests.",
+    "translation": "飯店為所有房客提供往返機場的免費接駁服務。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business",
+      "travel"
+    ]
+  },
+  {
+    "word": "rely upon",
+    "chinese": "(phr.) 依靠、仰賴",
+    "sentence": "Our team relies upon accurate data to make informed business decisions.",
+    "translation": "我們的團隊依靠準確的數據來做出明智的商業決策。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "walk-in",
+    "chinese": "(adj.) 無需預約的；(n.) 無預約來訪者",
+    "sentence": "The clinic accepts walk-in patients every weekday morning from nine to eleven.",
+    "translation": "診所每個工作日上午九點到十一點接受無預約患者。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "preregistration",
+    "chinese": "(n.) 預先登記、事前報名",
+    "sentence": "Preregistration for the annual trade show is now open on our company website.",
+    "translation": "年度貿易展的事前報名現已在公司網站開放。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "enroll",
+    "chinese": "(v.) 登記、報名、入學",
+    "sentence": "Employees are encouraged to enroll in the professional development courses offered this quarter.",
+    "translation": "鼓勵員工報名參加本季提供的專業發展課程。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "harsh",
+    "chinese": "(adj.) 嚴苛的、嚴酷的",
+    "sentence": "The new performance review criteria were considered too harsh by many employees.",
+    "translation": "許多員工認為新的績效評核標準過於嚴苛。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "tear down",
+    "chinese": "(phr.) 拆除、拆毀",
+    "sentence": "The construction crew will tear down the old warehouse before building the new facility.",
+    "translation": "施工隊將在興建新設施之前拆除舊倉庫。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "manufacturing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "glad",
+    "chinese": "(adj.) 高興的、樂意的",
+    "sentence": "We are glad to inform you that your application has been approved.",
+    "translation": "我們很高興通知您，您的申請已獲批准。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "malfunction",
+    "chinese": "(n./v.) 故障、運作不正常",
+    "sentence": "The production line was halted due to a malfunction in the main conveyor system.",
+    "translation": "由於主輸送系統發生故障，生產線被迫停止運作。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "paycheck",
+    "chinese": "(n.) 薪資支票、薪水",
+    "sentence": "All employees will receive their paycheck by direct deposit on the last business day of the month.",
+    "translation": "所有員工將在每月最後一個工作日以直接存款方式收到薪水。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "accounting-finance",
+      "personnel"
+    ]
+  },
+  {
+    "word": "amphitheater",
+    "chinese": "(n.) 露天圓形劇場、階梯式觀眾席",
+    "sentence": "The annual company picnic will be held at the outdoor amphitheater in the city park.",
+    "translation": "年度公司野餐將在市立公園的露天圓形劇場舉行。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "entertainment"
+    ]
+  },
+  {
+    "word": "genre",
+    "chinese": "(n.) 類型、體裁",
+    "sentence": "The publisher focuses on the business and self-improvement genre for its catalog.",
+    "translation": "該出版社的目錄專注於商業及自我提升類型。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
+  },
+  {
+    "word": "science",
+    "chinese": "(n.) 科學、自然科學",
+    "sentence": "The company invested heavily in science and technology research to stay competitive.",
+    "translation": "公司大量投資科學技術研究以保持競爭力。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "technical"
+    ]
+  },
+  {
+    "word": "intrigued",
+    "chinese": "(adj.) 感到好奇的、著迷的",
+    "sentence": "The investors were intrigued by the startup company presentation at the conference.",
+    "translation": "投資者對新創公司在研討會上的簡報深感好奇。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "seminar",
+    "chinese": "(n.) 研討會、講習班",
+    "sentence": "The HR department is organizing a seminar on workplace safety next Wednesday.",
+    "translation": "人資部門正在籌辦下週三的工作場所安全研討會。",
+    "addedAt": "2026-04-09",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   }
 ]
