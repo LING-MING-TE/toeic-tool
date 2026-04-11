@@ -2479,5 +2479,342 @@
       "personnel",
       "general-business"
     ]
+  },
+  {
+    "word": "intern",
+    "chinese": "(n.) 實習生",
+    "sentence": "The new intern will assist the marketing team with client presentations.",
+    "translation": "這位新實習生將協助行銷團隊進行客戶簡報。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "direction",
+    "chinese": "(n.) 方向；指示",
+    "sentence": "Please follow the directions provided in the employee handbook carefully.",
+    "translation": "請仔細遵照員工手冊中提供的指示。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "beyond",
+    "chinese": "(prep.) 超出、超越",
+    "sentence": "The project results exceeded expectations far beyond what management had anticipated.",
+    "translation": "這個專案的成果遠超出管理層的預期。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "considerable",
+    "chinese": "(adj.) 相當大的、可觀的",
+    "sentence": "The company made a considerable investment in new manufacturing equipment.",
+    "translation": "公司在新製造設備上投入了相當大的資金。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "proprietor",
+    "chinese": "(n.) 業主、所有者",
+    "sentence": "The proprietor of the restaurant decided to expand to a second location downtown.",
+    "translation": "這家餐廳的業主決定在市中心開設第二家分店。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "practical",
+    "chinese": "(adj.) 實用的、實際的",
+    "sentence": "We need a practical solution that can be implemented within the current budget.",
+    "translation": "我們需要一個能在現有預算內實施的實用解決方案。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "deliberate",
+    "chinese": "(adj.) 故意的；深思熟慮的",
+    "sentence": "The board made a deliberate decision to restructure the company's operations.",
+    "translation": "董事會做出了深思熟慮的決定，重組公司的運營。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "supplemental",
+    "chinese": "(adj.) 補充的、附加的",
+    "sentence": "A supplemental report was submitted to address the auditor's additional questions.",
+    "translation": "提交了一份補充報告以回應審計員的額外問題。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "harm",
+    "chinese": "(n./v.) 傷害、損害",
+    "sentence": "The recall was issued to prevent any potential harm to consumers.",
+    "translation": "發出召回通知是為了防止對消費者造成任何潛在傷害。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "reveal",
+    "chinese": "(v.) 揭露、透露",
+    "sentence": "The quarterly report revealed a significant increase in operating costs.",
+    "translation": "季度報告揭露了營運成本的大幅增加。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "communicate",
+    "chinese": "(v.) 溝通、傳達",
+    "sentence": "It is important to communicate any schedule changes to the team promptly.",
+    "translation": "及時向團隊溝通任何行程變更非常重要。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "regular",
+    "chinese": "(adj.) 定期的、固定的",
+    "sentence": "Regular maintenance of the equipment is required to ensure optimal performance.",
+    "translation": "定期維護設備是確保最佳效能的必要條件。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "manufacturing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "manner",
+    "chinese": "(n.) 方式、態度",
+    "sentence": "Please address all client inquiries in a professional and courteous manner.",
+    "translation": "請以專業且有禮的方式回應所有客戶詢問。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "point out",
+    "chinese": "(phr.) 指出",
+    "sentence": "The supervisor pointed out several errors in the financial statement.",
+    "translation": "主管指出了財務報表中的幾處錯誤。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "result from",
+    "chinese": "(phr.) 起因於、由…引起",
+    "sentence": "The production delay resulted from a shortage of raw materials.",
+    "translation": "生產延誤起因於原物料短缺。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "manufacturing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "entitled",
+    "chinese": "(adj.) 有資格的、有權利的",
+    "sentence": "All full-time employees are entitled to fifteen days of paid annual leave.",
+    "translation": "所有全職員工有權享有十五天的帶薪年假。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "along with",
+    "chinese": "(phr.) 連同、以及",
+    "sentence": "Please send the signed contract along with the payment confirmation.",
+    "translation": "請將簽署的合約連同付款確認一起寄送。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "provided that",
+    "chinese": "(phr.) 前提是、假如",
+    "sentence": "The bonus will be awarded provided that the annual sales target is met.",
+    "translation": "只要達到年度銷售目標，獎金就會發放。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "predicate",
+    "chinese": "(v.) 以…為基礎；斷言",
+    "sentence": "The business plan is predicated on achieving a 20% market share within two years.",
+    "translation": "這份商業計畫以兩年內達到20%市占率為基礎。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "habitual",
+    "chinese": "(adj.) 習慣性的、慣常的",
+    "sentence": "The manager addressed the employee's habitual tardiness during the performance review.",
+    "translation": "主管在績效考核時提及該員工習慣性遲到的問題。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "defective",
+    "chinese": "(adj.) 有缺陷的、瑕疵的",
+    "sentence": "Customers may return defective products within thirty days for a full refund.",
+    "translation": "客戶可在三十天內退回有缺陷的產品並獲得全額退款。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "resist",
+    "chinese": "(v.) 抵抗、抗拒",
+    "sentence": "The board voted to resist the hostile takeover bid from the competitor.",
+    "translation": "董事會投票決定抵制競爭對手的惡意收購提案。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
+  },
+  {
+    "word": "silently",
+    "chinese": "(adv.) 默默地、靜默地",
+    "sentence": "The new software updates install silently without disrupting the user's workflow.",
+    "translation": "新軟體更新會在不干擾使用者工作流程的情況下靜默安裝。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "awkwardly",
+    "chinese": "(adv.) 笨拙地、尷尬地",
+    "sentence": "The presenter awkwardly paused when the projector failed during the meeting.",
+    "translation": "會議中投影機故障時，報告者尷尬地暫停了下來。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "solidly",
+    "chinese": "(adv.) 穩固地、紮實地",
+    "sentence": "The company is solidly positioned in the market after years of consistent growth.",
+    "translation": "經過多年穩定成長，公司已在市場上穩固立足。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "sharply",
+    "chinese": "(adv.) 急劇地、明顯地",
+    "sentence": "Sales figures dropped sharply following the product recall announcement.",
+    "translation": "產品召回公告後，銷售數字急劇下降。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "tiles",
+    "chinese": "(n.) 磁磚、瓷磚",
+    "sentence": "The office renovation required replacing the damaged tiles in the lobby.",
+    "translation": "辦公室翻新需要更換大廳受損的磁磚。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "offices",
+      "housing"
+    ]
+  },
+  {
+    "word": "vacuuming",
+    "chinese": "(v.) 用吸塵器清掃",
+    "sentence": "The cleaning staff is responsible for vacuuming all office carpets every evening.",
+    "translation": "清潔人員負責每天晚上用吸塵器清掃所有辦公室地毯。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "offices"
+    ]
+  },
+  {
+    "word": "monitor",
+    "chinese": "(v.) 監控、監測；(n.) 螢幕",
+    "sentence": "The IT team continuously monitors the network for any security threats.",
+    "translation": "IT團隊持續監控網路以防範任何安全威脅。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "distributing",
+    "chinese": "(v.) 分發、配送",
+    "sentence": "The logistics team is distributing the new product catalogs to all regional offices.",
+    "translation": "物流團隊正在向所有地區辦事處分發新的產品目錄。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "orientation",
+    "chinese": "(n.) 入職培訓；方向",
+    "sentence": "All new hires must attend an orientation session on their first day of work.",
+    "translation": "所有新進員工必須在第一天上班時參加入職培訓。",
+    "addedAt": "2026-04-11",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
   }
 ]
