@@ -2816,5 +2816,335 @@
       "personnel",
       "general-business"
     ]
+  },
+  {
+    "word": "state",
+    "chinese": "(v.) 陳述、說明；(n.) 狀態、情況",
+    "sentence": "Please state your name and the purpose of your visit at the reception desk.",
+    "translation": "請在接待台說明您的姓名及來訪目的。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "classical",
+    "chinese": "(adj.) 古典的、傳統的",
+    "sentence": "The hotel's classical architecture and elegant interior attracted many business travelers.",
+    "translation": "飯店的古典建築與優雅內裝吸引了許多商務旅客。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "entertainment",
+      "common"
+    ]
+  },
+  {
+    "word": "clue",
+    "chinese": "(n.) 線索、提示",
+    "sentence": "The auditor found a clue in the financial records that indicated a discrepancy in the accounts.",
+    "translation": "審計員在財務記錄中發現了一條線索，顯示帳目存在差異。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
+  },
+  {
+    "word": "opinions",
+    "chinese": "(n.) 意見、看法",
+    "sentence": "The manager asked all team members to share their opinions on the new project proposal.",
+    "translation": "經理請所有團隊成員分享對新專案提案的意見。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "honest",
+    "chinese": "(adj.) 誠實的、坦率的",
+    "sentence": "We appreciate your honest feedback on the product's performance and user experience.",
+    "translation": "我們感謝您對產品性能和使用者體驗的誠實回饋。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "upon",
+    "chinese": "(prep.) 在⋯之上；一⋯就",
+    "sentence": "Upon receiving the signed contract, we will proceed with the delivery schedule.",
+    "translation": "收到簽署的合約後，我們將繼續執行交貨時間表。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "legally",
+    "chinese": "(adv.) 合法地、依法",
+    "sentence": "All employees must legally comply with the company's data protection policies.",
+    "translation": "所有員工必須依法遵守公司的資料保護政策。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "agreement",
+    "chinese": "(n.) 協議、合約；同意",
+    "sentence": "Both parties signed the service agreement outlining the terms and conditions of the partnership.",
+    "translation": "雙方簽署了服務協議，概述了合作關係的條款和條件。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "terminated",
+    "chinese": "(v.) 終止、結束（terminate 的過去式）",
+    "sentence": "The contract was terminated early due to the supplier's failure to meet quality standards.",
+    "translation": "由於供應商未能達到品質標準，合約提前終止。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "recovered",
+    "chinese": "(v.) 恢復、復原（recover 的過去式）",
+    "sentence": "The company has recovered its losses and returned to profitability after the market downturn.",
+    "translation": "市場下行後，公司已彌補虧損並重新實現盈利。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "financing-areas",
+      "general-business"
+    ]
+  },
+  {
+    "word": "designate",
+    "chinese": "(v.) 指定、委派；(adj.) 被指定的",
+    "sentence": "Please designate a team leader who will be responsible for overseeing the project milestones.",
+    "translation": "請指定一名團隊負責人，負責監督專案里程碑。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "disconnected",
+    "chinese": "(adj.) 斷開連接的、失聯的",
+    "sentence": "The remote team was temporarily disconnected from the server due to a network outage.",
+    "translation": "由於網路中斷，遠端團隊暫時與伺服器失去連線。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "technical",
+      "offices"
+    ]
+  },
+  {
+    "word": "readership",
+    "chinese": "(n.) 讀者群、讀者數量",
+    "sentence": "The magazine expanded its readership by launching a digital edition and social media campaign.",
+    "translation": "該雜誌透過推出數位版和社群媒體宣傳活動擴大了讀者群。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
+  },
+  {
+    "word": "conserve",
+    "chinese": "(v.) 節省、保存、保護",
+    "sentence": "The company has implemented measures to conserve energy and reduce operational costs.",
+    "translation": "公司已實施措施以節省能源並降低營運成本。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "obligate",
+    "chinese": "(v.) 使負義務、使承擔責任",
+    "sentence": "The contract will obligate both parties to fulfill their agreed responsibilities on time.",
+    "translation": "合約將使雙方有義務按時履行各自同意的責任。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "penalize",
+    "chinese": "(v.) 處罰、罰款",
+    "sentence": "The company will penalize vendors who fail to deliver orders within the agreed timeframe.",
+    "translation": "公司將對未能在約定時間內交貨的供應商進行處罰。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "proposal",
+    "chinese": "(n.) 提案、建議書",
+    "sentence": "The sales team submitted a detailed proposal to the client outlining costs and deliverables.",
+    "translation": "銷售團隊向客戶提交了一份詳細的提案，概述了費用和交付成果。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "translation",
+    "chinese": "(n.) 翻譯、譯文",
+    "sentence": "We need an accurate translation of the contract before the international negotiation begins.",
+    "translation": "在國際談判開始前，我們需要合約的準確翻譯。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "dedication",
+    "chinese": "(n.) 奉獻、投入；題獻",
+    "sentence": "Her dedication to customer service earned her the employee of the year award.",
+    "translation": "她對客戶服務的奉獻精神為她贏得了年度最佳員工獎。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "identification",
+    "chinese": "(n.) 身份證明、識別；確認",
+    "sentence": "All visitors must present valid identification before being granted access to the facility.",
+    "translation": "所有訪客在獲准進入設施前必須出示有效身份證明。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "especially",
+    "chinese": "(adv.) 尤其、特別是",
+    "sentence": "Customer satisfaction is especially important during the holiday shopping season.",
+    "translation": "在節日購物季節，客戶滿意度尤為重要。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "diligently",
+    "chinese": "(adv.) 勤勉地、用心地",
+    "sentence": "The team worked diligently to complete the project report before the deadline.",
+    "translation": "團隊勤勉地在截止日期前完成了專案報告。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "to the extent of",
+    "chinese": "(phr.) 到⋯的程度、達到⋯的範圍",
+    "sentence": "The company will cover travel expenses to the extent of the approved budget limit.",
+    "translation": "公司將在核准預算限額內支付差旅費用。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "financing-areas",
+      "common"
+    ]
+  },
+  {
+    "word": "in compensation",
+    "chinese": "(phr.) 作為補償、作為賠償",
+    "sentence": "In compensation for the delayed shipment, the supplier offered a ten percent discount.",
+    "translation": "作為對延遲交貨的補償，供應商提供了10%的折扣。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "in preference to",
+    "chinese": "(phr.) 優先於、較⋯更傾向於",
+    "sentence": "Management chose email communication in preference to phone calls for formal notifications.",
+    "translation": "管理層對正式通知選擇電子郵件溝通，優先於電話聯繫。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "common",
+      "offices"
+    ]
+  },
+  {
+    "word": "absence",
+    "chinese": "(n.) 缺席、不在場；缺乏",
+    "sentence": "Please submit a leave request form to explain your absence from the mandatory training session.",
+    "translation": "請提交請假申請表說明您未出席強制培訓課程的原因。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "offices"
+    ]
+  },
+  {
+    "word": "occupation",
+    "chinese": "(n.) 職業、工作；佔領、佔用",
+    "sentence": "Please state your current occupation when completing the application form.",
+    "translation": "填寫申請表時，請說明您目前的職業。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "inventory",
+    "chinese": "(n.) 庫存、存貨；清單",
+    "sentence": "The warehouse team conducts a monthly inventory check to ensure stock levels are accurate.",
+    "translation": "倉庫團隊每月進行庫存盤點，以確保庫存水準準確。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "coordinator",
+    "chinese": "(n.) 協調員、統籌人員",
+    "sentence": "The event coordinator managed all logistics for the annual company conference efficiently.",
+    "translation": "活動協調員高效地管理了年度公司會議的所有後勤工作。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "personnel",
+      "offices"
+    ]
+  },
+  {
+    "word": "exquisite",
+    "chinese": "(adj.) 精緻的、精美的",
+    "sentence": "The client was impressed by the exquisite design and craftsmanship of the custom furniture.",
+    "translation": "客戶對訂製傢俱精緻的設計和工藝留下了深刻印象。",
+    "addedAt": "2026-04-12",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
   }
 ]
