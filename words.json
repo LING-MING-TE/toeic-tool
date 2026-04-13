@@ -3146,5 +3146,311 @@
       "general-business",
       "entertainment"
     ]
+  },
+  {
+    "word": "recreational",
+    "chinese": "(adj.) 休閒的、娛樂的",
+    "sentence": "The company offers recreational facilities such as a gym and game room for employees.",
+    "translation": "公司為員工提供健身房和遊戲室等休閒設施。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "entertainment",
+      "personnel"
+    ]
+  },
+  {
+    "word": "so far",
+    "chinese": "(phr.) 到目前為止",
+    "sentence": "So far, the new marketing campaign has exceeded our quarterly revenue targets.",
+    "translation": "到目前為止，新的行銷活動已超越我們的季度營收目標。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "community",
+    "chinese": "(n.) 社區、社群",
+    "sentence": "The company launched a community outreach program to support local small businesses.",
+    "translation": "公司啟動了一項社區推廣計畫以支持當地小型企業。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "mayor",
+    "chinese": "(n.) 市長",
+    "sentence": "The mayor attended the ribbon-cutting ceremony for the new business district development.",
+    "translation": "市長出席了新商業區開發的剪綵儀式。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "award",
+    "chinese": "(n.) 獎項；(v.) 頒獎、授予",
+    "sentence": "The employee received an award for outstanding performance during the annual review.",
+    "translation": "該員工在年度考核中因出色表現而獲得獎項。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "admire",
+    "chinese": "(v.) 欣賞、讚賞",
+    "sentence": "Clients admire our company's commitment to delivering high-quality products on time.",
+    "translation": "客戶讚賞我們公司按時交付高品質產品的承諾。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "elevate",
+    "chinese": "(v.) 提升、晉升",
+    "sentence": "The training program is designed to elevate employees' skills and boost productivity.",
+    "translation": "此培訓計畫旨在提升員工技能並促進生產力。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "personnel",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "exclusive",
+    "chinese": "(adj.) 獨家的、高級的",
+    "sentence": "The hotel offers exclusive membership benefits to its most loyal corporate clients.",
+    "translation": "該飯店為最忠實的企業客戶提供獨家會員福利。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "residual",
+    "chinese": "(adj.) 剩餘的；(n.) 殘留物",
+    "sentence": "The accountant calculated the residual value of the equipment after five years of use.",
+    "translation": "會計師計算了設備使用五年後的殘值。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "mutual",
+    "chinese": "(adj.) 相互的、共同的",
+    "sentence": "Both companies signed the agreement based on mutual benefit and shared business goals.",
+    "translation": "兩家公司基於互利與共同商業目標簽署了協議。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "acquire",
+    "chinese": "(v.) 取得、收購",
+    "sentence": "The firm plans to acquire a smaller competitor to expand its market share.",
+    "translation": "該公司計劃收購一家較小的競爭對手以擴大市場份額。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "corporate-development",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "domestic",
+    "chinese": "(adj.) 國內的、本國的",
+    "sentence": "Our domestic sales have grown steadily despite the challenging global market conditions.",
+    "translation": "儘管全球市場環境充滿挑戰，我們的國內銷售仍穩定成長。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "accumulate",
+    "chinese": "(v.) 累積、積累",
+    "sentence": "Investors are advised to accumulate savings gradually to build a strong retirement fund.",
+    "translation": "建議投資者逐步累積儲蓄，以建立穩固的退休基金。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "boutique",
+    "chinese": "(n.) 精品店；(adj.) 精品的、小而精緻的",
+    "sentence": "The boutique consulting firm specializes in customized solutions for mid-sized companies.",
+    "translation": "這家精品顧問公司專門為中型企業提供客製化解決方案。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "struggle",
+    "chinese": "(v.) 掙扎、努力；(n.) 困境",
+    "sentence": "Many startups struggle to secure funding during the early stages of development.",
+    "translation": "許多新創公司在發展初期難以獲得資金。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "accurate",
+    "chinese": "(adj.) 準確的、精確的",
+    "sentence": "Please ensure that all financial reports are accurate before submitting them to management.",
+    "translation": "請確保所有財務報告在提交給管理層之前是準確無誤的。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "entrepreneur",
+    "chinese": "(n.) 企業家、創業者",
+    "sentence": "The entrepreneur launched a successful tech startup after identifying a gap in the market.",
+    "translation": "這位企業家在發現市場缺口後，成功創立了一家科技新創公司。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "otherwise",
+    "chinese": "(adv.) 否則、要不然",
+    "sentence": "Please submit the report by Friday; otherwise, the project timeline will be delayed.",
+    "translation": "請在星期五前提交報告，否則專案時程將會延誤。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "prevent",
+    "chinese": "(v.) 防止、預防",
+    "sentence": "The new safety protocol was introduced to prevent workplace accidents and injuries.",
+    "translation": "新的安全規程的引入是為了防止工作場所意外和傷害。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "health",
+      "general-business"
+    ]
+  },
+  {
+    "word": "owners",
+    "chinese": "(n.) 業主、所有者（複數）",
+    "sentence": "Property owners must obtain the necessary permits before beginning any renovation work.",
+    "translation": "物業業主在開始任何翻修工程之前必須取得必要的許可證。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "housing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "countless",
+    "chinese": "(adj.) 無數的、數不清的",
+    "sentence": "The manager has reviewed countless proposals before selecting the most promising candidate.",
+    "translation": "主管在選出最有潛力的候選人之前，已審閱了無數份提案。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "barely",
+    "chinese": "(adv.) 幾乎不、勉強",
+    "sentence": "The new employee barely had time to settle in before being assigned to the major project.",
+    "translation": "這位新員工幾乎還來不及安頓下來，就被分配到重大專案上。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "prominent",
+    "chinese": "(adj.) 著名的、顯著的",
+    "sentence": "The company invited a prominent industry expert to speak at the annual conference.",
+    "translation": "公司邀請了一位著名的業界專家在年度會議上發表演講。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "consultation",
+    "chinese": "(n.) 諮詢、磋商",
+    "sentence": "Before finalizing the contract, the legal team requested a consultation with the client.",
+    "translation": "在合約定稿前，法務團隊要求與客戶進行一次諮詢。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "exact",
+    "chinese": "(adj.) 確切的、精確的",
+    "sentence": "The supplier needs the exact dimensions of the product before processing the order.",
+    "translation": "供應商在處理訂單之前需要產品的確切尺寸。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "patron",
+    "chinese": "(n.) 顧客、贊助人",
+    "sentence": "The gallery offers special discounts to regular patrons who attend monthly exhibitions.",
+    "translation": "畫廊為參加每月展覽的常客提供特別折扣。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "entertainment",
+      "general-business"
+    ]
+  },
+  {
+    "word": "canvases",
+    "chinese": "(n.) 畫布（複數）",
+    "sentence": "The artist ordered a large shipment of canvases for the upcoming gallery exhibition.",
+    "translation": "藝術家為即將舉辦的畫廊展覽訂購了大批畫布。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "entertainment"
+    ]
+  },
+  {
+    "word": "grant",
+    "chinese": "(n.) 補助金、撥款；(v.) 授予、批准",
+    "sentence": "The startup received a government grant to develop its innovative renewable energy solution.",
+    "translation": "這家新創公司獲得了政府補助金，用於開發其創新的再生能源解決方案。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "financing-areas",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "security",
+    "chinese": "(n.) 安全、保安；證券",
+    "sentence": "The company upgraded its security system to protect sensitive client data from breaches.",
+    "translation": "公司升級了安全系統，以保護敏感的客戶資料免受洩露。",
+    "addedAt": "2026-04-13",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
   }
 ]
