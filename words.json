@@ -3452,5 +3452,181 @@
       "general-business",
       "financing-areas"
     ]
+  },
+  {
+    "word": "boost",
+    "chinese": "(v./n.) 提升、增加",
+    "sentence": "The new advertising campaign helped boost sales by thirty percent in the third quarter.",
+    "translation": "新的廣告活動幫助第三季銷售額提升了三十個百分點。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "meteorologist",
+    "chinese": "(n.) 氣象學家",
+    "sentence": "The event organizer consulted a meteorologist to plan the outdoor corporate retreat.",
+    "translation": "活動主辦方諮詢了氣象學家，為戶外企業團訓做好規劃。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "travel"
+    ]
+  },
+  {
+    "word": "boom",
+    "chinese": "(n./v.) 繁榮、激增；迅速增長",
+    "sentence": "The technology sector experienced a boom in demand following the new product launch.",
+    "translation": "新產品發布後，科技業的需求激增。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "seek",
+    "chinese": "(v.) 尋求、尋找",
+    "sentence": "The company is seeking qualified candidates to fill the newly created regional manager position.",
+    "translation": "公司正在尋求合格的候選人以填補新設立的區域經理職位。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "institute",
+    "chinese": "(n.) 機構、協會；(v.) 建立、設立",
+    "sentence": "The research institute published its findings on sustainable business practices last week.",
+    "translation": "研究機構上週發布了其關於永續商業實踐的調查結果。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "vicinity",
+    "chinese": "(n.) 附近、鄰近地區",
+    "sentence": "Several restaurants and hotels are located in the vicinity of the conference center.",
+    "translation": "會議中心附近有幾家餐廳和飯店。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "travel"
+    ]
+  },
+  {
+    "word": "afterward",
+    "chinese": "(adv.) 之後、其後",
+    "sentence": "The team held a brief discussion afterward to review the key points of the presentation.",
+    "translation": "團隊在之後舉行了簡短討論，回顧簡報的重點。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "essential",
+    "chinese": "(adj.) 必要的、不可缺少的",
+    "sentence": "Clear communication is essential for successful project management and team collaboration.",
+    "translation": "清晰的溝通對成功的專案管理和團隊合作至關重要。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "sleek",
+    "chinese": "(adj.) 流線型的、時髦的",
+    "sentence": "The company launched a sleek new product design that appealed to younger consumers.",
+    "translation": "公司推出了一款時髦的新產品設計，吸引了年輕消費者。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "uniquely",
+    "chinese": "(adv.) 獨特地、唯一地",
+    "sentence": "The company is uniquely positioned to serve both local and international markets simultaneously.",
+    "translation": "公司處於獨特的位置，能夠同時服務本地和國際市場。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "stamp",
+    "chinese": "(v./n.) 蓋章、蓋印；郵票",
+    "sentence": "Please stamp the invoice with the company seal before sending it to the client.",
+    "translation": "請在將發票寄給客戶前蓋上公司印章。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "quote",
+    "chinese": "(v./n.) 報價、引用；報價單",
+    "sentence": "The sales representative will quote a competitive price for the bulk order by end of day.",
+    "translation": "業務代表將在當天結束前為大宗訂單提供具競爭力的報價。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "purchasing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "elaborate",
+    "chinese": "(v.) 詳述、闡述；(adj.) 精心的、詳盡的",
+    "sentence": "The consultant asked the client to elaborate on the specific requirements for the new system.",
+    "translation": "顧問要求客戶詳細說明新系統的具體需求。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "memorial",
+    "chinese": "(n.) 紀念物、紀念碑；(adj.) 紀念的",
+    "sentence": "The company held a memorial ceremony to honor the founder's contributions on his anniversary.",
+    "translation": "公司舉行了紀念儀式，在創辦人周年紀念日表彰其貢獻。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "entertainment"
+    ]
+  },
+  {
+    "word": "suffer",
+    "chinese": "(v.) 遭受、蒙受（損失）",
+    "sentence": "The company suffered significant financial losses due to the unexpected supply chain disruption.",
+    "translation": "由於意外的供應鏈中斷，公司蒙受了重大的財務損失。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "adjacent",
+    "chinese": "(adj.) 鄰近的、毗鄰的",
+    "sentence": "The new conference room is located in the adjacent building connected by a covered walkway.",
+    "translation": "新會議室位於毗鄰的建築物中，通過有頂走廊連通。",
+    "addedAt": "2026-04-14",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
   }
 ]
