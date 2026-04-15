@@ -3628,5 +3628,126 @@
       "offices",
       "general-business"
     ]
+  },
+  {
+    "word": "contemporary",
+    "chinese": "(adj.) 當代的、現代的",
+    "sentence": "The company adopted a contemporary approach to remote work management.",
+    "translation": "該公司採用了現代化的方式來管理遠端工作。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "burdensome",
+    "chinese": "(adj.) 繁重的、造成負擔的",
+    "sentence": "The new compliance requirements were considered burdensome by small businesses.",
+    "translation": "新的合規要求被小型企業視為負擔沉重。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "realtor",
+    "chinese": "(n.) 房地產經紀人",
+    "sentence": "We hired a realtor to help us find a suitable office space downtown.",
+    "translation": "我們聘請了一位房地產經紀人幫助我們在市中心找到合適的辦公空間。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "housing",
+      "offices"
+    ]
+  },
+  {
+    "word": "alike",
+    "chinese": "(adj./adv.) 相似的、同樣地",
+    "sentence": "The new policy applies to managers and employees alike.",
+    "translation": "新政策對經理和員工同樣適用。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "aisle",
+    "chinese": "(n.) 走道、通道",
+    "sentence": "Please keep the aisle clear during the product demonstration in the showroom.",
+    "translation": "請在展示廳的產品展示期間保持走道暢通。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "offices",
+      "travel"
+    ]
+  },
+  {
+    "word": "integrate",
+    "chinese": "(v.) 整合、融入",
+    "sentence": "The company plans to integrate the new software with its existing accounting system.",
+    "translation": "公司計劃將新軟體與現有的會計系統整合。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "technical",
+      "general-business"
+    ]
+  },
+  {
+    "word": "throughout",
+    "chinese": "(prep./adv.) 遍及、在整個過程中",
+    "sentence": "The training program will be offered throughout the organization next quarter.",
+    "translation": "培訓計劃將於下季度在整個組織中推行。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "proper",
+    "chinese": "(adj.) 適當的、正確的",
+    "sentence": "Proper documentation must be submitted before the project can proceed.",
+    "translation": "在專案繼續進行之前，必須提交適當的文件。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "promising",
+    "chinese": "(adj.) 有前途的、前景看好的",
+    "sentence": "The sales team identified several promising leads at the trade show.",
+    "translation": "銷售團隊在貿易展上發現了幾個有潛力的客戶線索。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "entry barriers",
+    "chinese": "(phr.) 進入障礙、市場壁壘",
+    "sentence": "High entry barriers make it difficult for small firms to enter the pharmaceutical industry.",
+    "translation": "高進入障礙使得小型企業難以進入製藥行業。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "corporate-development",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "comment",
+    "chinese": "(n./v.) 意見、評論；發表意見",
+    "sentence": "Please feel free to leave a comment on the proposal before Friday's meeting.",
+    "translation": "請在週五的會議前隨時對提案發表意見。",
+    "addedAt": "2026-04-15",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   }
 ]
