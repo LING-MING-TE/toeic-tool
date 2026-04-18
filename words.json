@@ -3749,5 +3749,159 @@
       "general-business",
       "offices"
     ]
+  },
+  {
+    "word": "financial",
+    "chinese": "(adj.) 財務的、金融的",
+    "sentence": "The CFO presented the company's financial results at the annual shareholders' meeting.",
+    "translation": "財務長在年度股東大會上報告了公司的財務業績。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "portfolio",
+    "chinese": "(n.) 投資組合；作品集",
+    "sentence": "Our asset management team will review your investment portfolio at the end of each quarter.",
+    "translation": "我們的資產管理團隊將於每季末審查您的投資組合。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "minors",
+    "chinese": "(n.) 未成年人",
+    "sentence": "The venue policy states that minors must be accompanied by an adult at all times.",
+    "translation": "場地規定未成年人在任何時候都必須由成人陪同。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "community"
+    ]
+  },
+  {
+    "word": "accompanied",
+    "chinese": "(adj./v.) 陪同的；伴隨",
+    "sentence": "All visitors must be accompanied by a staff member when entering the restricted area.",
+    "translation": "所有訪客進入限制區域時必須有員工陪同。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "guardian",
+    "chinese": "(n.) 監護人；守護者",
+    "sentence": "A signed consent form from a parent or guardian is required for all minors participating in the program.",
+    "translation": "所有參與課程的未成年人均需提交家長或監護人簽署的同意書。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "silent",
+    "chinese": "(adj.) 沉默的；無聲的；不發音的",
+    "sentence": "The silent partner agreed to provide funding without involvement in daily operations.",
+    "translation": "這位沉默合夥人同意提供資金，但不參與日常業務。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "proportional",
+    "chinese": "(adj.) 按比例的、相稱的",
+    "sentence": "Each department's budget is proportional to its projected revenue contribution for the year.",
+    "translation": "每個部門的預算與其當年預計的收益貢獻成比例。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "accounting-finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "contradictory",
+    "chinese": "(adj.) 矛盾的、相互矛盾的",
+    "sentence": "The two reports contained contradictory data, so the team requested a thorough audit.",
+    "translation": "這兩份報告包含相互矛盾的數據，因此團隊要求進行全面審計。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "intensive",
+    "chinese": "(adj.) 密集的、深入的",
+    "sentence": "New hires will undergo an intensive two-week training program before joining their teams.",
+    "translation": "新進員工在加入各自團隊前，將接受為期兩週的密集培訓計劃。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "relationship",
+    "chinese": "(n.) 關係、往來",
+    "sentence": "Building a strong relationship with clients is essential for long-term business success.",
+    "translation": "與客戶建立良好關係對長期業務成功至關重要。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "compensation",
+    "chinese": "(n.) 薪酬、補償金",
+    "sentence": "The HR department will review the compensation package to ensure it remains competitive.",
+    "translation": "人資部門將審查薪酬方案，以確保其保持競爭力。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "personnel",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "adaptation",
+    "chinese": "(n.) 適應、改編；調整",
+    "sentence": "Rapid adaptation to market changes is crucial for maintaining a competitive edge.",
+    "translation": "快速適應市場變化對於保持競爭優勢至關重要。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
+  },
+  {
+    "word": "reflect",
+    "chinese": "(v.) 反映；思考；照出",
+    "sentence": "The quarterly report should reflect all changes made to the budget during the review period.",
+    "translation": "季報應反映審查期間預算的所有變更。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "backlash",
+    "chinese": "(n.) 強烈反彈、反對聲浪",
+    "sentence": "The company faced significant backlash after announcing the unexpected layoffs last month.",
+    "translation": "該公司在上個月宣布意外裁員後，面臨了強烈的反彈。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
   }
 ]
