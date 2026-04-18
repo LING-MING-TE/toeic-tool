@@ -3903,5 +3903,27 @@
       "corporate-development",
       "general-business"
     ]
+  },
+  {
+    "word": "seminar",
+    "chinese": "(n.) 研討會、講習班",
+    "sentence": "Employees are encouraged to attend the seminar on effective communication skills this Friday.",
+    "translation": "員工被鼓勵參加本週五舉辦的有效溝通技巧研討會。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "directly",
+    "chinese": "(adv.) 直接地",
+    "sentence": "Clients may contact the project manager directly to discuss any changes to the contract.",
+    "translation": "客戶可直接聯繫專案經理，討論合約的任何變更。",
+    "addedAt": "2026-04-18",
+    "categories": [
+      "general-business",
+      "common"
+    ]
   }
 ]
