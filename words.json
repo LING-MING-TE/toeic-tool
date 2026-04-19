@@ -4208,5 +4208,27 @@
       "general-business",
       "corporate-development"
     ]
+  },
+  {
+    "word": "determine",
+    "chinese": "(v.) 決定、確定、查明",
+    "sentence": "The audit committee will determine whether the expenses comply with company policy.",
+    "translation": "審計委員會將確認費用是否符合公司政策。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "elaborate",
+    "chinese": "(v.) 詳述、闡述；(adj.) 精心的、詳盡的",
+    "sentence": "The consultant asked the client to elaborate on the specific requirements for the new system.",
+    "translation": "顧問要求客戶詳細說明新系統的具體需求。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
   }
 ]
