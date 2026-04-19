@@ -4230,5 +4230,80 @@
       "general-business",
       "offices"
     ]
+  },
+  {
+    "word": "injure",
+    "chinese": "(v.) 傷害、使受傷",
+    "sentence": "A worker was injure during the warehouse inspection and was immediately taken to the hospital.",
+    "translation": "一名工人在倉庫檢查期間受傷，並立即被送往醫院。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "health",
+      "general-business"
+    ]
+  },
+  {
+    "word": "credibility",
+    "chinese": "(n.) 可信度、公信力",
+    "sentence": "Publishing accurate financial reports is essential to maintaining the company's credibility with investors.",
+    "translation": "發布準確的財務報告對於維持公司在投資人心中的公信力至關重要。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "reputation",
+    "chinese": "(n.) 聲譽、名聲",
+    "sentence": "The firm has built a strong reputation for delivering high-quality products on time.",
+    "translation": "該公司以準時交付高品質產品建立了良好聲譽。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "politician",
+    "chinese": "(n.) 政治人物、政客",
+    "sentence": "Several politicians attended the trade conference to discuss new import regulations with business leaders.",
+    "translation": "數位政治人物出席了貿易會議，與企業領袖討論新的進口法規。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "attempt",
+    "chinese": "(v.) 嘗試、試圖；(n.) 嘗試、企圖",
+    "sentence": "The team will attempt to finalize the merger agreement before the end of this quarter.",
+    "translation": "團隊將嘗試在本季末之前完成合併協議。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "nonetheless",
+    "chinese": "(adv.) 儘管如此、然而",
+    "sentence": "The budget was reduced; nonetheless, the project was completed ahead of schedule.",
+    "translation": "預算雖然削減，儘管如此，專案仍提前完成。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "intend",
+    "chinese": "(v.) 打算、意圖",
+    "sentence": "The management intends to expand operations into the Southeast Asian market by next year.",
+    "translation": "管理層打算在明年前將業務擴展至東南亞市場。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   }
 ]
