@@ -3925,5 +3925,288 @@
       "general-business",
       "common"
     ]
+  },
+  {
+    "word": "duty",
+    "chinese": "(n.) 職責；關稅",
+    "sentence": "It is the manager's duty to ensure all employees follow the updated workplace safety guidelines.",
+    "translation": "確保所有員工遵守最新的職場安全規範是經理的職責。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "suitable",
+    "chinese": "(adj.) 適合的、合適的",
+    "sentence": "We are looking for a suitable candidate with at least five years of project management experience.",
+    "translation": "我們正在尋找具備至少五年專案管理經驗的合適候選人。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "leisure",
+    "chinese": "(n.) 休閒、閒暇",
+    "sentence": "The hotel offers a variety of leisure activities, including a spa and outdoor swimming pool.",
+    "translation": "這家飯店提供多種休閒活動，包括水療中心和戶外游泳池。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "travel",
+      "common"
+    ]
+  },
+  {
+    "word": "occasion",
+    "chinese": "(n.) 場合、時機",
+    "sentence": "The annual awards dinner is a formal occasion that all senior staff are expected to attend.",
+    "translation": "年度頒獎晚宴是一個正式場合，所有資深員工都應出席。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "vacation destination",
+    "chinese": "(phr.) 度假目的地",
+    "sentence": "The travel agency recommended several popular vacation destinations for the company retreat this summer.",
+    "translation": "旅行社為今年夏天的企業員工旅遊推薦了幾個熱門度假目的地。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "travel"
+    ]
+  },
+  {
+    "word": "loan",
+    "chinese": "(n.) 貸款；借出",
+    "sentence": "The company applied for a bank loan to fund the expansion of its manufacturing facility.",
+    "translation": "該公司申請了銀行貸款，以資助其製造設施的擴建工程。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "borrow",
+    "chinese": "(v.) 借用、借入",
+    "sentence": "The startup had to borrow funds from investors to cover the initial operating costs.",
+    "translation": "這家新創公司必須向投資人借款以支付初期營運成本。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "accounting-finance",
+      "common"
+    ]
+  },
+  {
+    "word": "be eligible",
+    "chinese": "(phr.) 有資格、符合條件",
+    "sentence": "Employees who have worked for more than two years be eligible for the annual performance bonus.",
+    "translation": "任職超過兩年的員工有資格領取年度績效獎金。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "address",
+    "chinese": "(v.) 處理、應對；演講",
+    "sentence": "The CEO will address the concerns raised by shareholders during tomorrow's annual general meeting.",
+    "translation": "執行長將在明天的股東年會上處理股東所提出的疑慮。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "weakness",
+    "chinese": "(n.) 弱點、缺點",
+    "sentence": "During the performance review, the supervisor identified communication as the employee's key weakness.",
+    "translation": "在績效評估中，主管將溝通能力確認為該員工的主要弱點。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "initiative",
+    "chinese": "(n.) 主動性；提案、計畫",
+    "sentence": "The marketing team launched a new initiative to increase brand awareness among younger consumers.",
+    "translation": "行銷團隊推出了一項新提案，以提升年輕消費者對品牌的認知度。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "optimal",
+    "chinese": "(adj.) 最佳的、最優的",
+    "sentence": "The logistics team is working to find the optimal delivery route to reduce shipping costs.",
+    "translation": "物流團隊正致力於尋找最佳配送路線以降低運輸成本。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "logistics"
+    ]
+  },
+  {
+    "word": "be reluctant",
+    "chinese": "(phr.) 不情願的、勉強的",
+    "sentence": "Some senior employees be reluctant to adopt the new software system due to limited training.",
+    "translation": "部分資深員工由於培訓不足，對採用新軟體系統感到不情願。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "preferable",
+    "chinese": "(adj.) 更好的、更合適的",
+    "sentence": "It is preferable to confirm all meeting details at least 48 hours in advance.",
+    "translation": "最好在至少 48 小時前確認所有會議細節。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "as long as",
+    "chinese": "(phr.) 只要",
+    "sentence": "As long as the shipment arrives before Friday, we can meet the client's deadline.",
+    "translation": "只要貨物在週五前抵達，我們就能趕上客戶的截止日期。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common",
+      "logistics"
+    ]
+  },
+  {
+    "word": "by means of",
+    "chinese": "(phr.) 藉由、透過",
+    "sentence": "The company reduced overhead costs by means of automating its inventory management system.",
+    "translation": "該公司透過自動化庫存管理系統來降低間接費用。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "divide",
+    "chinese": "(v.) 分配、劃分；分擔",
+    "sentence": "The project manager decided to divide the workload evenly among the four team members.",
+    "translation": "專案經理決定將工作量平均分配給四位團隊成員。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "in case",
+    "chinese": "(phr.) 以防、萬一",
+    "sentence": "Please bring extra copies of the proposal in case additional stakeholders attend the meeting.",
+    "translation": "請多帶幾份提案副本，以防有其他利害關係人出席會議。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "in spite of",
+    "chinese": "(phr.) 儘管、不顧",
+    "sentence": "In spite of the budget cuts, the team successfully delivered the project on schedule.",
+    "translation": "儘管預算縮減，團隊仍成功按時完成了專案。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "aside from",
+    "chinese": "(phr.) 除了⋯之外",
+    "sentence": "Aside from the revised budget, all other sections of the annual report have been approved.",
+    "translation": "除了修訂後的預算之外，年報的所有其他部分均已獲批准。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "separately",
+    "chinese": "(adv.) 分開地、個別地",
+    "sentence": "The invoice for consulting services will be sent separately from the product purchase order.",
+    "translation": "諮詢服務的發票將與產品採購訂單分開寄送。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "accounting-finance"
+    ]
+  },
+  {
+    "word": "permanent",
+    "chinese": "(adj.) 永久的、長期的",
+    "sentence": "After completing the six-month probation period, she was offered a permanent position at the firm.",
+    "translation": "完成六個月試用期後，她獲得了該公司的正式長期職位。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "regardless of",
+    "chinese": "(phr.) 不管、不論",
+    "sentence": "All employees must submit their timesheets by Friday, regardless of whether they worked remotely.",
+    "translation": "無論是否在遠端工作，所有員工必須在週五前提交工時記錄表。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "common",
+      "personnel"
+    ]
+  },
+  {
+    "word": "adopt",
+    "chinese": "(v.) 採用、採納；引進",
+    "sentence": "The board voted to adopt a new sustainability policy to reduce the company's carbon footprint.",
+    "translation": "董事會投票通過採納新的永續發展政策，以減少公司的碳足跡。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "corporate-development",
+      "general-business"
+    ]
+  },
+  {
+    "word": "telecommuting",
+    "chinese": "(n.) 遠端工作、居家辦公",
+    "sentence": "The company expanded its telecommuting policy to allow employees to work from home three days a week.",
+    "translation": "公司擴大了遠端工作政策，允許員工每週有三天在家辦公。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "telecomm",
+    "chinese": "(n.) 電信、遠距通訊",
+    "sentence": "The firm partnered with a major telecomm provider to upgrade its corporate communication infrastructure.",
+    "translation": "該公司與一家主要電信業者合作，升級其企業通訊基礎設施。",
+    "addedAt": "2026-04-19",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   }
 ]
