@@ -4305,5 +4305,346 @@
       "general-business",
       "corporate-development"
     ]
+  },
+  {
+    "word": "perfumes",
+    "chinese": "(n.) 香水",
+    "sentence": "The boutique sells a wide selection of luxury perfumes imported from France.",
+    "translation": "這家精品店販售多款從法國進口的奢華香水。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "marketing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "indicate",
+    "chinese": "(v.) 指出、顯示",
+    "sentence": "The quarterly report indicates a steady increase in customer satisfaction.",
+    "translation": "季報顯示客戶滿意度穩定提升。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "finance"
+    ]
+  },
+  {
+    "word": "destination",
+    "chinese": "(n.) 目的地",
+    "sentence": "The logistics team confirmed that the shipment reached its destination on schedule.",
+    "translation": "物流團隊確認貨物已按時抵達目的地。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "logistics",
+      "travel"
+    ]
+  },
+  {
+    "word": "ferry",
+    "chinese": "(n.) 渡輪；(v.) 渡運",
+    "sentence": "Employees can take the company ferry to reach the offshore facility.",
+    "translation": "員工可以搭乘公司渡輪前往離岸設施。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "travel",
+      "logistics"
+    ]
+  },
+  {
+    "word": "veteran",
+    "chinese": "(n.) 老手、資深人員；(adj.) 資深的",
+    "sentence": "The veteran sales manager shared his experience with the new recruits during orientation.",
+    "translation": "這位資深業務經理在入職培訓期間與新人分享他的經驗。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "trend",
+    "chinese": "(n.) 趨勢、動向",
+    "sentence": "Market analysts identified a growing trend toward remote work in the tech industry.",
+    "translation": "市場分析師發現科技業遠距工作的趨勢日益增長。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "criticism",
+    "chinese": "(n.) 批評、批判",
+    "sentence": "The manager offered constructive criticism to help the team improve their presentation.",
+    "translation": "經理提供了建設性的批評，以幫助團隊改進簡報。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "spotless",
+    "chinese": "(adj.) 一塵不染的、無瑕的",
+    "sentence": "The hotel room was spotless and received top ratings from all guests.",
+    "translation": "飯店房間一塵不染，獲得所有住客的最高評價。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "travel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "stream",
+    "chinese": "(n.) 串流；流；(v.) 串流播放",
+    "sentence": "The company will stream the annual conference live for remote employees.",
+    "translation": "公司將為遠端員工提供年度大會的直播串流。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "technology",
+      "general-business"
+    ]
+  },
+  {
+    "word": "situation",
+    "chinese": "(n.) 狀況、情況",
+    "sentence": "The manager assessed the situation before presenting a solution to the board.",
+    "translation": "經理在向董事會提出解決方案之前先評估了情況。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "restricted",
+    "chinese": "(adj.) 受限的、限制性的",
+    "sentence": "Access to the server room is restricted to authorized personnel only.",
+    "translation": "伺服器機房的進入僅限授權人員。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "technology",
+      "general-business"
+    ]
+  },
+  {
+    "word": "in the midst of",
+    "chinese": "(phr.) 在⋯之中、正當⋯之際",
+    "sentence": "The company announced a restructuring plan in the midst of an economic downturn.",
+    "translation": "公司在經濟低迷之際宣布了重組計畫。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "achieve",
+    "chinese": "(v.) 達成、實現",
+    "sentence": "The sales team worked overtime to achieve their quarterly revenue targets.",
+    "translation": "業務團隊加班以達成季度營收目標。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "preliminary",
+    "chinese": "(adj.) 初步的、預備的；(n.) 初步步驟",
+    "sentence": "The preliminary findings of the audit will be shared with senior management next week.",
+    "translation": "審計的初步結果將於下週與高層管理人員分享。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "involve",
+    "chinese": "(v.) 涉及、包含",
+    "sentence": "The new project will involve collaboration between the marketing and engineering teams.",
+    "translation": "新專案將涉及行銷與工程團隊之間的合作。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "secure",
+    "chinese": "(v.) 取得、確保；(adj.) 安全的",
+    "sentence": "The sales director worked hard to secure a long-term contract with the new client.",
+    "translation": "業務總監努力確保與新客戶簽訂長期合約。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "finance"
+    ]
+  },
+  {
+    "word": "withdraw from",
+    "chinese": "(phr.) 從⋯退出、撤回",
+    "sentence": "The company decided to withdraw from the joint venture due to financial concerns.",
+    "translation": "公司因財務疑慮決定退出該合資企業。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "finance",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "impress",
+    "chinese": "(v.) 給⋯留下深刻印象",
+    "sentence": "The candidate's portfolio managed to impress all members of the hiring committee.",
+    "translation": "該應徵者的作品集成功給所有招聘委員會成員留下深刻印象。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "accomplished",
+    "chinese": "(adj.) 技術熟練的、有成就的",
+    "sentence": "We are looking for an accomplished engineer to lead the product development team.",
+    "translation": "我們正在尋找一位技術熟練的工程師來領導產品開發團隊。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "uplifting",
+    "chinese": "(adj.) 令人振奮的、鼓舞人心的",
+    "sentence": "The CEO delivered an uplifting speech that motivated the entire workforce.",
+    "translation": "執行長發表了一場令人振奮的演講，激勵了全體員工。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "dozen",
+    "chinese": "(n.) 一打、十二個；(adj.) 十二個的",
+    "sentence": "We ordered a dozen sets of promotional materials for the upcoming trade show.",
+    "translation": "我們為即將到來的商展訂購了十二套宣傳材料。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "marketing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "stunning",
+    "chinese": "(adj.) 令人驚豔的、極好的",
+    "sentence": "The new office building features a stunning view of the city skyline.",
+    "translation": "新辦公大樓擁有令人驚豔的城市天際線景觀。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "real-estate",
+      "general-business"
+    ]
+  },
+  {
+    "word": "vary",
+    "chinese": "(v.) 不同、變化",
+    "sentence": "Shipping costs may vary depending on the destination and package weight.",
+    "translation": "運費可能因目的地和包裹重量而有所不同。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "logistics",
+      "general-business"
+    ]
+  },
+  {
+    "word": "brochure",
+    "chinese": "(n.) 小冊子、宣傳冊",
+    "sentence": "Please review the product brochure before your meeting with the client tomorrow.",
+    "translation": "請在明天與客戶的會議之前先查看產品宣傳冊。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "marketing",
+      "general-business"
+    ]
+  },
+  {
+    "word": "accumulate",
+    "chinese": "(v.) 累積、積累",
+    "sentence": "The company has accumulated significant reserves over the past five years.",
+    "translation": "該公司在過去五年中累積了大量儲備金。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "entitled",
+    "chinese": "(adj.) 有資格的、有權利的",
+    "sentence": "Full-time employees are entitled to 14 days of paid annual leave.",
+    "translation": "全職員工有權享有 14 天的帶薪年假。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "residual",
+    "chinese": "(adj.) 剩餘的、殘餘的；(n.) 殘值",
+    "sentence": "The residual value of the equipment was factored into the depreciation schedule.",
+    "translation": "設備的殘值已納入折舊時間表中計算。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "boutique",
+    "chinese": "(n.) 精品店；(adj.) 小型精緻的",
+    "sentence": "She opened a boutique consulting firm specializing in startup growth strategy.",
+    "translation": "她開設了一家專注於新創企業成長策略的精品顧問公司。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "marketing"
+    ]
+  },
+  {
+    "word": "accurate",
+    "chinese": "(adj.) 準確的、精確的",
+    "sentence": "It is essential to provide accurate financial data when preparing the annual report.",
+    "translation": "在準備年度報告時，提供準確的財務數據至關重要。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "out of order",
+    "chinese": "(phr.) 故障的；不按規定的",
+    "sentence": "The elevator is out of order, so please use the staircase on the left.",
+    "translation": "電梯故障中，請使用左側的樓梯。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "make an exception",
+    "chinese": "(phr.) 破例、網開一面",
+    "sentence": "The manager agreed to make an exception and extend the deadline by two days.",
+    "translation": "經理同意破例將截止日期延後兩天。",
+    "addedAt": "2026-04-20",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
   }
 ]
