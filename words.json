@@ -4646,5 +4646,227 @@
       "general-business",
       "personnel"
     ]
+  },
+  {
+    "word": "mural",
+    "chinese": "(n.) 壁畫",
+    "sentence": "The company commissioned a large mural to decorate the office lobby.",
+    "translation": "公司委託製作一幅大型壁畫來裝飾辦公室大廳。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "revitalize",
+    "chinese": "(v.) 使復甦、振興",
+    "sentence": "The new CEO introduced a bold plan to revitalize the company's declining sales.",
+    "translation": "新執行長提出了一個大膽計畫，以振興公司下滑的銷售業績。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "brighten",
+    "chinese": "(v.) 使明亮、使振奮",
+    "sentence": "Adding natural light and artwork can brighten the overall atmosphere of the workplace.",
+    "translation": "增加自然採光與藝術品，可以讓職場整體氛圍更加明亮。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "offices",
+      "general-business"
+    ]
+  },
+  {
+    "word": "carry out",
+    "chinese": "(phr.) 執行、實施",
+    "sentence": "The team will carry out a full audit of all financial records by the end of the month.",
+    "translation": "團隊將在月底前對所有財務紀錄進行全面稽核。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "financing-areas"
+    ]
+  },
+  {
+    "word": "eager",
+    "chinese": "(adj.) 熱切的、渴望的",
+    "sentence": "The new intern was eager to contribute and took on additional responsibilities without hesitation.",
+    "translation": "新實習生熱切地想要貢獻，毫不猶豫地承擔了額外的職責。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "committee",
+    "chinese": "(n.) 委員會",
+    "sentence": "The steering committee will convene next Tuesday to review the proposed merger agreement.",
+    "translation": "指導委員會將於下週二召開會議，審查擬議的合併協議。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "interaction",
+    "chinese": "(n.) 互動、交流",
+    "sentence": "Positive interaction between staff and customers is essential for building long-term relationships.",
+    "translation": "員工與客戶之間的正向互動，對建立長期關係至關重要。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "serve",
+    "chinese": "(v.) 服務、供應、擔任",
+    "sentence": "Our customer service team is available around the clock to serve clients worldwide.",
+    "translation": "我們的客服團隊全天候提供服務，服務全球客戶。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "come up with",
+    "chinese": "(phr.) 想出、提出",
+    "sentence": "The marketing team was asked to come up with a fresh campaign idea by Friday.",
+    "translation": "行銷團隊被要求在週五前提出一個全新的活動創意。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "ingredients",
+    "chinese": "(n.) 原料、成分",
+    "sentence": "The supplier confirmed that all ingredients meet the required food safety standards.",
+    "translation": "供應商確認所有原料符合所需的食品安全標準。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "purchasing",
+      "manufacturing"
+    ]
+  },
+  {
+    "word": "crafting",
+    "chinese": "(v./n.) 精心製作、工藝創作",
+    "sentence": "She spent weeks crafting a detailed proposal for the board of directors.",
+    "translation": "她花了數週時間精心撰寫一份詳細的董事會提案。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business"
+    ]
+  },
+  {
+    "word": "knitting",
+    "chinese": "(v./n.) 編織",
+    "sentence": "The workshop on knitting attracted many employees looking for a creative hobby after work.",
+    "translation": "這場編織工作坊吸引了許多尋找下班後創意嗜好的員工。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "entertainment",
+      "personnel"
+    ]
+  },
+  {
+    "word": "enrollment",
+    "chinese": "(n.) 報名、註冊、入學",
+    "sentence": "Enrollment for the company's professional development courses closes at the end of this week.",
+    "translation": "公司專業發展課程的報名將於本週末截止。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "novice",
+    "chinese": "(n.) 新手、初學者",
+    "sentence": "The training program is designed for novice employees who are new to the finance industry.",
+    "translation": "這個培訓計畫是為剛進入金融業的新手員工所設計的。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "beverage",
+    "chinese": "(n.) 飲料",
+    "sentence": "The conference room will be stocked with beverages and light snacks for all attendees.",
+    "translation": "會議室將為所有與會者備有飲料和輕食。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "dining-out",
+      "offices"
+    ]
+  },
+  {
+    "word": "affiliation",
+    "chinese": "(n.) 隸屬關係、加盟",
+    "sentence": "Please indicate your professional affiliation when registering for the industry conference.",
+    "translation": "請在報名參加行業研討會時註明您的所屬機構。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "in this regard",
+    "chinese": "(phr.) 在這方面、就此而言",
+    "sentence": "In this regard, we would like to propose a revised timeline for project delivery.",
+    "translation": "就此而言，我們希望提出修訂後的專案交付時程。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "ultimately",
+    "chinese": "(adv.) 最終、終究",
+    "sentence": "Ultimately, the decision on the new partnership rests with the executive committee.",
+    "translation": "最終，新合作夥伴關係的決定權在於執行委員會。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "fulfill",
+    "chinese": "(v.) 履行、完成、滿足",
+    "sentence": "All vendors are expected to fulfill their contractual obligations on time.",
+    "translation": "所有供應商均應按時履行其合約義務。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "drop by",
+    "chinese": "(phr.) 順道拜訪、過來一下",
+    "sentence": "Feel free to drop by the office anytime this week to discuss the project details.",
+    "translation": "本週任何時間都歡迎順道來辦公室討論專案細節。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "general-business",
+      "offices"
+    ]
+  },
+  {
+    "word": "assigned",
+    "chinese": "(adj./v.) 被指派的、分配",
+    "sentence": "Each new employee is assigned a mentor to help them integrate into the team smoothly.",
+    "translation": "每位新員工都會被指派一位導師，協助他們順利融入團隊。",
+    "addedAt": "2026-04-21",
+    "categories": [
+      "personnel"
+    ]
   }
 ]
