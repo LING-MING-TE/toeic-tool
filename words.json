@@ -4868,5 +4868,136 @@
     "categories": [
       "personnel"
     ]
+  },
+  {
+    "word": "distinction",
+    "chinese": "(n.) 區別、差異；卓越、榮譽",
+    "sentence": "There is a clear distinction between the two contract terms that must be addressed before signing.",
+    "translation": "兩個合約條款之間有明顯的區別，必須在簽署前釐清。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "unless",
+    "chinese": "(conj.) 除非",
+    "sentence": "The project will not proceed unless the budget is approved by the board of directors.",
+    "translation": "除非董事會批准預算，否則專案將不會推進。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "common"
+    ]
+  },
+  {
+    "word": "booth",
+    "chinese": "(n.) 攤位、展覽攤位",
+    "sentence": "Our sales team will be at booth number 12 during the international trade exhibition next week.",
+    "translation": "我們的銷售團隊下週將在國際貿易展覽的第 12 號攤位。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "marketing"
+    ]
+  },
+  {
+    "word": "solicit",
+    "chinese": "(v.) 徵求、請求、招攬",
+    "sentence": "The marketing team will solicit feedback from existing customers to improve the new product line.",
+    "translation": "行銷團隊將向現有客戶徵求意見，以改善新產品線。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "marketing"
+    ]
+  },
+  {
+    "word": "depend on",
+    "chinese": "(phr.) 取決於、依賴、仰賴",
+    "sentence": "The delivery schedule will depend on the availability of materials from our overseas suppliers.",
+    "translation": "交貨時程將取決於海外供應商的物料供應情況。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "guaranteed",
+    "chinese": "(adj.) 保證的、有保障的",
+    "sentence": "All electronic products purchased from our store are guaranteed for two years against manufacturing defects.",
+    "translation": "本店所有電子產品均保證兩年內無製造瑕疵。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "vacant",
+    "chinese": "(adj.) 空置的、空缺的",
+    "sentence": "The vacant office on the third floor will be assigned to the new project team.",
+    "translation": "三樓的空置辦公室將分配給新專案團隊使用。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "infrastructure",
+    "chinese": "(n.) 基礎設施、基礎建設",
+    "sentence": "The company plans to upgrade its IT infrastructure to support remote work operations.",
+    "translation": "公司計畫升級 IT 基礎設施以支援遠端工作運作。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "devote",
+    "chinese": "(v.) 致力於、投入",
+    "sentence": "The team will devote additional resources to improving customer satisfaction scores.",
+    "translation": "團隊將投入額外資源以提升客戶滿意度分數。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "emerging",
+    "chinese": "(adj.) 新興的、崛起中的",
+    "sentence": "Our company is targeting emerging markets in Southeast Asia to expand its global reach.",
+    "translation": "我們公司正鎖定東南亞新興市場以拓展全球版圖。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "standard",
+    "chinese": "(n./adj.) 標準；符合標準的",
+    "sentence": "All products must meet the quality standard before being shipped to customers.",
+    "translation": "所有產品在出貨給客戶前必須符合品質標準。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "purchasing"
+    ]
+  },
+  {
+    "word": "feasible",
+    "chinese": "(adj.) 可行的、可實現的",
+    "sentence": "The project manager confirmed that the proposed timeline is feasible given the current resources.",
+    "translation": "專案經理確認，在現有資源下提案時程是可行的。",
+    "addedAt": "2026-04-22",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   }
 ]
