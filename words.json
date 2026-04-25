@@ -4999,5 +4999,257 @@
       "general-business",
       "corporate-development"
     ]
+  },
+  {
+    "word": "enormously",
+    "chinese": "(adv.) 極大地、非常",
+    "sentence": "The new marketing campaign has enormously increased our brand awareness among consumers.",
+    "translation": "新的行銷活動極大地提升了我們在消費者中的品牌知名度。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "precisely",
+    "chinese": "(adv.) 精確地、恰好",
+    "sentence": "The project must be completed precisely on schedule to avoid additional costs.",
+    "translation": "專案必須精確地按時完成，以避免額外費用。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "invisibly",
+    "chinese": "(adv.) 無形地、看不見地",
+    "sentence": "The software works invisibly in the background to protect your company data.",
+    "translation": "該軟體在背景無形地運作以保護公司資料。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "privately",
+    "chinese": "(adv.) 私下地、秘密地",
+    "sentence": "The manager spoke privately with the employee to address the performance issue.",
+    "translation": "經理私下與員工談話以處理績效問題。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "irrational",
+    "chinese": "(adj.) 不理性的、無理的",
+    "sentence": "Making irrational decisions during a financial crisis can seriously harm the company.",
+    "translation": "在金融危機期間做出不理性的決策可能嚴重損害公司。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "finance"
+    ]
+  },
+  {
+    "word": "lane",
+    "chinese": "(n.) 車道、巷道",
+    "sentence": "The delivery truck must use the designated lane to access the warehouse loading dock.",
+    "translation": "送貨卡車必須使用指定車道進入倉庫裝卸區。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "logistics",
+      "travel"
+    ]
+  },
+  {
+    "word": "persuade",
+    "chinese": "(v.) 說服、勸說",
+    "sentence": "The sales representative managed to persuade the client to extend their contract for another year.",
+    "translation": "業務代表成功說服客戶將合約再延長一年。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "marketing"
+    ]
+  },
+  {
+    "word": "vast",
+    "chinese": "(adj.) 巨大的、廣闊的",
+    "sentence": "The company has a vast network of suppliers across more than fifty countries.",
+    "translation": "該公司在超過五十個國家擁有龐大的供應商網絡。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
+  },
+  {
+    "word": "enclose",
+    "chinese": "(v.) 附上、隨函附寄",
+    "sentence": "Please find the signed contract enclosed with this letter for your records.",
+    "translation": "請查收隨函附上的已簽署合約以供存檔。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "favorable",
+    "chinese": "(adj.) 有利的、良好的",
+    "sentence": "The board approved the merger after receiving favorable reports from the financial team.",
+    "translation": "董事會在收到財務團隊的有利報告後批准了合併案。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "finance",
+      "general-business"
+    ]
+  },
+  {
+    "word": "violation",
+    "chinese": "(n.) 違反、違規",
+    "sentence": "Any violation of the company's code of conduct will result in immediate disciplinary action.",
+    "translation": "任何違反公司行為準則的行為都將導致立即的紀律處分。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "legal",
+      "personnel"
+    ]
+  },
+  {
+    "word": "halt",
+    "chinese": "(v.) 停止、中止；(n.) 暫停",
+    "sentence": "Production was forced to halt due to a critical equipment malfunction in the facility.",
+    "translation": "由於設備嚴重故障，生產被迫中止。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "logistics",
+      "general-business"
+    ]
+  },
+  {
+    "word": "objection",
+    "chinese": "(n.) 反對、異議",
+    "sentence": "The legal team raised an objection to the contract clause regarding liability limitations.",
+    "translation": "法務團隊對合約中關於責任限制的條款提出異議。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "legal",
+      "general-business"
+    ]
+  },
+  {
+    "word": "authority",
+    "chinese": "(n.) 權限、當局、權威",
+    "sentence": "Only the department head has the authority to approve budget expenditures above ten thousand dollars.",
+    "translation": "只有部門主管有權批准超過一萬美元的預算支出。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "personnel",
+      "general-business"
+    ]
+  },
+  {
+    "word": "deliberation",
+    "chinese": "(n.) 深思熟慮、審議",
+    "sentence": "After careful deliberation, the committee decided to postpone the product launch by one month.",
+    "translation": "經過審慎考慮後，委員會決定將產品發布延後一個月。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "personnel"
+    ]
+  },
+  {
+    "word": "rely upon",
+    "chinese": "(phr.) 依賴、仰賴",
+    "sentence": "The success of this project will rely upon strong collaboration between all departments.",
+    "translation": "此專案的成功將依賴所有部門之間的緊密合作。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "common"
+    ]
+  },
+  {
+    "word": "seniority",
+    "chinese": "(n.) 資深、年資",
+    "sentence": "Employees are considered for promotion based on both performance and seniority within the company.",
+    "translation": "員工晉升考量同時基於績效與公司內部的年資。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "whereas",
+    "chinese": "(conj.) 然而、相反地；鑑於",
+    "sentence": "The eastern branch saw a ten percent growth, whereas the western branch reported a slight decline.",
+    "translation": "東部分公司成長了百分之十，而西部分公司則出現小幅下滑。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "legal",
+      "general-business"
+    ]
+  },
+  {
+    "word": "or else",
+    "chinese": "(phr.) 否則、要不然",
+    "sentence": "Please submit the report by Friday or else the deadline extension will not be granted.",
+    "translation": "請在週五前提交報告，否則將不會批准延期。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "firework",
+    "chinese": "(n.) 煙火",
+    "sentence": "The company organized a firework display to celebrate the grand opening of its new headquarters.",
+    "translation": "公司舉辦了煙火表演以慶祝新總部的盛大開幕。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "common",
+      "general-business"
+    ]
+  },
+  {
+    "word": "commence",
+    "chinese": "(v.) 開始、著手進行",
+    "sentence": "Construction will commence next Monday following the final approval from city authorities.",
+    "translation": "在獲得市政當局最終批准後，施工將於下週一開始。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "legal"
+    ]
+  },
+  {
+    "word": "withstand",
+    "chinese": "(v.) 承受、抵禦",
+    "sentence": "Our new packaging is designed to withstand extreme temperatures during international shipping.",
+    "translation": "我們的新包裝設計能夠在國際運輸過程中承受極端溫度。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "logistics",
+      "general-business"
+    ]
+  },
+  {
+    "word": "originate",
+    "chinese": "(v.) 起源、發起、源自",
+    "sentence": "This product line was designed to originate from customer feedback collected over two years.",
+    "translation": "此產品線的設計源自兩年來蒐集的客戶意見。",
+    "addedAt": "2026-04-25",
+    "categories": [
+      "general-business",
+      "corporate-development"
+    ]
   }
 ]
